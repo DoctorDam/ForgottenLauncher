@@ -1,0 +1,825 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="article_text_on_date" xml:space="preserve">
+    <value>Posted on</value>
+  </data>
+  <data name="article_text_posted_by" xml:space="preserve">
+    <value>by</value>
+  </data>
+  <data name="dialog_addon_remove_info" xml:space="preserve">
+    <value>정말 {0} 애드온을 삭제하실건가요?</value>
+  </data>
+  <data name="dialog_addon_remove_title" xml:space="preserve">
+    <value>애드온 삭제</value>
+  </data>
+  <data name="dialog_avatar_change_text_picture_url" xml:space="preserve">
+    <value>사진 URL 입력</value>
+  </data>
+  <data name="dialog_avatar_change_title" xml:space="preserve">
+    <value>아바타 설정</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_text_dp" xml:space="preserve">
+    <value>DP</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_text_vp" xml:space="preserve">
+    <value>VP</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_text_wait" xml:space="preserve">
+    <value>충전 요청 완료까지 기다려주세요..</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_total_cost" xml:space="preserve">
+    <value>총 소요 금액</value>
+  </data>
+  <data name="dialog_characters_market_add_require_duration" xml:space="preserve">
+    <value>간격을 선택해주세요</value>
+  </data>
+  <data name="dialog_characters_market_add_sale_commission" xml:space="preserve">
+    <value>수수료:</value>
+  </data>
+  <data name="dialog_characters_market_add_sale_info" xml:space="preserve">
+    <value>캐릭터를 판매할 때 귀하로부터 공제되는 판매 수수료가 있습니다.</value>
+  </data>
+  <data name="dialog_characters_market_add_sale_title" xml:space="preserve">
+    <value>마켓 세일</value>
+  </data>
+  <data name="dialog_characters_market_text_max_price" xml:space="preserve">
+    <value>최대 금액보다 작아야합니다.</value>
+  </data>
+  <data name="dialog_characters_market_text_min_price" xml:space="preserve">
+    <value>최소 금액보다 커야합니다.</value>
+  </data>
+  <data name="dialog_characters_market_text_you_receive" xml:space="preserve">
+    <value>를 받게 됩니다.</value>
+  </data>
+  <data name="dialog_inventory_item_acquired_on" xml:space="preserve">
+    <value>획득</value>
+  </data>
+  <data name="dialog_inventory_item_claim_title" xml:space="preserve">
+    <value>인벤토리 청구</value>
+  </data>
+  <data name="dialog_inventory_item_text_loading_characters" xml:space="preserve">
+    <value>캐릭터 로딩중입니다.</value>
+  </data>
+  <data name="dialog_inventory_item_text_no_characters" xml:space="preserve">
+    <value>캐릭터가 없습니다.</value>
+  </data>
+  <data name="dialog_inventory_item_text_require_character" xml:space="preserve">
+    <value>캐릭터를 선택해주세요.</value>
+  </data>
+  <data name="dialog_inventory_item_text_require_input" xml:space="preserve">
+    <value>입력해주세요</value>
+  </data>
+  <data name="dialog_inventory_item_text_wait" xml:space="preserve">
+    <value>요청을 처리하는 동안 잠시만 기다려 주십시오..</value>
+  </data>
+  <data name="dialog_login_reward_text_wait" xml:space="preserve">
+    <value>요청을 처리하는 동안 잠시만 기다려 주십시오..</value>
+  </data>
+  <data name="dialog_login_reward_title" xml:space="preserve">
+    <value>로그인 보상</value>
+  </data>
+  <data name="dialog_redeem_gift_require_code" xml:space="preserve">
+    <value>환불 코드를 입력하십시오</value>
+  </data>
+  <data name="dialog_redeem_gift_textbox_enter_code" xml:space="preserve">
+    <value>선물 카드를 입력하세요.</value>
+  </data>
+  <data name="dialog_redeem_gift_title" xml:space="preserve">
+    <value>선물 코드 환불</value>
+  </data>
+  <data name="dialog_rquest_confirmation_text_wait" xml:space="preserve">
+    <value>요청을 처리하는 동안 잠시만 기다려 주십시오..</value>
+  </data>
+  <data name="dialog_shop_article_text_dp" xml:space="preserve">
+    <value>DP</value>
+  </data>
+  <data name="dialog_shop_article_text_total_cost" xml:space="preserve">
+    <value>총 소요 금액</value>
+  </data>
+  <data name="dialog_shop_article_text_vp" xml:space="preserve">
+    <value>VP</value>
+  </data>
+  <data name="discord_widget_text_loading" xml:space="preserve">
+    <value>서버 로딩 중..</value>
+  </data>
+  <data name="discord_widget_text_members_online" xml:space="preserve">
+    <value>온라인중인 분들</value>
+  </data>
+  <data name="exit_dialog_text" xml:space="preserve">
+    <value>정말 종료하실건가요?</value>
+  </data>
+  <data name="exit_dialog_title" xml:space="preserve">
+    <value>런쳐 종료</value>
+  </data>
+  <data name="game_button_cancel_update" xml:space="preserve">
+    <value>업데이트 정지</value>
+  </data>
+  <data name="game_button_play" xml:space="preserve">
+    <value>시작</value>
+  </data>
+  <data name="game_button_update" xml:space="preserve">
+    <value>업데이트</value>
+  </data>
+  <data name="game_popup_more_auto_clear_cache" xml:space="preserve">
+    <value>자동 캐시 삭제</value>
+  </data>
+  <data name="game_popup_more_auto_login" xml:space="preserve">
+    <value>자동 로그인 :</value>
+  </data>
+  <data name="game_popup_more_auto_login_title" xml:space="preserve">
+    <value>자동 로그인</value>
+  </data>
+  <data name="game_popup_more_check_for_updates" xml:space="preserve">
+    <value>업데이트 확인 중</value>
+  </data>
+  <data name="game_popup_more_clear_cache_title" xml:space="preserve">
+    <value>캐시 삭제</value>
+  </data>
+  <data name="game_popup_more_hd_client_title" xml:space="preserve">
+    <value>HD 클라이언트</value>
+  </data>
+  <data name="game_popup_more_hd_models" xml:space="preserve">
+    <value>HD 모델 적용 여부:</value>
+  </data>
+  <data name="game_popup_more_locate_game" xml:space="preserve">
+    <value>와우 클라이언트 폴더 선택</value>
+  </data>
+  <data name="game_popup_more_options_title" xml:space="preserve">
+    <value>게임 옵션</value>
+  </data>
+  <data name="game_popup_more_select_language" xml:space="preserve">
+    <value>언어:</value>
+  </data>
+  <data name="game_popup_more_select_language_title" xml:space="preserve">
+    <value>언어 선택</value>
+  </data>
+  <data name="game_popup_more_server_status_title" xml:space="preserve">
+    <value>서버 상태</value>
+  </data>
+  <data name="game_popup_more_toggle_disable" xml:space="preserve">
+    <value>미사용</value>
+  </data>
+  <data name="game_popup_more_toggle_enable" xml:space="preserve">
+    <value>사용</value>
+  </data>
+  <data name="game_popup_more_toggle_full_game" xml:space="preserve">
+    <value>풀 게임</value>
+  </data>
+  <data name="game_popup_more_toggle_off" xml:space="preserve">
+    <value>끄기</value>
+  </data>
+  <data name="game_popup_more_toggle_on" xml:space="preserve">
+    <value>켜기</value>
+  </data>
+  <data name="game_popup_more_toggle_only_updates" xml:space="preserve">
+    <value>업데이트만 하기</value>
+  </data>
+  <data name="game_popup_more_toggle_status_disabled" xml:space="preserve">
+    <value>미사용됨</value>
+  </data>
+  <data name="game_popup_more_toggle_status_enabled" xml:space="preserve">
+    <value>사용됨</value>
+  </data>
+  <data name="game_popup_more_toggle_status_off" xml:space="preserve">
+    <value>끔</value>
+  </data>
+  <data name="game_popup_more_toggle_status_on" xml:space="preserve">
+    <value>켬</value>
+  </data>
+  <data name="game_popup_more_update_options" xml:space="preserve">
+    <value>확인:</value>
+  </data>
+  <data name="game_popup_more_update_options_title" xml:space="preserve">
+    <value>게임 확인 옵션</value>
+  </data>
+  <data name="game_popup_path_request_message" xml:space="preserve">
+    <value>클라이언트 경로가 선택되어있지 않습니다. 선택해주세요!</value>
+  </data>
+  <data name="general_button_accept" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="general_button_browse_game" xml:space="preserve">
+    <value>게임 경로</value>
+  </data>
+  <data name="general_button_cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="general_button_check" xml:space="preserve">
+    <value>검증</value>
+  </data>
+  <data name="general_button_claim" xml:space="preserve">
+    <value>지금 받기!</value>
+  </data>
+  <data name="general_button_exit" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="general_button_ok" xml:space="preserve">
+    <value>DE ACUERDO</value>
+  </data>
+  <data name="general_button_purchase" xml:space="preserve">
+    <value>구입</value>
+  </data>
+  <data name="general_button_readmore" xml:space="preserve">
+    <value>더 읽기</value>
+  </data>
+  <data name="general_button_remove" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="general_button_set_bid" xml:space="preserve">
+    <value>판매 업데이트</value>
+  </data>
+  <data name="general_button_use" xml:space="preserve">
+    <value>사용</value>
+  </data>
+  <data name="general_dialog_text_processing" xml:space="preserve">
+    <value>처리 중</value>
+  </data>
+  <data name="general_text_addon_author" xml:space="preserve">
+    <value>사용자:</value>
+  </data>
+  <data name="general_text_addon_size" xml:space="preserve">
+    <value>사이즈:</value>
+  </data>
+  <data name="general_text_addon_version" xml:space="preserve">
+    <value>버전:</value>
+  </data>
+  <data name="general_text_discord_topic" xml:space="preserve">
+    <value>토픽:</value>
+  </data>
+  <data name="general_text_event_active_until" xml:space="preserve">
+    <value>Active until</value>
+  </data>
+  <data name="general_text_level" xml:space="preserve">
+    <value>레벨</value>
+  </data>
+  <data name="general_text_ticket_closed" xml:space="preserve">
+    <value>닫힘</value>
+  </data>
+  <data name="general_text_ticket_completed" xml:space="preserve">
+    <value>완료됨</value>
+  </data>
+  <data name="general_text_ticket_pending" xml:space="preserve">
+    <value>처리중</value>
+  </data>
+  <data name="general_text_ticket_viewed" xml:space="preserve">
+    <value>이미 봤음</value>
+  </data>
+  <data name="home_navbar_button_changelog" xml:space="preserve">
+    <value>변경 내역</value>
+  </data>
+  <data name="home_navbar_button_discord" xml:space="preserve">
+    <value>디스코드</value>
+  </data>
+  <data name="home_navbar_button_events" xml:space="preserve">
+    <value>이벤트</value>
+  </data>
+  <data name="home_navbar_button_home" xml:space="preserve">
+    <value>홈</value>
+  </data>
+  <data name="home_navbar_button_news" xml:space="preserve">
+    <value>뉴스</value>
+  </data>
+  <data name="home_profile_donate_points" xml:space="preserve">
+    <value>후원 포인트</value>
+  </data>
+  <data name="home_profile_vote_points" xml:space="preserve">
+    <value>투표 포인트</value>
+  </data>
+  <data name="language_bulgarian" xml:space="preserve">
+    <value>불어</value>
+  </data>
+  <data name="language_korean" xml:space="preserve">
+    <value>한국어</value>
+  </data>
+  <data name="language_english" xml:space="preserve">
+    <value>영어</value>
+  </data>
+  <data name="language_romanian" xml:space="preserve">
+    <value>루마니아어</value>
+  </data>
+  <data name="language_russian" xml:space="preserve">
+    <value>러시아어</value>
+  </data>
+  <data name="language_spanish" xml:space="preserve">
+    <value>스페인어</value>
+  </data>
+  <data name="left_menu_button_addons" xml:space="preserve">
+    <value>애드온</value>
+  </data>
+  <data name="left_menu_button_characters_market" xml:space="preserve">
+    <value>캐릭터 마켓</value>
+  </data>
+  <data name="left_menu_button_faq" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="left_menu_button_forum" xml:space="preserve">
+    <value>포럼</value>
+  </data>
+  <data name="left_menu_button_home" xml:space="preserve">
+    <value>홈</value>
+  </data>
+  <data name="left_menu_button_ladderboard" xml:space="preserve">
+    <value>순위</value>
+  </data>
+  <data name="left_menu_button_online_players" xml:space="preserve">
+    <value>접속중인 분들</value>
+  </data>
+  <data name="left_menu_button_shop" xml:space="preserve">
+    <value>상점</value>
+  </data>
+  <data name="left_menu_button_vote" xml:space="preserve">
+    <value>투표 진행</value>
+  </data>
+  <data name="login_day_button_claim" xml:space="preserve">
+    <value>로그인!</value>
+  </data>
+  <data name="login_window_button_change_password" xml:space="preserve">
+    <value>변경</value>
+  </data>
+  <data name="login_window_button_done_reading" xml:space="preserve">
+    <value>다 읽음</value>
+  </data>
+  <data name="login_window_button_other_back_to_sign_in" xml:space="preserve">
+    <value>🡠 로그인으로 가기</value>
+  </data>
+  <data name="login_window_button_other_have_reset_code" xml:space="preserve">
+    <value>코드가 있어요 🡢</value>
+  </data>
+  <data name="login_window_button_other_recover" xml:space="preserve">
+    <value>찾기</value>
+  </data>
+  <data name="login_window_button_other_register" xml:space="preserve">
+    <value>등록하기</value>
+  </data>
+  <data name="login_window_button_other_sign_in" xml:space="preserve">
+    <value>로그인</value>
+  </data>
+  <data name="login_window_button_other_visit_homepage" xml:space="preserve">
+    <value>홈페이지 방문 🡭</value>
+  </data>
+  <data name="login_window_button_register" xml:space="preserve">
+    <value>등록</value>
+  </data>
+  <data name="login_window_button_send_recovery" xml:space="preserve">
+    <value>찾아보기</value>
+  </data>
+  <data name="login_window_button_sign_in" xml:space="preserve">
+    <value>로그인</value>
+  </data>
+  <data name="login_window_checkbox_remember" xml:space="preserve">
+    <value>선택 기억</value>
+  </data>
+  <data name="login_window_checkbox_terms_of_service" xml:space="preserve">
+    <value>약관 동의</value>
+  </data>
+  <data name="login_window_checkbox_terms_of_service_button" xml:space="preserve">
+    <value>여기</value>
+  </data>
+  <data name="login_window_dialog_logging_in_text" xml:space="preserve">
+    <value>계정 정보 및 기타 데이터를 로드하는 동안 기다려 주십시오...</value>
+  </data>
+  <data name="login_window_dialog_logging_in_title" xml:space="preserve">
+    <value>로그인 중..</value>
+  </data>
+  <data name="login_window_form_divider_placeholder_1" xml:space="preserve">
+    <value>아니면 다른 일을 할 수 있어요</value>
+  </data>
+  <data name="login_window_form_divider_placeholder_2" xml:space="preserve">
+    <value>아니면 뒤로 갈 수 있어요</value>
+  </data>
+  <data name="login_window_form_textbox_recovery_code" xml:space="preserve">
+    <value>변환 코드</value>
+  </data>
+  <data name="login_window_form_textbox_register_email" xml:space="preserve">
+    <value>Email 주소</value>
+  </data>
+  <data name="login_window_form_textbox_register_username" xml:space="preserve">
+    <value>사용자 이름</value>
+  </data>
+  <data name="login_window_form_textbox_username" xml:space="preserve">
+    <value>사용자 이름 또는 email</value>
+  </data>
+  <data name="login_window_powered_by" xml:space="preserve">
+    <value>Powered by</value>
+  </data>
+  <data name="login_window_tos_title" xml:space="preserve">
+    <value>이용 약관</value>
+  </data>
+  <data name="page_account_info_account_active" xml:space="preserve">
+    <value>정상 계정</value>
+  </data>
+  <data name="page_account_info_account_banned_until" xml:space="preserve">
+    <value>정지중인 계정</value>
+  </data>
+  <data name="page_account_info_account_inventory" xml:space="preserve">
+    <value>계정 인벤토리</value>
+  </data>
+  <data name="page_account_info_button_teleport" xml:space="preserve">
+    <value>순간이동</value>
+  </data>
+  <data name="page_account_info_button_unstuck" xml:space="preserve">
+    <value>풀림</value>
+  </data>
+  <data name="page_account_info_button_update" xml:space="preserve">
+    <value>업데이트</value>
+  </data>
+  <data name="page_account_info_destination" xml:space="preserve">
+    <value>도착지역</value>
+  </data>
+  <data name="page_account_info_dialog_profile_info" xml:space="preserve">
+    <value>닉네임을 변경하실건가요? 🡢</value>
+  </data>
+  <data name="page_account_info_dialog_profile_title" xml:space="preserve">
+    <value>닉네임</value>
+  </data>
+  <data name="page_account_info_dialog_teleport_info" xml:space="preserve">
+    <value>정말 순간이동할건가요? 🡢 {0} 에서 {1}</value>
+  </data>
+  <data name="page_account_info_dialog_teleport_title" xml:space="preserve">
+    <value>캐릭터 순간이동</value>
+  </data>
+  <data name="page_account_info_dialog_unstuck_info" xml:space="preserve">
+    <value>정말로 할 건가요? 🡢</value>
+  </data>
+  <data name="page_account_info_dialog_unstuck_title" xml:space="preserve">
+    <value>캐릭터 탈출</value>
+  </data>
+  <data name="page_account_info_last_ip" xml:space="preserve">
+    <value>마지막 접속 IP</value>
+  </data>
+  <data name="page_account_info_last_login_on" xml:space="preserve">
+    <value>마지막 로그인</value>
+  </data>
+  <data name="page_account_info_my_characters" xml:space="preserve">
+    <value>내 캐릭터</value>
+  </data>
+  <data name="page_account_info_my_tickets_list" xml:space="preserve">
+    <value>GM 상담</value>
+  </data>
+  <data name="page_account_info_public_profile_id" xml:space="preserve">
+    <value>공개 프로필 id</value>
+  </data>
+  <data name="page_account_info_teleport_a_character" xml:space="preserve">
+    <value>캐릭터 순간이동</value>
+  </data>
+  <data name="page_account_info_text_loading_characters" xml:space="preserve">
+    <value>캐릭터 로딩 중..</value>
+  </data>
+  <data name="page_account_info_text_loading_destinations" xml:space="preserve">
+    <value>도착지 로딩 중..</value>
+  </data>
+  <data name="page_account_info_text_no_characters" xml:space="preserve">
+    <value>캐릭터가 없습니다.</value>
+  </data>
+  <data name="page_account_info_text_no_destinations" xml:space="preserve">
+    <value>사용 가능한 대상 없음</value>
+  </data>
+  <data name="page_account_info_text_no_tickets" xml:space="preserve">
+    <value>상담권이 없습니다.</value>
+  </data>
+  <data name="page_account_info_text_require_character" xml:space="preserve">
+    <value>캐릭터를 선택해주세요</value>
+  </data>
+  <data name="page_account_info_text_require_destination" xml:space="preserve">
+    <value>도착지를 선택해주세요</value>
+  </data>
+  <data name="page_account_info_unstuck_a_character" xml:space="preserve">
+    <value>캐릭터 탈출</value>
+  </data>
+  <data name="page_account_inventory_title" xml:space="preserve">
+    <value>계정 인벤토리</value>
+  </data>
+  <data name="page_addons_title" xml:space="preserve">
+    <value>애드온</value>
+  </data>
+  <data name="page_changelogs_title" xml:space="preserve">
+    <value>변경 내역</value>
+  </data>
+  <data name="page_characters_market_button_cancel_sale" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="page_characters_market_button_more_info" xml:space="preserve">
+    <value>더 많이..</value>
+  </data>
+  <data name="page_characters_market_button_my_sales" xml:space="preserve">
+    <value>내 판매중 캐릭터</value>
+  </data>
+  <data name="page_characters_market_button_search" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="page_characters_market_button_sell" xml:space="preserve">
+    <value>판매</value>
+  </data>
+  <data name="page_characters_market_card_text_expires_in" xml:space="preserve">
+    <value>만료</value>
+  </data>
+  <data name="page_characters_market_card_text_gold" xml:space="preserve">
+    <value>골드:</value>
+  </data>
+  <data name="page_characters_market_card_text_level" xml:space="preserve">
+    <value>레벨:</value>
+  </data>
+  <data name="page_characters_market_card_text_professions" xml:space="preserve">
+    <value>전문 기술:</value>
+  </data>
+  <data name="page_characters_market_card_text_pvp_score" xml:space="preserve">
+    <value>PvP 점수:</value>
+  </data>
+  <data name="page_characters_market_dialog_button_armory" xml:space="preserve">
+    <value>착용 아이템 확인</value>
+  </data>
+  <data name="page_characters_market_dialog_subtitle_won_auction" xml:space="preserve">
+    <value>경매에 당첨되셨습니다</value>
+  </data>
+  <data name="page_characters_market_dialog_text_buy_bid_amount" xml:space="preserve">
+    <value>당신의 제안</value>
+  </data>
+  <data name="page_characters_market_dialog_text_current_bid" xml:space="preserve">
+    <value>현재 입찰가</value>
+  </data>
+  <data name="page_characters_market_dialog_text_dp" xml:space="preserve">
+    <value>DP</value>
+  </data>
+  <data name="page_characters_market_dialog_text_gold_held" xml:space="preserve">
+    <value>금 보유량:</value>
+  </data>
+  <data name="page_characters_market_dialog_text_professions" xml:space="preserve">
+    <value>배운 전문기술</value>
+  </data>
+  <data name="page_characters_market_dialog_text_pvp_score" xml:space="preserve">
+    <value>PvP 점수양:</value>
+  </data>
+  <data name="page_characters_market_dialog_text_sale_price" xml:space="preserve">
+    <value>판매 가격</value>
+  </data>
+  <data name="page_characters_market_dialog_title_congratulations" xml:space="preserve">
+    <value>축하합니다!</value>
+  </data>
+  <data name="page_characters_market_requested_price" xml:space="preserve">
+    <value>희망 가격</value>
+  </data>
+  <data name="page_characters_market_starting_bid_price" xml:space="preserve">
+    <value>최초 입찰 가격</value>
+  </data>
+  <data name="page_characters_market_textbox_player_search" xml:space="preserve">
+    <value>플레이어 이름</value>
+  </data>
+  <data name="page_characters_market_title" xml:space="preserve">
+    <value>캐릭터 상점</value>
+  </data>
+  <data name="page_create_message_button_back" xml:space="preserve">
+    <value>메세지로 가기</value>
+  </data>
+  <data name="page_create_message_button_send" xml:space="preserve">
+    <value>메세지 보내기</value>
+  </data>
+  <data name="page_create_message_dialog_delivery_title" xml:space="preserve">
+    <value>메세지 배달</value>
+  </data>
+  <data name="page_create_message_dialog_info" xml:space="preserve">
+    <value>당신이 제안한 메시지를 보내시겠습니까?</value>
+  </data>
+  <data name="page_create_message_dialog_title" xml:space="preserve">
+    <value>새로운 메세지 전송</value>
+  </data>
+  <data name="page_create_message_textbox_message_subject" xml:space="preserve">
+    <value>제목</value>
+  </data>
+  <data name="page_create_message_textbox_nickname" xml:space="preserve">
+    <value>받을 이름</value>
+  </data>
+  <data name="page_create_message_text_characters" xml:space="preserve">
+    <value>문자 수:</value>
+  </data>
+  <data name="page_create_message_title" xml:space="preserve">
+    <value>새로운 메세지</value>
+  </data>
+  <data name="page_faq_title" xml:space="preserve">
+    <value>자주 묻는 질문</value>
+  </data>
+  <data name="page_ladderboards_column_class" xml:space="preserve">
+    <value>클래스</value>
+  </data>
+  <data name="page_ladderboards_column_name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="page_ladderboards_column_race" xml:space="preserve">
+    <value>종족</value>
+  </data>
+  <data name="page_ladderboards_column_realm_name" xml:space="preserve">
+    <value>서버</value>
+  </data>
+  <data name="page_ladderboards_column_today_kills" xml:space="preserve">
+    <value>오늘의 KILLS</value>
+  </data>
+  <data name="page_ladderboards_column_total_kills" xml:space="preserve">
+    <value>총 KILLS</value>
+  </data>
+  <data name="page_ladderboards_column_yesterday_kills" xml:space="preserve">
+    <value>어제 KILLS</value>
+  </data>
+  <data name="page_ladderboards_title" xml:space="preserve">
+    <value>순위</value>
+  </data>
+  <data name="page_loading_message" xml:space="preserve">
+    <value>페이지 읽는 중..</value>
+  </data>
+  <data name="page_locked_message" xml:space="preserve">
+    <value>페이지가 일시적으로 잠겼습니다. 나중에 다시 오세요..</value>
+  </data>
+  <data name="page_login_rewards_title" xml:space="preserve">
+    <value>로그인 보상</value>
+  </data>
+  <data name="page_messages_button_create_new" xml:space="preserve">
+    <value>새로운 메세지</value>
+  </data>
+  <data name="page_messages_title" xml:space="preserve">
+    <value>비공개 메세지</value>
+  </data>
+  <data name="page_message_view_button_back" xml:space="preserve">
+    <value>뒤로</value>
+  </data>
+  <data name="page_message_view_button_reply" xml:space="preserve">
+    <value>답변</value>
+  </data>
+  <data name="page_message_view_dialog_delivery_title" xml:space="preserve">
+    <value>답변 전송</value>
+  </data>
+  <data name="page_message_view_dialog_info" xml:space="preserve">
+    <value>당신이 제안한 답변을 보내시겠습니까?</value>
+  </data>
+  <data name="page_message_view_dialog_title" xml:space="preserve">
+    <value>새로운 답변 전송</value>
+  </data>
+  <data name="page_message_view_textbox_reply" xml:space="preserve">
+    <value>답변..</value>
+  </data>
+  <data name="page_online_players_title" xml:space="preserve">
+    <value>접속중인 분들</value>
+  </data>
+  <data name="page_shop_all_categories" xml:space="preserve">
+    <value>모든 카테고리</value>
+  </data>
+  <data name="page_shop_dialog_title_fail" xml:space="preserve">
+    <value>실패함</value>
+  </data>
+  <data name="page_shop_dialog_title_success" xml:space="preserve">
+    <value>성공</value>
+  </data>
+  <data name="page_shop_title" xml:space="preserve">
+    <value>상점</value>
+  </data>
+  <data name="page_vote_title" xml:space="preserve">
+    <value>포인트 적립 투표</value>
+  </data>
+  <data name="slider_button_learn_more" xml:space="preserve">
+    <value>더 보기</value>
+  </data>
+  <data name="vote_button" xml:space="preserve">
+    <value>투표</value>
+  </data>
+  <data name="vote_dialog_text" xml:space="preserve">
+    <value>여기에 투표하겠어요 ({0})?</value>
+  </data>
+  <data name="vote_dialog_title" xml:space="preserve">
+    <value>사이트 투표</value>
+  </data>
+  <data name="vote_text_cooldown_left" xml:space="preserve">
+    <value>남은 쿨다운:</value>
+  </data>
+  <data name="vote_text_points_reward" xml:space="preserve">
+    <value>포인트 보상:</value>
+  </data>
+  <data name="vote_text_ready" xml:space="preserve">
+    <value>준비</value>
+  </data>
+  <data name="window_game_login_overlay_button_continue" xml:space="preserve">
+    <value>수동으로 계속..</value>
+  </data>
+  <data name="window_game_login_text_game_loaded" xml:space="preserve">
+    <value>게임이 로딩되었습니다. 게임을 할 수 있습니다</value>
+  </data>
+  <data name="window_game_login_text_wait" xml:space="preserve">
+    <value>게임이 먼저 로딩될 때까지 기다려 주시면 로그인하실 수 있습니다!</value>
+  </data>
+  <data name="language_german" xml:space="preserve">
+    <value>독일 사람</value>
+  </data>
+</root>

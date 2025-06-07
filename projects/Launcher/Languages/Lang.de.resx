@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="article_text_on_date" xml:space="preserve">
+    <value>Gepostet am</value>
+  </data>
+  <data name="article_text_posted_by" xml:space="preserve">
+    <value>von</value>
+  </data>
+  <data name="dialog_addon_remove_info" xml:space="preserve">
+    <value>Bist du sicher, dass du das Add-on „{0}“ löschen möchtest?</value>
+  </data>
+  <data name="dialog_addon_remove_title" xml:space="preserve">
+    <value>Addon löschen</value>
+  </data>
+  <data name="dialog_avatar_change_text_picture_url" xml:space="preserve">
+    <value>Gib eine Bild-URL ein</value>
+  </data>
+  <data name="dialog_avatar_change_title" xml:space="preserve">
+    <value>Avatar Einstellungen</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_text_dp" xml:space="preserve">
+    <value>DP</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_text_vp" xml:space="preserve">
+    <value>VP</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_text_wait" xml:space="preserve">
+    <value>Bitte warte, während wir deinen Kauf bearbeiten.</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_total_cost" xml:space="preserve">
+    <value>Gesamtkosten</value>
+  </data>
+  <data name="dialog_characters_market_add_require_duration" xml:space="preserve">
+    <value>Bitte wähle eine Dauer aus</value>
+  </data>
+  <data name="dialog_characters_market_add_sale_commission" xml:space="preserve">
+    <value>Aktuelle Provision:</value>
+  </data>
+  <data name="dialog_characters_market_add_sale_info" xml:space="preserve">
+    <value>Es fällt eine Verkaufsgebühr an, die dir beim Verkauf des Charakters abgezogen wird.</value>
+  </data>
+  <data name="dialog_characters_market_add_sale_title" xml:space="preserve">
+    <value>Marktverkauf</value>
+  </data>
+  <data name="dialog_characters_market_text_max_price" xml:space="preserve">
+    <value>muss maximal sein</value>
+  </data>
+  <data name="dialog_characters_market_text_min_price" xml:space="preserve">
+    <value>muss minimal sein</value>
+  </data>
+  <data name="dialog_characters_market_text_you_receive" xml:space="preserve">
+    <value>du wirst erhalten</value>
+  </data>
+  <data name="dialog_inventory_item_acquired_on" xml:space="preserve">
+    <value>Erworben am</value>
+  </data>
+  <data name="dialog_inventory_item_claim_title" xml:space="preserve">
+    <value>Bestandsanspruch</value>
+  </data>
+  <data name="dialog_inventory_item_text_loading_characters" xml:space="preserve">
+    <value>Lade deine Charaktere..</value>
+  </data>
+  <data name="dialog_inventory_item_text_no_characters" xml:space="preserve">
+    <value>Du hast keine Charaktere</value>
+  </data>
+  <data name="dialog_inventory_item_text_require_character" xml:space="preserve">
+    <value>Bitte wähle einen Charakter aus</value>
+  </data>
+  <data name="dialog_inventory_item_text_require_input" xml:space="preserve">
+    <value>Bitte gib eine Eingabe ein</value>
+  </data>
+  <data name="dialog_inventory_item_text_wait" xml:space="preserve">
+    <value>Bitte warte, während wir deine Anfrage bearbeiten..</value>
+  </data>
+  <data name="dialog_login_reward_text_wait" xml:space="preserve">
+    <value>Bitte warte, während wir deine Anfrage bearbeiten..</value>
+  </data>
+  <data name="dialog_login_reward_title" xml:space="preserve">
+    <value>Login Belohnung</value>
+  </data>
+  <data name="dialog_redeem_gift_require_code" xml:space="preserve">
+    <value>Bitte gib einen Geschenkcode ein</value>
+  </data>
+  <data name="dialog_redeem_gift_textbox_enter_code" xml:space="preserve">
+    <value>Gib einen Geschenkcode ein</value>
+  </data>
+  <data name="dialog_redeem_gift_title" xml:space="preserve">
+    <value>Geschenkcode einlösen</value>
+  </data>
+  <data name="dialog_rquest_confirmation_text_wait" xml:space="preserve">
+    <value>Bitte warte, während wir deine Anfrage bearbeiten..</value>
+  </data>
+  <data name="dialog_shop_article_text_dp" xml:space="preserve">
+    <value>DP</value>
+  </data>
+  <data name="dialog_shop_article_text_total_cost" xml:space="preserve">
+    <value>Gesamtkosten</value>
+  </data>
+  <data name="dialog_shop_article_text_vp" xml:space="preserve">
+    <value>VP</value>
+  </data>
+  <data name="discord_widget_text_loading" xml:space="preserve">
+    <value>Lade server..</value>
+  </data>
+  <data name="discord_widget_text_members_online" xml:space="preserve">
+    <value>MEMBERS ONLINE</value>
+  </data>
+  <data name="exit_dialog_text" xml:space="preserve">
+    <value>Bist du sicher, dass du aufhören willst?</value>
+  </data>
+  <data name="exit_dialog_title" xml:space="preserve">
+    <value>Launcher schließen</value>
+  </data>
+  <data name="game_button_cancel_update" xml:space="preserve">
+    <value>STOP UPDATE</value>
+  </data>
+  <data name="game_button_play" xml:space="preserve">
+    <value>SPIELEN</value>
+  </data>
+  <data name="game_button_update" xml:space="preserve">
+    <value>UPDATE</value>
+  </data>
+  <data name="game_popup_more_auto_clear_cache" xml:space="preserve">
+    <value>Cache automatisch löschen:</value>
+  </data>
+  <data name="game_popup_more_auto_login" xml:space="preserve">
+    <value>Auto Login:</value>
+  </data>
+  <data name="game_popup_more_auto_login_title" xml:space="preserve">
+    <value>AUTO LOGIN</value>
+  </data>
+  <data name="game_popup_more_check_for_updates" xml:space="preserve">
+    <value>Auf Updates überprüfen</value>
+  </data>
+  <data name="game_popup_more_clear_cache_title" xml:space="preserve">
+    <value>CLEAR CACHE</value>
+  </data>
+  <data name="game_popup_more_hd_client_title" xml:space="preserve">
+    <value>HD CLIENT</value>
+  </data>
+  <data name="game_popup_more_hd_models" xml:space="preserve">
+    <value>HD Models:</value>
+  </data>
+  <data name="game_popup_more_locate_game" xml:space="preserve">
+    <value>Wähle den Spielordner</value>
+  </data>
+  <data name="game_popup_more_options_title" xml:space="preserve">
+    <value>SPIELEINSTELLUNGEN</value>
+  </data>
+  <data name="game_popup_more_select_language" xml:space="preserve">
+    <value>Sprache:</value>
+  </data>
+  <data name="game_popup_more_select_language_title" xml:space="preserve">
+    <value>SPRACHE AUSWÄHLEN</value>
+  </data>
+  <data name="game_popup_more_server_status_title" xml:space="preserve">
+    <value>SERVER STATUS</value>
+  </data>
+  <data name="game_popup_more_toggle_disable" xml:space="preserve">
+    <value>Deaktivieren</value>
+  </data>
+  <data name="game_popup_more_toggle_enable" xml:space="preserve">
+    <value>Aktivieren</value>
+  </data>
+  <data name="game_popup_more_toggle_full_game" xml:space="preserve">
+    <value>Volles Spiel</value>
+  </data>
+  <data name="game_popup_more_toggle_off" xml:space="preserve">
+    <value>Aus</value>
+  </data>
+  <data name="game_popup_more_toggle_on" xml:space="preserve">
+    <value>An</value>
+  </data>
+  <data name="game_popup_more_toggle_only_updates" xml:space="preserve">
+    <value>Nur Updates</value>
+  </data>
+  <data name="game_popup_more_toggle_status_disabled" xml:space="preserve">
+    <value>Deaktiviert</value>
+  </data>
+  <data name="game_popup_more_toggle_status_enabled" xml:space="preserve">
+    <value>Aktiviert</value>
+  </data>
+  <data name="game_popup_more_toggle_status_off" xml:space="preserve">
+    <value>Aus</value>
+  </data>
+  <data name="game_popup_more_toggle_status_on" xml:space="preserve">
+    <value>An</value>
+  </data>
+  <data name="game_popup_more_update_options" xml:space="preserve">
+    <value>Verifiziere:</value>
+  </data>
+  <data name="game_popup_more_update_options_title" xml:space="preserve">
+    <value>SPIELVERIFIZIERUNGSOPTIONEN</value>
+  </data>
+  <data name="game_popup_path_request_message" xml:space="preserve">
+    <value>Spielpfad nicht festgelegt, bitte setze deinen Spielordner!</value>
+  </data>
+  <data name="general_button_accept" xml:space="preserve">
+    <value>AKZEPTIEREN</value>
+  </data>
+  <data name="general_button_browse_game" xml:space="preserve">
+    <value>SPIEL DURCHSUCHEN</value>
+  </data>
+  <data name="general_button_cancel" xml:space="preserve">
+    <value>ABBRECHEN</value>
+  </data>
+  <data name="general_button_check" xml:space="preserve">
+    <value>CHECK</value>
+  </data>
+  <data name="general_button_claim" xml:space="preserve">
+    <value>BEANSPRUCHEN</value>
+  </data>
+  <data name="general_button_exit" xml:space="preserve">
+    <value>SCHLIESSEN</value>
+  </data>
+  <data name="general_button_ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="general_button_purchase" xml:space="preserve">
+    <value>KAUFEN</value>
+  </data>
+  <data name="general_button_readmore" xml:space="preserve">
+    <value>MEHR LESEN</value>
+  </data>
+  <data name="general_button_remove" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="general_button_set_bid" xml:space="preserve">
+    <value>ANGEBOT AKTUALISIEREN</value>
+  </data>
+  <data name="general_button_use" xml:space="preserve">
+    <value>VERWENDEN</value>
+  </data>
+  <data name="general_dialog_text_processing" xml:space="preserve">
+    <value>wird bearbeitet</value>
+  </data>
+  <data name="general_text_addon_author" xml:space="preserve">
+    <value>Author:</value>
+  </data>
+  <data name="general_text_addon_size" xml:space="preserve">
+    <value>Größe:</value>
+  </data>
+  <data name="general_text_addon_version" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="general_text_discord_topic" xml:space="preserve">
+    <value>Thema:</value>
+  </data>
+  <data name="general_text_event_active_until" xml:space="preserve">
+    <value>Aktiv bis</value>
+  </data>
+  <data name="general_text_level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="general_text_ticket_closed" xml:space="preserve">
+    <value>Geschlossen</value>
+  </data>
+  <data name="general_text_ticket_completed" xml:space="preserve">
+    <value>Vollendet</value>
+  </data>
+  <data name="general_text_ticket_pending" xml:space="preserve">
+    <value>Ausstehend</value>
+  </data>
+  <data name="general_text_ticket_viewed" xml:space="preserve">
+    <value>Gesehen</value>
+  </data>
+  <data name="home_navbar_button_changelog" xml:space="preserve">
+    <value>CHANGELOGS</value>
+  </data>
+  <data name="home_navbar_button_discord" xml:space="preserve">
+    <value>DISCORD</value>
+  </data>
+  <data name="home_navbar_button_events" xml:space="preserve">
+    <value>EVENTS</value>
+  </data>
+  <data name="home_navbar_button_home" xml:space="preserve">
+    <value>HOME</value>
+  </data>
+  <data name="home_navbar_button_news" xml:space="preserve">
+    <value>NEWS</value>
+  </data>
+  <data name="home_profile_donate_points" xml:space="preserve">
+    <value>Goldcoins</value>
+  </data>
+  <data name="home_profile_vote_points" xml:space="preserve">
+    <value>Silbercoins</value>
+  </data>
+  <data name="language_bulgarian" xml:space="preserve">
+    <value>Bulgarian</value>
+  </data>
+  <data name="language_english" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="language_german" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="language_korean" xml:space="preserve">
+    <value>Korean</value>
+  </data>
+  <data name="language_romanian" xml:space="preserve">
+    <value>Romanian</value>
+  </data>
+  <data name="language_russian" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="language_spanish" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="left_menu_button_addons" xml:space="preserve">
+    <value>Addons</value>
+  </data>
+  <data name="left_menu_button_characters_market" xml:space="preserve">
+    <value>Charaktermarkt</value>
+  </data>
+  <data name="left_menu_button_faq" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="left_menu_button_forum" xml:space="preserve">
+    <value>Forums</value>
+  </data>
+  <data name="left_menu_button_home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="left_menu_button_ladderboard" xml:space="preserve">
+    <value>Ladderboards</value>
+  </data>
+  <data name="left_menu_button_online_players" xml:space="preserve">
+    <value>Online Players</value>
+  </data>
+  <data name="left_menu_button_shop" xml:space="preserve">
+    <value>Shop</value>
+  </data>
+  <data name="left_menu_button_vote" xml:space="preserve">
+    <value>Silbercoins sammeln</value>
+  </data>
+  <data name="login_day_button_claim" xml:space="preserve">
+    <value>BEANSPRUCHE JETZT</value>
+  </data>
+  <data name="login_window_button_change_password" xml:space="preserve">
+    <value>ÄNDERN</value>
+  </data>
+  <data name="login_window_button_done_reading" xml:space="preserve">
+    <value>Mit dem Lesen fertig</value>
+  </data>
+  <data name="login_window_button_other_back_to_sign_in" xml:space="preserve">
+    <value>🡠 Zurück zur Anmeldung</value>
+  </data>
+  <data name="login_window_button_other_have_reset_code" xml:space="preserve">
+    <value>Ich habe einen Code 🡢</value>
+  </data>
+  <data name="login_window_button_other_recover" xml:space="preserve">
+    <value>Wiederherstellen</value>
+  </data>
+  <data name="login_window_button_other_register" xml:space="preserve">
+    <value>Registrieren</value>
+  </data>
+  <data name="login_window_button_other_sign_in" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="login_window_button_other_visit_homepage" xml:space="preserve">
+    <value>Homepage besuchen 🡭</value>
+  </data>
+  <data name="login_window_button_register" xml:space="preserve">
+    <value>REGISTRIEREN</value>
+  </data>
+  <data name="login_window_button_send_recovery" xml:space="preserve">
+    <value>WIEDERHERSTELLUNG SENDEN</value>
+  </data>
+  <data name="login_window_button_sign_in" xml:space="preserve">
+    <value>ANMELDEN</value>
+  </data>
+  <data name="login_window_checkbox_remember" xml:space="preserve">
+    <value>Erinnere dich an mich</value>
+  </data>
+  <data name="login_window_checkbox_terms_of_service" xml:space="preserve">
+    <value>Akzeptiere die Nutzungsbedingungen</value>
+  </data>
+  <data name="login_window_checkbox_terms_of_service_button" xml:space="preserve">
+    <value>hier</value>
+  </data>
+  <data name="login_window_dialog_logging_in_text" xml:space="preserve">
+    <value>Bitte warte, während deine Kontoinformationen und andere Daten geladen werden...</value>
+  </data>
+  <data name="login_window_dialog_logging_in_title" xml:space="preserve">
+    <value>Einloggen</value>
+  </data>
+  <data name="login_window_form_divider_placeholder_1" xml:space="preserve">
+    <value>Oder du kannst etwas anderes tun</value>
+  </data>
+  <data name="login_window_form_divider_placeholder_2" xml:space="preserve">
+    <value>Oder du kannst zurückgehen</value>
+  </data>
+  <data name="login_window_form_textbox_recovery_code" xml:space="preserve">
+    <value>..Wiederherstellungscode</value>
+  </data>
+  <data name="login_window_form_textbox_register_email" xml:space="preserve">
+    <value>E-Mail-Adresse</value>
+  </data>
+  <data name="login_window_form_textbox_register_username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="login_window_form_textbox_username" xml:space="preserve">
+    <value>Username oder E-Mail</value>
+  </data>
+  <data name="login_window_powered_by" xml:space="preserve">
+    <value>Powered by</value>
+  </data>
+  <data name="login_window_tos_title" xml:space="preserve">
+    <value>TERMS OF SERVICE</value>
+  </data>
+  <data name="page_account_info_account_active" xml:space="preserve">
+    <value>Account ist aktiv</value>
+  </data>
+  <data name="page_account_info_account_banned_until" xml:space="preserve">
+    <value>Account ist gesperrt bis</value>
+  </data>
+  <data name="page_account_info_account_inventory" xml:space="preserve">
+    <value>ACCOUNTINVENTAR</value>
+  </data>
+  <data name="page_account_info_button_teleport" xml:space="preserve">
+    <value>TELEPORT</value>
+  </data>
+  <data name="page_account_info_button_unstuck" xml:space="preserve">
+    <value>UNSTUCK</value>
+  </data>
+  <data name="page_account_info_button_update" xml:space="preserve">
+    <value>UPDATE</value>
+  </data>
+  <data name="page_account_info_destination" xml:space="preserve">
+    <value>Ziel</value>
+  </data>
+  <data name="page_account_info_dialog_profile_info" xml:space="preserve">
+    <value>Möchtest du deinen Nicknamen ändern in 🡢</value>
+  </data>
+  <data name="page_account_info_dialog_profile_title" xml:space="preserve">
+    <value>Öffentlicher Nickname</value>
+  </data>
+  <data name="page_account_info_dialog_teleport_info" xml:space="preserve">
+    <value>Möchtest du 🡢 {0} nach {1} teleportieren?</value>
+  </data>
+  <data name="page_account_info_dialog_teleport_title" xml:space="preserve">
+    <value>Charakter-Teleport</value>
+  </data>
+  <data name="page_account_info_dialog_unstuck_info" xml:space="preserve">
+    <value>Möchtest du dich lösen 🡢</value>
+  </data>
+  <data name="page_account_info_dialog_unstuck_title" xml:space="preserve">
+    <value>Charakter gelöst</value>
+  </data>
+  <data name="page_account_info_last_ip" xml:space="preserve">
+    <value>Letzte IP</value>
+  </data>
+  <data name="page_account_info_last_login_on" xml:space="preserve">
+    <value>Letzter Login am</value>
+  </data>
+  <data name="page_account_info_my_characters" xml:space="preserve">
+    <value>MEINE CHARAKTERE</value>
+  </data>
+  <data name="page_account_info_my_tickets_list" xml:space="preserve">
+    <value>Meine Ticketliste</value>
+  </data>
+  <data name="page_account_info_public_profile_id" xml:space="preserve">
+    <value>Öffentliche Profil-ID</value>
+  </data>
+  <data name="page_account_info_teleport_a_character" xml:space="preserve">
+    <value>Teleportiere einen Charakter</value>
+  </data>
+  <data name="page_account_info_text_loading_characters" xml:space="preserve">
+    <value>Charaktere werden geladen, bitte warten.</value>
+  </data>
+  <data name="page_account_info_text_loading_destinations" xml:space="preserve">
+    <value>Ziele werden geladen, bitte warten.</value>
+  </data>
+  <data name="page_account_info_text_no_characters" xml:space="preserve">
+    <value>Du hast keine Charaktere..</value>
+  </data>
+  <data name="page_account_info_text_no_destinations" xml:space="preserve">
+    <value>Keine Ziele verfügbar</value>
+  </data>
+  <data name="page_account_info_text_no_tickets" xml:space="preserve">
+    <value>Du hast keine Tickets</value>
+  </data>
+  <data name="page_account_info_text_require_character" xml:space="preserve">
+    <value>Bitte wähle einen Charakter aus</value>
+  </data>
+  <data name="page_account_info_text_require_destination" xml:space="preserve">
+    <value>Wähle ein Reiseziel</value>
+  </data>
+  <data name="page_account_info_unstuck_a_character" xml:space="preserve">
+    <value>Einen Charakter lösen</value>
+  </data>
+  <data name="page_account_inventory_title" xml:space="preserve">
+    <value>ACCOUNTINVENTAR</value>
+  </data>
+  <data name="page_addons_title" xml:space="preserve">
+    <value>ADDONS</value>
+  </data>
+  <data name="page_changelogs_title" xml:space="preserve">
+    <value>CHANGELOGS</value>
+  </data>
+  <data name="page_characters_market_button_cancel_sale" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="page_characters_market_button_more_info" xml:space="preserve">
+    <value>Mehr...</value>
+  </data>
+  <data name="page_characters_market_button_my_sales" xml:space="preserve">
+    <value>MEINE VERKÄUFE</value>
+  </data>
+  <data name="page_characters_market_button_search" xml:space="preserve">
+    <value>SUCHEN</value>
+  </data>
+  <data name="page_characters_market_button_sell" xml:space="preserve">
+    <value>VERKAUFEN</value>
+  </data>
+  <data name="page_characters_market_card_text_expires_in" xml:space="preserve">
+    <value>Läuft ab in</value>
+  </data>
+  <data name="page_characters_market_card_text_fixed_price" xml:space="preserve">
+    <value>Festpreis</value>
+  </data>
+  <data name="page_characters_market_card_text_gold" xml:space="preserve">
+    <value>Gold:</value>
+  </data>
+  <data name="page_characters_market_card_text_highest_bid" xml:space="preserve">
+    <value>Höchstes Gebot</value>
+  </data>
+  <data name="page_characters_market_card_text_level" xml:space="preserve">
+    <value>Level:</value>
+  </data>
+  <data name="page_characters_market_card_text_professions" xml:space="preserve">
+    <value>Professions:</value>
+  </data>
+  <data name="page_characters_market_card_text_pvp_score" xml:space="preserve">
+    <value>PvP Score:</value>
+  </data>
+  <data name="page_characters_market_dialog_button_armory" xml:space="preserve">
+    <value>GEHE ZUR WAFFENKAMMER</value>
+  </data>
+  <data name="page_characters_market_dialog_subtitle_won_auction" xml:space="preserve">
+    <value>Du hast die Auktion gewonnen</value>
+  </data>
+  <data name="page_characters_market_dialog_text_buy_bid_amount" xml:space="preserve">
+    <value>Dein Gebot</value>
+  </data>
+  <data name="page_characters_market_dialog_text_current_bid" xml:space="preserve">
+    <value>Aktuelles Gebot</value>
+  </data>
+  <data name="page_characters_market_dialog_text_dp" xml:space="preserve">
+    <value>DP</value>
+  </data>
+  <data name="page_characters_market_dialog_text_gold_held" xml:space="preserve">
+    <value>Menge des gehaltenen Goldes:</value>
+  </data>
+  <data name="page_characters_market_dialog_text_professions" xml:space="preserve">
+    <value>Berufe erlernt</value>
+  </data>
+  <data name="page_characters_market_dialog_text_pvp_score" xml:space="preserve">
+    <value>PvP-Punktzahl erreicht:</value>
+  </data>
+  <data name="page_characters_market_dialog_text_sale_price" xml:space="preserve">
+    <value>Verkaufspreis</value>
+  </data>
+  <data name="page_characters_market_dialog_title_congratulations" xml:space="preserve">
+    <value>Glückwunsch</value>
+  </data>
+  <data name="page_characters_market_requested_price" xml:space="preserve">
+    <value>Gewünschter Preis</value>
+  </data>
+  <data name="page_characters_market_starting_bid_price" xml:space="preserve">
+    <value>Erstgebotspreis</value>
+  </data>
+  <data name="page_characters_market_textbox_player_search" xml:space="preserve">
+    <value>Spielername</value>
+  </data>
+  <data name="page_characters_market_title" xml:space="preserve">
+    <value>CHARAKTER-MARKT</value>
+  </data>
+  <data name="page_create_message_button_back" xml:space="preserve">
+    <value>ZURÜCK ZU NACHRICHTEN</value>
+  </data>
+  <data name="page_create_message_button_send" xml:space="preserve">
+    <value>NACHRICHT SENDEN</value>
+  </data>
+  <data name="page_create_message_dialog_delivery_title" xml:space="preserve">
+    <value>Nachrichtenübermittlung</value>
+  </data>
+  <data name="page_create_message_dialog_info" xml:space="preserve">
+    <value>Möchtest du die von dir verfasste Nachricht senden?</value>
+  </data>
+  <data name="page_create_message_dialog_title" xml:space="preserve">
+    <value>Neue Nachricht senden</value>
+  </data>
+  <data name="page_create_message_textbox_message_subject" xml:space="preserve">
+    <value>Betreff</value>
+  </data>
+  <data name="page_create_message_textbox_nickname" xml:space="preserve">
+    <value>Nickname des Empfängers</value>
+  </data>
+  <data name="page_create_message_text_characters" xml:space="preserve">
+    <value>Charaktere:</value>
+  </data>
+  <data name="page_create_message_title" xml:space="preserve">
+    <value>ERSTELLE EINE NEUE NACHRICHT</value>
+  </data>
+  <data name="page_faq_title" xml:space="preserve">
+    <value>HÄUFIG GESTELLTE FRAGEN</value>
+  </data>
+  <data name="page_ladderboards_column_class" xml:space="preserve">
+    <value>KLASSE</value>
+  </data>
+  <data name="page_ladderboards_column_name" xml:space="preserve">
+    <value>NAME</value>
+  </data>
+  <data name="page_ladderboards_column_race" xml:space="preserve">
+    <value>RASSE</value>
+  </data>
+  <data name="page_ladderboards_column_realm_name" xml:space="preserve">
+    <value>REALM</value>
+  </data>
+  <data name="page_ladderboards_column_today_kills" xml:space="preserve">
+    <value>HEUTE TÖTET</value>
+  </data>
+  <data name="page_ladderboards_column_total_kills" xml:space="preserve">
+    <value>TOTAL TÖTUNGEN</value>
+  </data>
+  <data name="page_ladderboards_column_yesterday_kills" xml:space="preserve">
+    <value>GESTERN TÖTET</value>
+  </data>
+  <data name="page_ladderboards_title" xml:space="preserve">
+    <value>LADDERBOARDS</value>
+  </data>
+  <data name="page_loading_message" xml:space="preserve">
+    <value>Seite wird geladen, bitte warten.</value>
+  </data>
+  <data name="page_locked_message" xml:space="preserve">
+    <value>Die Seite ist vorübergehend gesperrt. Bitte komme später noch einmal vorbei.</value>
+  </data>
+  <data name="page_login_rewards_title" xml:space="preserve">
+    <value>LOGIN-BELOHNUNGEN</value>
+  </data>
+  <data name="page_messages_button_create_new" xml:space="preserve">
+    <value>Neue Nachricht</value>
+  </data>
+  <data name="page_messages_title" xml:space="preserve">
+    <value>PRIVATE NACHRICHTEN</value>
+  </data>
+  <data name="page_message_view_button_back" xml:space="preserve">
+    <value>ZURÜCK</value>
+  </data>
+  <data name="page_message_view_button_reply" xml:space="preserve">
+    <value>ANTWORT</value>
+  </data>
+  <data name="page_message_view_dialog_delivery_title" xml:space="preserve">
+    <value>Antwortlieferung</value>
+  </data>
+  <data name="page_message_view_dialog_info" xml:space="preserve">
+    <value>Möchtest du die von dir verfasste Antwort senden?</value>
+  </data>
+  <data name="page_message_view_dialog_title" xml:space="preserve">
+    <value>Neue Antwort senden</value>
+  </data>
+  <data name="page_message_view_textbox_reply" xml:space="preserve">
+    <value>Deine Antwort..</value>
+  </data>
+  <data name="page_online_players_title" xml:space="preserve">
+    <value>ONLINE PLAYERS</value>
+  </data>
+  <data name="page_shop_all_categories" xml:space="preserve">
+    <value>Alle Kategorien</value>
+  </data>
+  <data name="page_shop_dialog_title_fail" xml:space="preserve">
+    <value>Fehlgeschlagen</value>
+  </data>
+  <data name="page_shop_dialog_title_success" xml:space="preserve">
+    <value>Erfolgreich</value>
+  </data>
+  <data name="page_shop_title" xml:space="preserve">
+    <value>SHOP</value>
+  </data>
+  <data name="page_vote_title" xml:space="preserve">
+    <value>STIMME AB, UM PUNKTE ZU SAMMELN</value>
+  </data>
+  <data name="slider_button_learn_more" xml:space="preserve">
+    <value>ERFAHRE MEHR</value>
+  </data>
+  <data name="vote_button" xml:space="preserve">
+    <value>VOTE</value>
+  </data>
+  <data name="vote_dialog_text" xml:space="preserve">
+    <value>Für diese Website stimmen ({0})?</value>
+  </data>
+  <data name="vote_dialog_title" xml:space="preserve">
+    <value>Vote Seite</value>
+  </data>
+  <data name="vote_text_cooldown_left" xml:space="preserve">
+    <value>Verbleibende Abklingzeit:</value>
+  </data>
+  <data name="vote_text_points_reward" xml:space="preserve">
+    <value>Punktebelohnung:</value>
+  </data>
+  <data name="vote_text_ready" xml:space="preserve">
+    <value>Bereit</value>
+  </data>
+  <data name="window_game_login_overlay_button_continue" xml:space="preserve">
+    <value>Manuell fortfahren.</value>
+  </data>
+  <data name="window_game_login_text_game_loaded" xml:space="preserve">
+    <value>DAS SPIEL IST GELADEN, DU KANNST SPIELEN</value>
+  </data>
+  <data name="window_game_login_text_wait" xml:space="preserve">
+    <value>Bitte warte, bis das Spiel geladen ist, dann kannst du dich anmelden!</value>
+  </data>
+</root>

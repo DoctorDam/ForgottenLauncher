@@ -1,0 +1,67 @@
+<Window x:Class="Forgotten_Land_Launcher.Windows.Login"
+        xmlns:Forms="clr-namespace:Forgotten_Land_Launcher.Forms"  
+        xmlns:Discord_Modules="clr-namespace:Forgotten_Land_Launcher.Modules.Discord"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:properties="clr-namespace:Forgotten_Land_Launcher.Properties"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanMinimize"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        RenderOptions.BitmapScalingMode="HighQuality"
+        Title="{Binding ServerName, Source={x:Static properties:Settings.Default}, StringFormat={}{0} - Login}"
+        Height="600" Width="950" Background="{x:Null}" Loaded="Window_Loaded" Closed="Window_Closed">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="60" ResizeBorderThickness="1" GlassFrameThickness="0" CornerRadius="0" UseAeroCaptionButtons="False"/>
+    </WindowChrome.WindowChrome>
+    <Border Width="938" Height="588" Background="#FF1b1b1b" BorderBrush="#FF252525" BorderThickness="1.5" CornerRadius="10">
+        <Border.Effect>
+            <DropShadowEffect ShadowDepth="0" BlurRadius="10" Opacity="0.8" Direction="315" Color="Black"/>
+        </Border.Effect>
+        <Grid x:Name="mainGrid">
+            <Grid WindowChrome.IsHitTestVisibleInChrome="True" VerticalAlignment="Top">
+                <TextBlock Text="{Binding ServerName, Source={x:Static properties:Settings.Default}, StringFormat={}{0} - Login}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0" FontWeight="Bold" Foreground="#FFCECECE" FontSize="11"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" FlowDirection="RightToLeft">
+                    <Button Style="{DynamicResource windowExitButton}" x:Name="windowExitButton" Content="X" Width="40" Height="30" Background="#FF292929"
+                        BorderBrush="{x:Null}" Foreground="#FF6B6B6B" FontFamily="Microsoft Sans Serif" FontSize="14" Click="windowExitButton_Click"/>
+                    <Button Style="{DynamicResource windowMinimizeButton}" x:Name="windowMinimizeButton" Content="⎯" Width="40" Height="30" Background="#FF292929" 
+                        BorderBrush="{x:Null}" Foreground="#FF6B6B6B" FontFamily="Microsoft Sans Serif" FontSize="14" Click="windowMinimizeButton_Click"/>
+                </StackPanel>
+            </Grid>
+            <Border x:Name="border1" Margin="0,32,0,0" CornerRadius="0,0,9,9">
+                <Grid x:Name="grid1" ClipToBounds="True">
+                    <MediaElement x:Name="backgroundHolder" Stretch="UniformToFill" Source="Assets/mp4/world-of-warcraft-legion.1920x1080.mp4" LoadedBehavior="Manual" Volume="0" MediaEnded="backgroundHolder_MediaEnded"/>
+
+                    <!--LOGIN FORM-->
+                    <Forms:Login_Form x:Name="loginForm" Visibility="Visible" HorizontalAlignment="Left"/>
+                    
+                    <!--REGISTER FORM-->
+                    <Forms:Register_Form x:Name="registerForm" Visibility="Hidden" HorizontalAlignment="Left"/>
+                    
+                    <!--RECOVERY FORM-->
+                    <Forms:Recovery_Form x:Name="recoveryForm" Visibility="Hidden" HorizontalAlignment="Left"/>
+                    
+                    <!--PW CHANGE FORM-->
+                    <Forms:Password_Change_Form x:Name="pwChangeForm" Visibility="Hidden" HorizontalAlignment="Left"/>
+
+                    <TextBlock x:Name="textBlockServerName" Text="{Binding ServerName, Source={x:Static properties:Settings.Default}}" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="White" FontSize="45" TextAlignment="Center" FontWeight="Bold" Margin="0,0,50,0" FontFamily="Archivo Black"/>
+
+                    <!--DISCORD WIDGET-->
+                    <Discord_Modules:Discord_Widget x:Name="discordWidget" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,117,50" />
+                    
+                    <!--REGISTRATION TOS FORM-->
+                    <Forms:Register_Tos_Form x:Name="registerTosForm" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Hidden" />
+
+                    <!--POPUP BALOON-->
+                    <ScrollViewer HorizontalAlignment="Right" VerticalAlignment="Top" Style="{DynamicResource ScrollViewerOne}" MaxHeight="345">
+                        <StackPanel x:Name="spPopups" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                    </ScrollViewer>
+
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</Window>

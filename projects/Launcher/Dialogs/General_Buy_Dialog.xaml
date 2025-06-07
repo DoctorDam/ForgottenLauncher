@@ -1,0 +1,59 @@
+<UserControl x:Class="Forgotten_Land_Launcher.Dialogs.General_Buy_Dialog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:languages="clr-namespace:Forgotten_Land_Launcher.Languages"
+             xmlns:gif="http://wpfanimatedgif.codeplex.com"
+             xmlns:Spinners="clr-namespace:Forgotten_Land_Launcher.Elements.Spinners"
+             mc:Ignorable="d" RenderOptions.BitmapScalingMode="HighQuality"
+             Loaded="UserControl_Loaded" Foreground="#FFCACACA">
+    <Grid>
+        <Border CornerRadius="7" Background="#F20E0E0E">
+            <Border CornerRadius="7" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FF191919" MaxWidth="500" MinWidth="300">
+                <StackPanel>
+                    <StackPanel x:Name="spFirstDialog" Margin="20,20,20,20">
+                        <TextBlock x:Name="confirmationTitle" Text="Title" Foreground="#FFCACACA" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock x:Name="confirmationText" Text="..........." Margin="0,10,0,0" Foreground="#FFB5B5B5" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
+                        <StackPanel x:Name="spCost" Orientation="Vertical" Margin="0,15,0,0" HorizontalAlignment="Center">
+                            <TextBlock Text="{x:Static languages:Lang.dialog_buy_service_confirmation_total_cost}" HorizontalAlignment="Center" FontWeight="Bold" FontSize="15"/>
+                            <!--<Border BorderThickness="0,0,0,1" BorderBrush="#FF272727" Margin="0,5,0,0"/>-->
+                            <StackPanel Orientation="Horizontal" Margin="10,10,10,0">
+                                <StackPanel x:Name="spDPCost" Orientation="Horizontal" Margin="0,0,15,0">
+                                    <Image Source="/Forgotten Land Launcher;component/Assets/icons/icon_gold_coin_1_a.png" Width="15" VerticalAlignment="Center"/>
+                                    <TextBlock Margin="5,0,0,0" VerticalAlignment="Center">
+                                        <Run x:Name="dpPrice" Text="0" FontWeight="Bold" Foreground="White"/>
+                                        <Run x:Name="dpNameHolder" Text="{x:Static languages:Lang.dialog_buy_service_confirmation_text_dp}"/>
+                                    </TextBlock>
+                                </StackPanel>
+                                <StackPanel x:Name="spVPCost" Orientation="Horizontal" Margin="0,0,15,0">
+                                    <Image Source="/Forgotten Land Launcher;component/Assets/icons/icon_silver_coin_1_a.png" Width="15" VerticalAlignment="Center"/>
+                                    <TextBlock Margin="5,0,0,0" VerticalAlignment="Center">
+                                        <Run x:Name="vpPrice" Text="0" FontWeight="Bold" Foreground="White"/>
+                                        <Run Text="{x:Static languages:Lang.dialog_buy_service_confirmation_text_vp}"/>
+                                    </TextBlock>
+                                </StackPanel>
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15,0,0">
+                            <Button x:Name="okButton" Style="{DynamicResource buttonStyle4}" Content="{x:Static languages:Lang.general_button_accept}" Height="25" Width="80" Background="#FF498628" Click="okButton_Click"/>
+                            <Button x:Name="cancelButton" Style="{DynamicResource buttonStyle5}" Content="{x:Static languages:Lang.general_button_cancel}" Height="25" Width="80" Margin="15,0,0,0" Background="#FF862828" Click="cancelButton_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel x:Name="spWaitDialog" Margin="20,20,20,20" Visibility="Collapsed">
+                        <TextBlock x:Name="waitTitle" Text="{x:Static languages:Lang.general_dialog_text_processing}" Foreground="#FFCACACA" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock x:Name="waitDescription" Text="{x:Static languages:Lang.dialog_buy_service_confirmation_text_wait}" Margin="0,10,0,0" Foreground="#FFB5B5B5" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
+                        <Viewbox x:Name="vbSpinner" Width="30">
+                            <Spinners:Dotted_Spinner Margin="0,30,0,0" />
+                        </Viewbox>
+                        <Viewbox x:Name="vbCheckmark" Width="45" Visibility="Collapsed" Margin="0,15,0,0">
+                            <Image x:Name="checkMarkGif" gif:ImageBehavior.AutoStart="False" 
+                                gif:ImageBehavior.RepeatBehavior="1x" 
+                                gif:ImageBehavior.AnimatedSource="/Forgotten Land Launcher;component/Assets/gifs/checkmark_2.gif"  />
+                        </Viewbox>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,40 @@
+<UserControl x:Class="Forgotten_Land_Launcher.Pages.Private_Message_View"
+             xmlns:Private_Messages="clr-namespace:Forgotten_Land_Launcher.Modules.Private_Messages"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:languages="clr-namespace:Forgotten_Land_Launcher.Languages"
+             mc:Ignorable="d" RenderOptions.BitmapScalingMode="HighQuality"
+             Width="935" Height="625" Foreground="#FF999999">
+    <Border CornerRadius="10" Background="#26000000" BorderThickness="1,1,1,1" BorderBrush="#FF252525">
+        <StackPanel Orientation="Vertical">
+            <Grid>
+                <TextBlock x:Name="titleHolder" Text="MESSAGE TITLE" FontWeight="Bold" FontSize="16" HorizontalAlignment="Center" Margin="0,25,0,0"/>
+            </Grid>
+            <Grid Height="550" Margin="25,15,25,0">
+                <ScrollViewer x:Name="swMessages" Height="396" Style="{DynamicResource ScrollViewerOne}" VerticalAlignment="Top" HorizontalAlignment="Center" Padding="0,4,4,4" Width="883">
+                    <StackPanel x:Name="spMessages" Orientation="Vertical"/>
+                </ScrollViewer>
+                <Private_Messages:Reply_Box x:Name="replyBox" Margin="0,410,30,0" VerticalAlignment="Top" HorizontalAlignment="Right" />
+                <StackPanel Margin="0,0,0,20" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <Button x:Name="btnReply" Style="{DynamicResource btnNewMessage}" Content="{x:Static languages:Lang.page_message_view_button_reply}" 
+                        Padding="15,10,15,10" 
+                        Background="#FF0B8E00" BorderBrush="{x:Null}" BorderThickness="0,0,0,0" Foreground="#FFE8E8E8" 
+                        FontWeight="Bold" Cursor="Hand" Click="btnReply_Click"/>
+                    <Button x:Name="btnCancel" Style="{DynamicResource btnNewMessage}" Content="{x:Static languages:Lang.page_message_view_button_back}" 
+                        Padding="15,10,15,10" 
+                        Background="#FF8E3400" BorderBrush="{x:Null}" BorderThickness="0,0,0,0" Foreground="#FFE8E8E8" 
+                        FontWeight="Bold" Cursor="Hand" Margin="15,0,0,0" Click="btnCancel_Click"/>
+                    <Button x:Name="btnDelete2" Style="{DynamicResource btnNewMessage}" 
+                        Padding="15,10,15,10" BorderBrush="{x:Null}" BorderThickness="0,0,0,0" Foreground="#FFE8E8E8" 
+                        FontWeight="Bold" Cursor="Hand" HorizontalAlignment="Right" VerticalAlignment="Center" Click="btnDelete_Click" Margin="5,0,0,0">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Forgotten Land Launcher;component/Assets/icons/icon_trash_1_a.png" Stretch="Uniform"/>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Border>
+</UserControl>

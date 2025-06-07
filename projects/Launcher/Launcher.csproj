@@ -1,0 +1,1225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{93003903-6CA1-4A28-86B3-D3B5A34AA89C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Forgotten_Land_Launcher</RootNamespace>
+    <AssemblyName>Forgotten Land Launcher</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Forgotten_Land_Launcher.App</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Launcher_Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8BB0660C6186EE029AD2568FFAD144262D827BEE</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CyberMist2.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestTimestampUrl>http://timestamp.digicert.com</ManifestTimestampUrl>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DiscordRPC, Version=1.2.1.24, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DiscordRichPresence.1.2.1.24\lib\net45\DiscordRPC.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.11.60.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\HtmlAgilityPack.1.11.60\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework.Aero2" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WpfAnimatedGif, Version=2.0.0.0, Culture=neutral, PublicKeyToken=9e7cd3b544a090dc, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WpfAnimatedGif.2.0.2\lib\net40\WpfAnimatedGif.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Dialogs\Character_Market_Buy_Dialog.xaml.cs">
+      <DependentUpon>Character_Market_Buy_Dialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Character_Market_Sell_Dialog.xaml.cs">
+      <DependentUpon>Character_Market_Sell_Dialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Character_Market_Notifications_Dialog.xaml.cs">
+      <DependentUpon>Character_Market_Notifications_Dialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elements\Buttons\GameButtonCancelUpdate.xaml.cs">
+      <DependentUpon>GameButtonCancelUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elements\Dropdowns\Language_Dropdown_Menu.xaml.cs">
+      <DependentUpon>Language_Dropdown_Menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elements\Popups\Game_Path_Request.xaml.cs">
+      <DependentUpon>Game_Path_Request.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elements\Togglers\Toggle_Switch.xaml.cs">
+      <DependentUpon>Toggle_Switch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Languages\Lang.bg.Designer.cs">
+      <DependentUpon>Lang.bg.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Languages\Lang.es.Designer.cs">
+      <DependentUpon>Lang.es.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Languages\Lang.ko.Designer.cs">
+      <DependentUpon>Lang.ko.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Languages\Lang.de.Designer.cs">
+      <DependentUpon>Lang.de.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Languages\Lang.ru.Designer.cs">
+      <DependentUpon>Lang.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Languages\Lang.ro.Designer.cs">
+      <DependentUpon>Lang.ro.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Languages\Lang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Lang.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Languages\Language_Book.cs" />
+    <Compile Include="Library\Addon_Downloader.cs" />
+    <Compile Include="Library\Addon_Handler.cs" />
+    <Compile Include="Library\Discord_RPC.cs" />
+    <Compile Include="Library\Error_Handler.cs" />
+    <Compile Include="Library\Game_Handler.cs" />
+    <Compile Include="Library\Newton_Extensions.cs" />
+    <Compile Include="Library\Page_Options.cs" />
+    <Compile Include="Library\WoW_Definitions.cs" />
+    <Compile Include="Library\Game_Default_Files.cs" />
+    <Compile Include="Library\Game_Updater.cs" />
+    <Compile Include="Library\Launcher_Settings.cs" />
+    <Compile Include="Library\Newton_Peek.cs" />
+    <Compile Include="Library\Launcher_Updater.cs" />
+    <Compile Include="Modules\Account_Info\Inventory_Span.xaml.cs">
+      <DependentUpon>Inventory_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Account_Info\Character_Span.xaml.cs">
+      <DependentUpon>Character_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Account_Info\Teleport_Dropdown_Row.xaml.cs">
+      <DependentUpon>Teleport_Dropdown_Row.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Account_Info\Ticket_Span.xaml.cs">
+      <DependentUpon>Ticket_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Account_Inventory\Character_Dropdown_Row.xaml.cs">
+      <DependentUpon>Character_Dropdown_Row.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Account_Inventory\Inventory_Reward.xaml.cs">
+      <DependentUpon>Inventory_Reward.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Addons\Server_Addon_Span.xaml.cs">
+      <DependentUpon>Server_Addon_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Addons\Local_Addon_Span.xaml.cs">
+      <DependentUpon>Local_Addon_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Changelogs\Day_Span.xaml.cs">
+      <DependentUpon>Day_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Changelogs\Changelog_Span.xaml.cs">
+      <DependentUpon>Changelog_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Characters_Market\Character_Card.xaml.cs">
+      <DependentUpon>Character_Card.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Characters_Market\Dialog_Character_Won.xaml.cs">
+      <DependentUpon>Dialog_Character_Won.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Characters_Market\Profession_Span.xaml.cs">
+      <DependentUpon>Profession_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Discord\Member_Span.xaml.cs">
+      <DependentUpon>Member_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Discord\Discord_Widget.xaml.cs">
+      <DependentUpon>Discord_Widget.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elements\Popups\Popup_Message.xaml.cs">
+      <DependentUpon>Popup_Message.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elements\Spinners\Dotted_Spinner.xaml.cs">
+      <DependentUpon>Dotted_Spinner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Library\Codex_Standard.cs" />
+    <Compile Include="Library\Codex_Battlenet.cs" />
+    <Compile Include="Library\Rasar.cs" />
+    <Compile Include="Library\Logger.cs" />
+    <Compile Include="Library\Newton_Main.cs" />
+    <Compile Include="Library\Cache.cs" />
+    <Compile Include="Modules\Faq\Faq_Span.xaml.cs">
+      <DependentUpon>Faq_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Ladderboard\Ladderboard_Row.xaml.cs">
+      <DependentUpon>Ladderboard_Row.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Login_Rewards\Reward_Span.xaml.cs">
+      <DependentUpon>Reward_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Online_Players\Player_Row.xaml.cs">
+      <DependentUpon>Player_Row.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Private_Messages\Message_Span.xaml.cs">
+      <DependentUpon>Message_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Private_Messages\Reply_Box.xaml.cs">
+      <DependentUpon>Reply_Box.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Private_Messages\Topic_Span.xaml.cs">
+      <DependentUpon>Topic_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Realms\Server_Status_Span.xaml.cs">
+      <DependentUpon>Server_Status_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Shop\Shop_Card.xaml.cs">
+      <DependentUpon>Shop_Card.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Shop\Shop_Category_Button.xaml.cs">
+      <DependentUpon>Shop_Category_Button.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Slider\Slider_Dot.xaml.cs">
+      <DependentUpon>Slider_Dot.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Vote\Vote_Span.xaml.cs">
+      <DependentUpon>Vote_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Account_Info.xaml.cs">
+      <DependentUpon>Account_Info.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Online_Players.xaml.cs">
+      <DependentUpon>Online_Players.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Ladderboard.xaml.cs">
+      <DependentUpon>Ladderboard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Characters_Market.xaml.cs">
+      <DependentUpon>Characters_Market.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Article_Viewer.xaml.cs">
+      <DependentUpon>Article_Viewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Vote.xaml.cs">
+      <DependentUpon>Vote.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Addons.xaml.cs">
+      <DependentUpon>Addons.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Faq.xaml.cs">
+      <DependentUpon>Faq.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Shop.xaml.cs">
+      <DependentUpon>Shop.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Changelog.xaml.cs">
+      <DependentUpon>Changelog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Account_Inventory.xaml.cs">
+      <DependentUpon>Account_Inventory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Private_Message_View.xaml.cs">
+      <DependentUpon>Private_Message_View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Private_Message_New.xaml.cs">
+      <DependentUpon>Private_Message_New.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Private_Messages.xaml.cs">
+      <DependentUpon>Private_Messages.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Login_Rewards.xaml.cs">
+      <DependentUpon>Login_Rewards.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Discord.xaml.cs">
+      <DependentUpon>Discord.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Avatar_Settings_Dialog.xaml.cs">
+      <DependentUpon>Avatar_Settings_Dialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Shop_Article_Dialog.xaml.cs">
+      <DependentUpon>Shop_Article_Dialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Inventory_Reward_Dialog.xaml.cs">
+      <DependentUpon>Inventory_Reward_Dialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Login_Reward_Dialog.xaml.cs">
+      <DependentUpon>Login_Reward_Dialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\General_Buy_Dialog.xaml.cs">
+      <DependentUpon>General_Buy_Dialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Redeem_Gift_Dialog.xaml.cs">
+      <DependentUpon>Redeem_Gift_Dialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Request_Confirmation_Dialog.xaml.cs">
+      <DependentUpon>Request_Confirmation_Dialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Confirmation_Dialog.xaml.cs">
+      <DependentUpon>Confirmation_Dialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Wait_Dialog.xaml.cs">
+      <DependentUpon>Wait_Dialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Recovery_Form.xaml.cs">
+      <DependentUpon>Recovery_Form.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Password_Change_Form.xaml.cs">
+      <DependentUpon>Password_Change_Form.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Register_Form.xaml.cs">
+      <DependentUpon>Register_Form.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login_Form.xaml.cs">
+      <DependentUpon>Login_Form.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Register_Tos_Form.xaml.cs">
+      <DependentUpon>Register_Tos_Form.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Game_Login_Overlay.xaml.cs">
+      <DependentUpon>Game_Login_Overlay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Dialogs\Character_Market_Buy_Dialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialogs\Character_Market_Sell_Dialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialogs\Character_Market_Notifications_Dialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Elements\Buttons\GameButtonCancelUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Elements\Buttons\GameButtonUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Elements\Buttons\GameButtonMore.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Elements\Buttons\GameButtonPlay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Elements\Buttons\LeftMenuButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Elements\Dropdowns\Language_Dropdown_Menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Elements\Popups\Game_Path_Request.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Elements\Togglers\Toggle_Switch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Account_Info\Inventory_Span.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Modules\Account_Info\Character_Span.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Modules\Account_Info\Teleport_Dropdown_Row.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Account_Info\Ticket_Span.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Account_Inventory\Character_Dropdown_Row.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Account_Inventory\Inventory_Reward.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Addons\Server_Addon_Span.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Modules\Addons\Local_Addon_Span.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Changelogs\Day_Span.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Changelogs\Changelog_Span.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Characters_Market\Character_Card.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Characters_Market\Dialog_Character_Won.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Characters_Market\Profession_Span.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Discord\Member_Span.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Discord\Discord_Widget.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Events\Events_Card.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Faq\Faq_Span.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Ladderboard\Ladderboard_Row.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Login_Rewards\Reward_Span.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\News\Article_Card.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\News\Article_Medium_Span.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Elements\Popups\Darkness_Fog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Elements\Popups\Popup_Message.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Elements\Popups\Game_More_Options.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Online_Players\Player_Row.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Private_Messages\Message_Span.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Private_Messages\Reply_Box.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Private_Messages\Topic_Span.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Realms\Server_Status_Span.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Shop\Shop_Card.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Shop\Shop_Category_Button.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Slider\Home_Slider.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Elements\Spinners\Dotted_Spinner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Slider\Slider_Dot.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Vote\Vote_Span.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Account_Info.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Online_Players.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Ladderboard.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Characters_Market.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Article_Viewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Vote.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Addons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Faq.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Shop.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Changelog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Account_Inventory.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Private_Message_View.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Private_Message_New.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Private_Messages.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Login_Rewards.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Events.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Discord.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\News.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\ToggleButtons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\Dropdowns.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\PasswordBoxes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\CheckBoxes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\TextBoxes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\ProgressBars.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\ScrollViewers.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\Buttons.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\Avatar_Settings_Dialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialogs\Shop_Article_Dialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialogs\Inventory_Reward_Dialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialogs\Login_Reward_Dialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialogs\General_Buy_Dialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialogs\Redeem_Gift_Dialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialogs\Request_Confirmation_Dialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialogs\Confirmation_Dialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\Wait_Dialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Recovery_Form.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\Password_Change_Form.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\Register_Form.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\Login_Form.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Register_Tos_Form.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Game_Login_Overlay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Launcher.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Elements\Buttons\GameButtonUpdate.xaml.cs">
+      <DependentUpon>GameButtonUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elements\Buttons\GameButtonMore.xaml.cs">
+      <DependentUpon>GameButtonMore.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elements\Buttons\GameButtonPlay.xaml.cs">
+      <DependentUpon>GameButtonPlay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elements\Buttons\LeftMenuButton.xaml.cs">
+      <DependentUpon>LeftMenuButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Events\Events_Card.xaml.cs">
+      <DependentUpon>Events_Card.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\News\Article_Card.xaml.cs">
+      <DependentUpon>Article_Card.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\News\Article_Medium_Span.xaml.cs">
+      <DependentUpon>Article_Medium_Span.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elements\Popups\Darkness_Fog.xaml.cs">
+      <DependentUpon>Darkness_Fog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elements\Popups\Game_More_Options.xaml.cs">
+      <DependentUpon>Game_More_Options.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Slider\Home_Slider.xaml.cs">
+      <DependentUpon>Home_Slider.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Library\Animations.cs" />
+    <Compile Include="Library\Extensions.cs" />
+    <Compile Include="Pages\Events.xaml.cs">
+      <DependentUpon>Events.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\News.xaml.cs">
+      <DependentUpon>News.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Launcher.xaml.cs">
+      <DependentUpon>Launcher.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Windows\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Languages\Lang.bg.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Lang.bg.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\Lang.es.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Lang.es.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\Lang.ko.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Lang.ko.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\Lang.de.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Lang.de.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\Lang.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Lang.ru.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\Lang.ro.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Lang.ro.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\Lang.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Lang.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-Black.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-BlackItalic.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-Bold.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-BoldItalic.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-ExtraBold.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-ExtraBoldItalic.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-ExtraLight.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-ExtraLightItalic.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-Italic.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-Light.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-LightItalic.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-Medium.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-MediumItalic.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-Regular.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-SemiBold.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-SemiBoldItalic.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-Thin.ttf" />
+    <Resource Include="Fonts\Fira Sans Condensed\FiraSansCondensed-ThinItalic.ttf" />
+    <Resource Include="Fonts\Archivo Black\ArchivoBlack-Regular.ttf" />
+    <Resource Include="Fonts\Beaufort\BeaufortforLOL-Bold.ttf" />
+    <Resource Include="Fonts\Beaufort\BeaufortforLOL-BoldItalic.ttf" />
+    <Resource Include="Fonts\Beaufort\BeaufortforLOL-Heavy.ttf" />
+    <Resource Include="Fonts\Beaufort\BeaufortforLOL-HeavyItalic.ttf" />
+    <Resource Include="Fonts\Beaufort\BeaufortforLOL-Italic.ttf" />
+    <Resource Include="Fonts\Beaufort\BeaufortforLOL-Light.ttf" />
+    <Resource Include="Fonts\Beaufort\BeaufortforLOL-LightItalic.ttf" />
+    <Resource Include="Fonts\Beaufort\BeaufortforLOL-Medium.ttf" />
+    <Resource Include="Fonts\Beaufort\BeaufortforLOL-MediumItalic.ttf" />
+    <Resource Include="Fonts\Beaufort\BeaufortforLOL-Regular.ttf" />
+    <Resource Include="Fonts\Semplicita Pro\SemplicitaPro-Bold.ttf" />
+    <Resource Include="Fonts\Semplicita Pro\SemplicitaPro-BoldItalic.ttf" />
+    <Resource Include="Fonts\Semplicita Pro\SemplicitaPro-Italic.ttf" />
+    <Resource Include="Fonts\Semplicita Pro\SemplicitaPro-Light.ttf" />
+    <Resource Include="Fonts\Semplicita Pro\SemplicitaPro-LightItalic.ttf" />
+    <Resource Include="Fonts\Semplicita Pro\SemplicitaPro-Medium.ttf" />
+    <Resource Include="Fonts\Semplicita Pro\SemplicitaPro-MediumItalic.ttf" />
+    <Resource Include="Fonts\Semplicita Pro\SemplicitaPro-Regular.ttf" />
+    <Resource Include="Fonts\Semplicita Pro\SemplicitaPro-SemiBold.ttf" />
+    <Resource Include="Fonts\Semplicita Pro\SemplicitaPro-SemiBoldItalic.ttf" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_exit_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_calendar_gift_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_calendar_gift_1_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_gift_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_calendar_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_calendar_1_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_gift_1_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_messages_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_messages_1_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_profile_1_a.png" />
+    <Resource Include="Assets\icons\icon_profile_1_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_inventory_1_a.png" />
+    <Resource Include="Assets\icons\icon_inventory_1_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_home_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_home_1_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_forums_1_a.png" />
+    <Resource Include="Assets\icons\icon_forums_1_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_headset_1_a.png" />
+    <Resource Include="Assets\icons\icon_headset_1_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_cart_1_a.png" />
+    <Resource Include="Assets\icons\icon_cart_1_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_like_1_a.png" />
+    <Resource Include="Assets\icons\icon_like_1_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_books_1_a.png" />
+    <Resource Include="Assets\icons\icon_books_1_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_ribbon_1_a.png" />
+    <Resource Include="Assets\icons\icon_ribbon_1_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_faq_1_a.png" />
+    <Resource Include="Assets\icons\icon_faq_1_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\logos\wow_logo_og.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_download_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_silver_coin_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_gold_coin_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_discord_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_email_1_a.png" />
+    <Resource Include="Assets\icons\icon_lock_1_a.png" />
+    <Resource Include="Assets\icons\icon_people_1_a.png" />
+    <Resource Include="Assets\icons\icon_warning_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_code_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\default_avatar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\login_claimed_overlay.png" />
+    <Resource Include="Assets\login_unclaimed_overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\login_undefined_reward_day.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\gifs\checkmark_2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\gifs\xmark_1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\classes\class_deathknight.jpg" />
+    <Resource Include="Assets\classes\class_demonhunter.jpg" />
+    <Resource Include="Assets\classes\class_druid.jpg" />
+    <Resource Include="Assets\classes\class_evoker.jpg" />
+    <Resource Include="Assets\classes\class_hunter.jpg" />
+    <Resource Include="Assets\classes\class_mage.jpg" />
+    <Resource Include="Assets\classes\class_monk.jpg" />
+    <Resource Include="Assets\classes\class_paladin.jpg" />
+    <Resource Include="Assets\classes\class_priest.jpg" />
+    <Resource Include="Assets\classes\class_rogue.jpg" />
+    <Resource Include="Assets\classes\class_shaman.jpg" />
+    <Resource Include="Assets\classes\class_warlock.jpg" />
+    <Resource Include="Assets\classes\class_warrior.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\races\race_bloodelf_female.jpg" />
+    <Resource Include="Assets\races\race_bloodelf_male.jpg" />
+    <Resource Include="Assets\races\race_darkirondwarf_female.jpg" />
+    <Resource Include="Assets\races\race_darkirondwarf_male.jpg" />
+    <Resource Include="Assets\races\race_draenei_female.jpg" />
+    <Resource Include="Assets\races\race_draenei_male.jpg" />
+    <Resource Include="Assets\races\race_dwarf_female.jpg" />
+    <Resource Include="Assets\races\race_dwarf_male.jpg" />
+    <Resource Include="Assets\races\race_goblin_female.jpg" />
+    <Resource Include="Assets\races\race_goblin_male.jpg" />
+    <Resource Include="Assets\races\race_human_female.jpg" />
+    <Resource Include="Assets\races\race_human_male.jpg" />
+    <Resource Include="Assets\races\race_kultiran_female.jpg" />
+    <Resource Include="Assets\races\race_kultiran_male.jpg" />
+    <Resource Include="Assets\races\race_magharorc_female.jpg" />
+    <Resource Include="Assets\races\race_magharorc_male.jpg" />
+    <Resource Include="Assets\races\race_nightelf_female.jpg" />
+    <Resource Include="Assets\races\race_nightelf_male.jpg" />
+    <Resource Include="Assets\races\race_orc_female.jpg" />
+    <Resource Include="Assets\races\race_orc_male.jpg" />
+    <Resource Include="Assets\races\race_scourge_female.jpg" />
+    <Resource Include="Assets\races\race_scourge_male.jpg" />
+    <Resource Include="Assets\races\race_tauren_female.jpg" />
+    <Resource Include="Assets\races\race_tauren_male.jpg" />
+    <Resource Include="Assets\races\race_troll_female.jpg" />
+    <Resource Include="Assets\races\race_troll_male.jpg" />
+    <Resource Include="Assets\races\race_voidelf_female.jpg" />
+    <Resource Include="Assets\races\race_voidelf_male.jpg" />
+    <Resource Include="Assets\races\race_vulpera_female.jpg" />
+    <Resource Include="Assets\races\race_vulpera_male.jpg" />
+    <Resource Include="Assets\races\race_worgen_female.jpg" />
+    <Resource Include="Assets\races\race_worgen_male.jpg" />
+    <Resource Include="Assets\races\race_zandalaritroll_female.jpg" />
+    <Resource Include="Assets\races\race_zandalaritroll_male.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\races\race_pandaren_female.jpg" />
+    <Resource Include="Assets\races\race_pandaren_male.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\races\race_nightborne_female.jpg" />
+    <Resource Include="Assets\races\race_nightborne_male.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\races\race_highmountaintauren_female.jpg" />
+    <Resource Include="Assets\races\race_highmountaintauren_male.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\races\race_lightforgeddraenei_female.jpg" />
+    <Resource Include="Assets\races\race_lightforgeddraenei_male.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\races\race_mechagnome_female.jpg" />
+    <Resource Include="Assets\races\race_mechagnome_male.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\races\race_dracthyr_female.jpg" />
+    <Resource Include="Assets\races\race_dracthyr_male.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\backgrounds\launcher_background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_copy_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_help_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_profile_2_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_portal_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_arrow_right_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_clock_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_eye_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_calendar_2_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_email_2_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_x_mark_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_arrow_right_2_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_reply_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_trash_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_ribbon_2_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\flame.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_bag_1_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_messages_2_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_cart_2_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_books_2_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\icons\icon_badge_2_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\races\race_gnome_female.jpg" />
+    <Resource Include="Assets\races\race_gnome_male.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\classes\cards\deathknight.jpg" />
+    <Resource Include="Assets\classes\cards\druid.jpg" />
+    <Resource Include="Assets\classes\cards\evoker.jpg" />
+    <Resource Include="Assets\classes\cards\hunter.jpg" />
+    <Resource Include="Assets\classes\cards\mage.jpg" />
+    <Resource Include="Assets\classes\cards\monk.jpg" />
+    <Resource Include="Assets\classes\cards\paladin.jpg" />
+    <Resource Include="Assets\classes\cards\rogue.jpg" />
+    <Resource Include="Assets\classes\cards\shaman.jpg" />
+    <Resource Include="Assets\classes\cards\warlock.jpg" />
+    <Resource Include="Assets\classes\cards\warrior.jpg" />
+    <Resource Include="Assets\classes\cards\priest.jpg" />
+    <Resource Include="Assets\icons\icon_book_1.png" />
+    <Resource Include="Assets\icons\icon_market_1.png" />
+    <Resource Include="Assets\icons\icon_checked_1.png" />
+    <Resource Include="Assets\icons\icon_location_1.png" />
+    <Resource Include="Assets\classes\cards\demonhunter.jpg" />
+    <Resource Include="Assets\icons\icon_reload_1.png" />
+    <Resource Include="Assets\icons\flags\bg.png" />
+    <Resource Include="Assets\icons\flags\en.png" />
+    <Resource Include="Assets\icons\flags\ro.png" />
+    <Resource Include="Assets\icons\flags\ru.png" />
+    <Resource Include="Assets\icons\flags\es.png" />
+    <Resource Include="Assets\icons\icon_auction_coin_1.png" />
+    <Resource Include="Assets\icons\icon_party_popper.png" />
+    <Resource Include="Assets\icons\flags\ko.png" />
+    <Resource Include="Assets\icons\flags\de.png" />
+    <Content Include="install_net_framework_4.8_runtime.htm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Launcher_Icon.ico" />
+    <Resource Include="Assets\professions\inv_inscription_tradeskill01.jpg" />
+    <Resource Include="Assets\professions\inv_misc_armorkit_17.jpg" />
+    <Resource Include="Assets\professions\inv_misc_food_15.jpg" />
+    <Resource Include="Assets\professions\inv_misc_gem_01.jpg" />
+    <Resource Include="Assets\professions\inv_misc_pelt_wolf_01.jpg" />
+    <Resource Include="Assets\professions\inv_misc_questionmark.jpg" />
+    <Resource Include="Assets\professions\spell_fire_flameblades.jpg" />
+    <Resource Include="Assets\professions\spell_holy_sealofsacrifice.jpg" />
+    <Resource Include="Assets\professions\spell_nature_naturetouchgrow.jpg" />
+    <Resource Include="Assets\professions\trade_alchemy.jpg" />
+    <Resource Include="Assets\professions\trade_blacksmithing.jpg" />
+    <Resource Include="Assets\professions\trade_engineering.jpg" />
+    <Resource Include="Assets\professions\trade_engraving.jpg" />
+    <Resource Include="Assets\professions\trade_fishing.jpg" />
+    <Resource Include="Assets\professions\trade_mining.jpg" />
+    <Resource Include="Assets\professions\trade_tailoring.jpg" />
+    <Resource Include="Assets\icons\icon_lock_2_a.png" />
+    <Resource Include="Assets\icons\icon_warrior_1_a.png" />
+    <Resource Include="Assets\icons\icon_warrior_1_h.png" />
+    <Resource Include="Assets\icons\icon_levelup_1_a.png" />
+    <Resource Include="Assets\icons\icon_needle_1_a.png" />
+    <Resource Include="Assets\icons\icon_swords_1_a.png" />
+    <Resource Include="Assets\icons\icon_gold_coin_3.png" />
+    <Resource Include="Assets\logos\launcher_server_logo.png" />
+    <Content Include="Assets\mp4\world-of-warcraft-legion.1920x1080.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(TargetPath)" "D:\laragon\www\vision\downloads\launcher\" /Y
+del "Newtonsoft.Json.xml"
+del "WpfAnimatedGif.pdb"
+del "WpfAnimatedGif.xml"
+del "HtmlAgilityPack.pdb"
+del "HtmlAgilityPack.xml"
+rmdir /s /q "launcher logs"
+del "DiscordRPC.xml"
+del "DiscordRPC.pdb"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

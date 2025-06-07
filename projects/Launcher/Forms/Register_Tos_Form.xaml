@@ -1,0 +1,18 @@
+<UserControl x:Class="Forgotten_Land_Launcher.Forms.Register_Tos_Form"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:languages="clr-namespace:Forgotten_Land_Launcher.Languages"
+             mc:Ignorable="d" 
+             Width="850" Height="500" Loaded="UserControl_Loaded">
+    <Border BorderThickness="1" CornerRadius="10" Background="#F2000000" BorderBrush="#FF2F2F2F">
+        <Grid>
+            <TextBlock Text="{x:Static languages:Lang.login_window_tos_title}" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" Margin="0,20,0,0" FontWeight="Bold"/>
+            <ScrollViewer Style="{DynamicResource ScrollViewerOne}"  Margin="25,55,25,0" Height="350" VerticalAlignment="Top" HorizontalAlignment="Center" Width="750">
+                <TextBlock x:Name="tosTextBlock" Text="..." Foreground="#FFD5AD67" FontFamily="Fira Sans Condensed" TextWrapping="Wrap" TextTrimming="CharacterEllipsis" FontWeight="SemiBold"/>
+            </ScrollViewer>
+            <Button x:Name="btnDone" Style="{DynamicResource loginSignInButton}" Content="{x:Static languages:Lang.login_window_button_done_reading}"  VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,25" Click="btnDone_Click"/>
+        </Grid>
+    </Border>
+</UserControl>

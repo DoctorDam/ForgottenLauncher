@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Forgotten_Land_Launcher.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServerName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Forgotten Land</Value>
+    </Setting>
+    <Setting Name="WoWExe_SD" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ForgottenLand.exe</Value>
+    </Setting>
+    <Setting Name="WoWExe_HD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ForgottenLand.exe</Value>
+    </Setting>
+    <Setting Name="ApiUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://forgottenland.fr/launcher/vision.php</Value>
+    </Setting>
+    <Setting Name="HomeUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://forgottenland.fr</Value>
+    </Setting>
+    <Setting Name="ForumUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://forgottenland.fr</Value>
+    </Setting>
+    <Setting Name="SliderDelaySeconds" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="DiscordAppID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">889616857806549003</Value>
+    </Setting>
+    <Setting Name="DiscordAppPicture" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://github.com/CyberMist2/visible-uploads/blob/main/Oracle%20Lite%20Logo.png?raw=true</Value>
+    </Setting>
+    <Setting Name="IgnoreDefaultFiles" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DisableLauncherUpdates" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CheckActiveStatus" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

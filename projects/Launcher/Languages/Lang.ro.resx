@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="article_text_on_date" xml:space="preserve">
+    <value>În</value>
+  </data>
+  <data name="article_text_posted_by" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="dialog_addon_remove_info" xml:space="preserve">
+    <value>Doriți să ștergeți acest addon: {0}?</value>
+  </data>
+  <data name="dialog_addon_remove_title" xml:space="preserve">
+    <value>Ştergeţi Addon</value>
+  </data>
+  <data name="dialog_avatar_change_text_picture_url" xml:space="preserve">
+    <value>Introduceți o adresă URL a imaginii</value>
+  </data>
+  <data name="dialog_avatar_change_title" xml:space="preserve">
+    <value>Setări Avatar</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_text_dp" xml:space="preserve">
+    <value>DP</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_text_vp" xml:space="preserve">
+    <value>VP</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_text_wait" xml:space="preserve">
+    <value>Vă rugăm să așteptați în timp ce procesăm cererea dvs. de achiziție..</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_total_cost" xml:space="preserve">
+    <value>Cost total</value>
+  </data>
+  <data name="dialog_characters_market_add_require_duration" xml:space="preserve">
+    <value>Vă rog să selectați o durată</value>
+  </data>
+  <data name="dialog_characters_market_add_sale_commission" xml:space="preserve">
+    <value>Comision curent:</value>
+  </data>
+  <data name="dialog_characters_market_add_sale_info" xml:space="preserve">
+    <value>Există o taxă de vânzare care va fi dedusă de la tine atunci când personajul este vândut.</value>
+  </data>
+  <data name="dialog_characters_market_add_sale_title" xml:space="preserve">
+    <value>Vânzare Caracter</value>
+  </data>
+  <data name="dialog_characters_market_text_max_price" xml:space="preserve">
+    <value>trebuie maxim</value>
+  </data>
+  <data name="dialog_characters_market_text_min_price" xml:space="preserve">
+    <value>trebuie minim</value>
+  </data>
+  <data name="dialog_characters_market_text_you_receive" xml:space="preserve">
+    <value>vei primi</value>
+  </data>
+  <data name="dialog_inventory_item_acquired_on" xml:space="preserve">
+    <value>Achiziționat în</value>
+  </data>
+  <data name="dialog_inventory_item_claim_title" xml:space="preserve">
+    <value>Revendicare inventar</value>
+  </data>
+  <data name="dialog_inventory_item_text_loading_characters" xml:space="preserve">
+    <value>Se încarcă caracterele dvs..</value>
+  </data>
+  <data name="dialog_inventory_item_text_no_characters" xml:space="preserve">
+    <value>Nu aveți caractere</value>
+  </data>
+  <data name="dialog_inventory_item_text_require_character" xml:space="preserve">
+    <value>Va rugam selectati un caracter</value>
+  </data>
+  <data name="dialog_inventory_item_text_require_input" xml:space="preserve">
+    <value>Va rugam introducti o valoare</value>
+  </data>
+  <data name="dialog_inventory_item_text_wait" xml:space="preserve">
+    <value>Vă rugăm să așteptați în timp ce procesăm cererea dvs. de inventar..</value>
+  </data>
+  <data name="dialog_login_reward_text_wait" xml:space="preserve">
+    <value>Vă rugăm să așteptați în timp ce procesăm cererea dvs. de revendicare..</value>
+  </data>
+  <data name="dialog_login_reward_title" xml:space="preserve">
+    <value>Recompensa pentru autentificare</value>
+  </data>
+  <data name="dialog_redeem_gift_require_code" xml:space="preserve">
+    <value>Vă rugăm introduceți un cod</value>
+  </data>
+  <data name="dialog_redeem_gift_textbox_enter_code" xml:space="preserve">
+    <value>introdu un cod cadou</value>
+  </data>
+  <data name="dialog_redeem_gift_title" xml:space="preserve">
+    <value>Valorificați codul cadou</value>
+  </data>
+  <data name="dialog_rquest_confirmation_text_wait" xml:space="preserve">
+    <value>Vă rugăm să așteptați în timp ce procesăm solicitarea dvs..</value>
+  </data>
+  <data name="dialog_shop_article_text_dp" xml:space="preserve">
+    <value>DP</value>
+  </data>
+  <data name="dialog_shop_article_text_total_cost" xml:space="preserve">
+    <value>Cost total</value>
+  </data>
+  <data name="dialog_shop_article_text_vp" xml:space="preserve">
+    <value>VP</value>
+  </data>
+  <data name="discord_widget_text_loading" xml:space="preserve">
+    <value>Se încarcă serverul...</value>
+  </data>
+  <data name="discord_widget_text_members_online" xml:space="preserve">
+    <value>MEMBRI ONLINE</value>
+  </data>
+  <data name="exit_dialog_text" xml:space="preserve">
+    <value>Doriți să inchideți de tot lansatorul?</value>
+  </data>
+  <data name="exit_dialog_title" xml:space="preserve">
+    <value>Închide lansatorul</value>
+  </data>
+  <data name="game_button_cancel_update" xml:space="preserve">
+    <value>OPREȘTE UPDATE</value>
+  </data>
+  <data name="game_button_play" xml:space="preserve">
+    <value>JOACĂ</value>
+  </data>
+  <data name="game_button_update" xml:space="preserve">
+    <value>ACTUALIZEAZA</value>
+  </data>
+  <data name="game_popup_more_auto_clear_cache" xml:space="preserve">
+    <value>Ștergere cache:</value>
+  </data>
+  <data name="game_popup_more_auto_login" xml:space="preserve">
+    <value>Logare automată:</value>
+  </data>
+  <data name="game_popup_more_auto_login_title" xml:space="preserve">
+    <value>LOGARE AUTOMATĂ</value>
+  </data>
+  <data name="game_popup_more_check_for_updates" xml:space="preserve">
+    <value>Verifică Jocul</value>
+  </data>
+  <data name="game_popup_more_clear_cache_title" xml:space="preserve">
+    <value>ȘTERGE CACHE</value>
+  </data>
+  <data name="game_popup_more_hd_client_title" xml:space="preserve">
+    <value>CLIENT HD</value>
+  </data>
+  <data name="game_popup_more_hd_models" xml:space="preserve">
+    <value>Modele HD:</value>
+  </data>
+  <data name="game_popup_more_locate_game" xml:space="preserve">
+    <value>Selectează folder</value>
+  </data>
+  <data name="game_popup_more_options_title" xml:space="preserve">
+    <value>OPŢIUNI JOC</value>
+  </data>
+  <data name="game_popup_more_select_language" xml:space="preserve">
+    <value>Limbaj:</value>
+  </data>
+  <data name="game_popup_more_select_language_title" xml:space="preserve">
+    <value>SELECTEAZĂ LIMBA</value>
+  </data>
+  <data name="game_popup_more_server_status_title" xml:space="preserve">
+    <value>STARE SERVER</value>
+  </data>
+  <data name="game_popup_more_toggle_disable" xml:space="preserve">
+    <value>Dezactivează</value>
+  </data>
+  <data name="game_popup_more_toggle_enable" xml:space="preserve">
+    <value>Activează</value>
+  </data>
+  <data name="game_popup_more_toggle_full_game" xml:space="preserve">
+    <value>Joc întreg</value>
+  </data>
+  <data name="game_popup_more_toggle_off" xml:space="preserve">
+    <value>Dezactivează</value>
+  </data>
+  <data name="game_popup_more_toggle_on" xml:space="preserve">
+    <value>Activează</value>
+  </data>
+  <data name="game_popup_more_toggle_only_updates" xml:space="preserve">
+    <value>Doar actualizări</value>
+  </data>
+  <data name="game_popup_more_toggle_status_disabled" xml:space="preserve">
+    <value>Dezactivat</value>
+  </data>
+  <data name="game_popup_more_toggle_status_enabled" xml:space="preserve">
+    <value>Activat</value>
+  </data>
+  <data name="game_popup_more_toggle_status_off" xml:space="preserve">
+    <value>Dezactivează</value>
+  </data>
+  <data name="game_popup_more_toggle_status_on" xml:space="preserve">
+    <value>Activează</value>
+  </data>
+  <data name="game_popup_more_update_options" xml:space="preserve">
+    <value>Verifică:</value>
+  </data>
+  <data name="game_popup_more_update_options_title" xml:space="preserve">
+    <value>OPȚIUNI VERIFICARE JOC</value>
+  </data>
+  <data name="game_popup_path_request_message" xml:space="preserve">
+    <value>Folder-ul jocului nu este selectat, vă rugăm să-l cautați!</value>
+  </data>
+  <data name="general_button_accept" xml:space="preserve">
+    <value>ACCEPTĂ</value>
+  </data>
+  <data name="general_button_browse_game" xml:space="preserve">
+    <value>CAUTĂ JOCUL</value>
+  </data>
+  <data name="general_button_cancel" xml:space="preserve">
+    <value>ANULEAZĂ</value>
+  </data>
+  <data name="general_button_check" xml:space="preserve">
+    <value>VERIFICĂ</value>
+  </data>
+  <data name="general_button_claim" xml:space="preserve">
+    <value>REVENDICĂ</value>
+  </data>
+  <data name="general_button_exit" xml:space="preserve">
+    <value>IEȘIRE</value>
+  </data>
+  <data name="general_button_ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="general_button_purchase" xml:space="preserve">
+    <value>CUMPĂRĂ</value>
+  </data>
+  <data name="general_button_readmore" xml:space="preserve">
+    <value>CITEȘTE</value>
+  </data>
+  <data name="general_button_remove" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="general_button_set_bid" xml:space="preserve">
+    <value>ACTUALIZEĂ OFERTA</value>
+  </data>
+  <data name="general_button_use" xml:space="preserve">
+    <value>OBŢINE</value>
+  </data>
+  <data name="general_dialog_text_processing" xml:space="preserve">
+    <value>Se procesează</value>
+  </data>
+  <data name="general_text_addon_author" xml:space="preserve">
+    <value>Autor:</value>
+  </data>
+  <data name="general_text_addon_size" xml:space="preserve">
+    <value>Dimensiune:</value>
+  </data>
+  <data name="general_text_addon_version" xml:space="preserve">
+    <value>Versiune:</value>
+  </data>
+  <data name="general_text_discord_topic" xml:space="preserve">
+    <value>Topic:</value>
+  </data>
+  <data name="general_text_event_active_until" xml:space="preserve">
+    <value>Activ până la</value>
+  </data>
+  <data name="general_text_level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="general_text_ticket_closed" xml:space="preserve">
+    <value>Închis</value>
+  </data>
+  <data name="general_text_ticket_completed" xml:space="preserve">
+    <value>Complet</value>
+  </data>
+  <data name="general_text_ticket_pending" xml:space="preserve">
+    <value>În așteptare</value>
+  </data>
+  <data name="general_text_ticket_viewed" xml:space="preserve">
+    <value>Văzut</value>
+  </data>
+  <data name="home_navbar_button_changelog" xml:space="preserve">
+    <value>JURNAL SCHIMBĂRI</value>
+  </data>
+  <data name="home_navbar_button_discord" xml:space="preserve">
+    <value>DISCORD</value>
+  </data>
+  <data name="home_navbar_button_events" xml:space="preserve">
+    <value>EVENIMENTE</value>
+  </data>
+  <data name="home_navbar_button_home" xml:space="preserve">
+    <value>ACASĂ</value>
+  </data>
+  <data name="home_navbar_button_news" xml:space="preserve">
+    <value>ȘTIRI</value>
+  </data>
+  <data name="home_profile_donate_points" xml:space="preserve">
+    <value>puncte donatie</value>
+  </data>
+  <data name="home_profile_vote_points" xml:space="preserve">
+    <value>puncte vot</value>
+  </data>
+  <data name="language_bulgarian" xml:space="preserve">
+    <value>Bulgară</value>
+  </data>
+  <data name="language_english" xml:space="preserve">
+    <value>Engleză</value>
+  </data>
+  <data name="language_german" xml:space="preserve">
+    <value>Germană</value>
+  </data>
+  <data name="language_korean" xml:space="preserve">
+    <value>Coreeană</value>
+  </data>
+  <data name="language_romanian" xml:space="preserve">
+    <value>Română</value>
+  </data>
+  <data name="language_russian" xml:space="preserve">
+    <value>Rusă</value>
+  </data>
+  <data name="language_spanish" xml:space="preserve">
+    <value>Spaniolă</value>
+  </data>
+  <data name="left_menu_button_addons" xml:space="preserve">
+    <value>Addon-uri</value>
+  </data>
+  <data name="left_menu_button_characters_market" xml:space="preserve">
+    <value>Magazin jucători</value>
+  </data>
+  <data name="left_menu_button_faq" xml:space="preserve">
+    <value>Întrebări</value>
+  </data>
+  <data name="left_menu_button_forum" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="left_menu_button_home" xml:space="preserve">
+    <value>Acasa</value>
+  </data>
+  <data name="left_menu_button_ladderboard" xml:space="preserve">
+    <value>Top jucători</value>
+  </data>
+  <data name="left_menu_button_online_players" xml:space="preserve">
+    <value>Jucători Online</value>
+  </data>
+  <data name="left_menu_button_shop" xml:space="preserve">
+    <value>Magazin</value>
+  </data>
+  <data name="left_menu_button_vote" xml:space="preserve">
+    <value>Câștigă puncte vot</value>
+  </data>
+  <data name="login_day_button_claim" xml:space="preserve">
+    <value>REVENDICĂ</value>
+  </data>
+  <data name="login_window_button_change_password" xml:space="preserve">
+    <value>SCHIMBA</value>
+  </data>
+  <data name="login_window_button_done_reading" xml:space="preserve">
+    <value>Am citit</value>
+  </data>
+  <data name="login_window_button_other_back_to_sign_in" xml:space="preserve">
+    <value>🡠 Înapoi la logare</value>
+  </data>
+  <data name="login_window_button_other_have_reset_code" xml:space="preserve">
+    <value>Am un cod 🡢</value>
+  </data>
+  <data name="login_window_button_other_recover" xml:space="preserve">
+    <value>Recuperează</value>
+  </data>
+  <data name="login_window_button_other_register" xml:space="preserve">
+    <value>Înregistrare</value>
+  </data>
+  <data name="login_window_button_other_sign_in" xml:space="preserve">
+    <value>Logare</value>
+  </data>
+  <data name="login_window_button_other_visit_homepage" xml:space="preserve">
+    <value>Vizitează site-ul 🡭</value>
+  </data>
+  <data name="login_window_button_register" xml:space="preserve">
+    <value>ÎNREGISTRARE</value>
+  </data>
+  <data name="login_window_button_send_recovery" xml:space="preserve">
+    <value>TRIMITE RECUPERARE</value>
+  </data>
+  <data name="login_window_button_sign_in" xml:space="preserve">
+    <value>LOGARE</value>
+  </data>
+  <data name="login_window_checkbox_remember" xml:space="preserve">
+    <value>Memorează-mi alegerea</value>
+  </data>
+  <data name="login_window_checkbox_terms_of_service" xml:space="preserve">
+    <value>Acceptă termenii si condițiile</value>
+  </data>
+  <data name="login_window_checkbox_terms_of_service_button" xml:space="preserve">
+    <value>de aici</value>
+  </data>
+  <data name="login_window_dialog_logging_in_text" xml:space="preserve">
+    <value>Vă rugăm să așteptați în timp ce se  încarcă informațiile contului dvs. și alte date...</value>
+  </data>
+  <data name="login_window_dialog_logging_in_title" xml:space="preserve">
+    <value>Se procesează logarea</value>
+  </data>
+  <data name="login_window_form_divider_placeholder_1" xml:space="preserve">
+    <value>Sau poți alege altceva</value>
+  </data>
+  <data name="login_window_form_divider_placeholder_2" xml:space="preserve">
+    <value>Sau te poți ȋntoarce</value>
+  </data>
+  <data name="login_window_form_textbox_recovery_code" xml:space="preserve">
+    <value>..cod de recuperare</value>
+  </data>
+  <data name="login_window_form_textbox_register_email" xml:space="preserve">
+    <value>Adresă email</value>
+  </data>
+  <data name="login_window_form_textbox_register_username" xml:space="preserve">
+    <value>Utilizator</value>
+  </data>
+  <data name="login_window_form_textbox_username" xml:space="preserve">
+    <value>Utilizator sau email</value>
+  </data>
+  <data name="login_window_powered_by" xml:space="preserve">
+    <value>Dezvoltat de</value>
+  </data>
+  <data name="login_window_tos_title" xml:space="preserve">
+    <value>TERMENI ŞI CONDIŢII</value>
+  </data>
+  <data name="page_account_info_account_active" xml:space="preserve">
+    <value>Cont activ</value>
+  </data>
+  <data name="page_account_info_account_banned_until" xml:space="preserve">
+    <value>Cont interzis până la</value>
+  </data>
+  <data name="page_account_info_account_inventory" xml:space="preserve">
+    <value>INVENTAR ACONT</value>
+  </data>
+  <data name="page_account_info_button_teleport" xml:space="preserve">
+    <value>COMITE</value>
+  </data>
+  <data name="page_account_info_button_unstuck" xml:space="preserve">
+    <value>DEBLOCHEAZĂ</value>
+  </data>
+  <data name="page_account_info_button_update" xml:space="preserve">
+    <value>ACTUALIZEAZĂ</value>
+  </data>
+  <data name="page_account_info_destination" xml:space="preserve">
+    <value>Destinație</value>
+  </data>
+  <data name="page_account_info_dialog_profile_info" xml:space="preserve">
+    <value>Doriți să vă schimbați nickname-ul în 🡢</value>
+  </data>
+  <data name="page_account_info_dialog_profile_title" xml:space="preserve">
+    <value>Actualizare Nickname</value>
+  </data>
+  <data name="page_account_info_dialog_teleport_info" xml:space="preserve">
+    <value>Doriți să teleportați 🡢 {0} la {1}</value>
+  </data>
+  <data name="page_account_info_dialog_teleport_title" xml:space="preserve">
+    <value>Teleportare caracter</value>
+  </data>
+  <data name="page_account_info_dialog_unstuck_info" xml:space="preserve">
+    <value>Doriți să deblocați 🡢</value>
+  </data>
+  <data name="page_account_info_dialog_unstuck_title" xml:space="preserve">
+    <value>Deblocare caracter</value>
+  </data>
+  <data name="page_account_info_last_ip" xml:space="preserve">
+    <value>Ultim-ul IP</value>
+  </data>
+  <data name="page_account_info_last_login_on" xml:space="preserve">
+    <value>Ultima logare</value>
+  </data>
+  <data name="page_account_info_my_characters" xml:space="preserve">
+    <value>CARACTERELE MELE</value>
+  </data>
+  <data name="page_account_info_my_tickets_list" xml:space="preserve">
+    <value>Lista dvs. de tichete</value>
+  </data>
+  <data name="page_account_info_public_profile_id" xml:space="preserve">
+    <value>Nickname-ul public</value>
+  </data>
+  <data name="page_account_info_teleport_a_character" xml:space="preserve">
+    <value>Teleportați un caracter</value>
+  </data>
+  <data name="page_account_info_text_loading_characters" xml:space="preserve">
+    <value>Se încarcă caracterele, așteptați...</value>
+  </data>
+  <data name="page_account_info_text_loading_destinations" xml:space="preserve">
+    <value>Se încarcă destinațiile, așteptați..</value>
+  </data>
+  <data name="page_account_info_text_no_characters" xml:space="preserve">
+    <value>Nu aveți nici un caracter..</value>
+  </data>
+  <data name="page_account_info_text_no_destinations" xml:space="preserve">
+    <value>Nici o destinație disponibilă</value>
+  </data>
+  <data name="page_account_info_text_no_tickets" xml:space="preserve">
+    <value>Nu aveți nici un tichet</value>
+  </data>
+  <data name="page_account_info_text_require_character" xml:space="preserve">
+    <value>Vă rugăm selectați un caracter</value>
+  </data>
+  <data name="page_account_info_text_require_destination" xml:space="preserve">
+    <value>Vă rugăm selectați o destinație</value>
+  </data>
+  <data name="page_account_info_unstuck_a_character" xml:space="preserve">
+    <value>Deblochează un caracter</value>
+  </data>
+  <data name="page_account_inventory_title" xml:space="preserve">
+    <value>INVENTAR CONT</value>
+  </data>
+  <data name="page_addons_title" xml:space="preserve">
+    <value>ADDON-URI</value>
+  </data>
+  <data name="page_changelogs_title" xml:space="preserve">
+    <value>JURNAL SCHIMBĂRI</value>
+  </data>
+  <data name="page_characters_market_button_cancel_sale" xml:space="preserve">
+    <value>Anulează</value>
+  </data>
+  <data name="page_characters_market_button_more_info" xml:space="preserve">
+    <value>Mai mult..</value>
+  </data>
+  <data name="page_characters_market_button_my_sales" xml:space="preserve">
+    <value>VÂNZĂRILE DVS</value>
+  </data>
+  <data name="page_characters_market_button_search" xml:space="preserve">
+    <value>CAUTA</value>
+  </data>
+  <data name="page_characters_market_button_sell" xml:space="preserve">
+    <value>VINDE</value>
+  </data>
+  <data name="page_characters_market_card_text_expires_in" xml:space="preserve">
+    <value>Expiră în</value>
+  </data>
+  <data name="page_characters_market_card_text_fixed_price" xml:space="preserve">
+    <value>Preț fix</value>
+  </data>
+  <data name="page_characters_market_card_text_gold" xml:space="preserve">
+    <value>Aur:</value>
+  </data>
+  <data name="page_characters_market_card_text_highest_bid" xml:space="preserve">
+    <value>Ofertă curentă</value>
+  </data>
+  <data name="page_characters_market_card_text_level" xml:space="preserve">
+    <value>Level:</value>
+  </data>
+  <data name="page_characters_market_card_text_professions" xml:space="preserve">
+    <value>Profesii:</value>
+  </data>
+  <data name="page_characters_market_card_text_pvp_score" xml:space="preserve">
+    <value>Scor PvP:</value>
+  </data>
+  <data name="page_characters_market_dialog_button_armory" xml:space="preserve">
+    <value>SPRE ARMORY</value>
+  </data>
+  <data name="page_characters_market_dialog_subtitle_won_auction" xml:space="preserve">
+    <value>Ai câștigat licitația</value>
+  </data>
+  <data name="page_characters_market_dialog_text_buy_bid_amount" xml:space="preserve">
+    <value>Oferta ta</value>
+  </data>
+  <data name="page_characters_market_dialog_text_current_bid" xml:space="preserve">
+    <value>Licitare curentă</value>
+  </data>
+  <data name="page_characters_market_dialog_text_dp" xml:space="preserve">
+    <value>DP</value>
+  </data>
+  <data name="page_characters_market_dialog_text_gold_held" xml:space="preserve">
+    <value>Cantitatea de aur deținută:</value>
+  </data>
+  <data name="page_characters_market_dialog_text_professions" xml:space="preserve">
+    <value>profesii invățate</value>
+  </data>
+  <data name="page_characters_market_dialog_text_pvp_score" xml:space="preserve">
+    <value>Scorul PvP atins:</value>
+  </data>
+  <data name="page_characters_market_dialog_text_sale_price" xml:space="preserve">
+    <value>Preț de vânzare</value>
+  </data>
+  <data name="page_characters_market_dialog_title_congratulations" xml:space="preserve">
+    <value>Felicitări</value>
+  </data>
+  <data name="page_characters_market_requested_price" xml:space="preserve">
+    <value>Preț dorit</value>
+  </data>
+  <data name="page_characters_market_starting_bid_price" xml:space="preserve">
+    <value>Prețul inițial de licitație</value>
+  </data>
+  <data name="page_characters_market_textbox_player_search" xml:space="preserve">
+    <value>Nume jucător</value>
+  </data>
+  <data name="page_characters_market_title" xml:space="preserve">
+    <value>BAZAR CARACTERE</value>
+  </data>
+  <data name="page_create_message_button_back" xml:space="preserve">
+    <value>INAPOI LA MESAJE</value>
+  </data>
+  <data name="page_create_message_button_send" xml:space="preserve">
+    <value>TRIMITE MESAJ</value>
+  </data>
+  <data name="page_create_message_dialog_delivery_title" xml:space="preserve">
+    <value>Livrare mesaj</value>
+  </data>
+  <data name="page_create_message_dialog_info" xml:space="preserve">
+    <value>Doriți să trimiteți mesajul pe care l-ați compus?</value>
+  </data>
+  <data name="page_create_message_dialog_title" xml:space="preserve">
+    <value>Trimite mesaj</value>
+  </data>
+  <data name="page_create_message_textbox_message_subject" xml:space="preserve">
+    <value>Subiect</value>
+  </data>
+  <data name="page_create_message_textbox_nickname" xml:space="preserve">
+    <value>Nickname-ul destinatarului</value>
+  </data>
+  <data name="page_create_message_text_characters" xml:space="preserve">
+    <value>Caractere:</value>
+  </data>
+  <data name="page_create_message_title" xml:space="preserve">
+    <value>CREAZA UN NOU MESAJ</value>
+  </data>
+  <data name="page_faq_title" xml:space="preserve">
+    <value>ÎNTREBĂRI FRECVENTE</value>
+  </data>
+  <data name="page_ladderboards_column_class" xml:space="preserve">
+    <value>CLASĂ</value>
+  </data>
+  <data name="page_ladderboards_column_name" xml:space="preserve">
+    <value>NUME</value>
+  </data>
+  <data name="page_ladderboards_column_race" xml:space="preserve">
+    <value>RASĂ</value>
+  </data>
+  <data name="page_ladderboards_column_realm_name" xml:space="preserve">
+    <value>REALM</value>
+  </data>
+  <data name="page_ladderboards_column_today_kills" xml:space="preserve">
+    <value>UCIDERI ASTĂZI</value>
+  </data>
+  <data name="page_ladderboards_column_total_kills" xml:space="preserve">
+    <value>TOTAL UCIDERI</value>
+  </data>
+  <data name="page_ladderboards_column_yesterday_kills" xml:space="preserve">
+    <value>UCIDERI IERI</value>
+  </data>
+  <data name="page_ladderboards_title" xml:space="preserve">
+    <value>TOP JUCĂTORI</value>
+  </data>
+  <data name="page_loading_message" xml:space="preserve">
+    <value>Pagina se încarcă, așteptați..</value>
+  </data>
+  <data name="page_locked_message" xml:space="preserve">
+    <value>Pagina este blocată temporar, vă rugăm să reveniți mai târziu..</value>
+  </data>
+  <data name="page_login_rewards_title" xml:space="preserve">
+    <value>RECOMPENSE LOGARE</value>
+  </data>
+  <data name="page_messages_button_create_new" xml:space="preserve">
+    <value>Mesaj nou</value>
+  </data>
+  <data name="page_messages_title" xml:space="preserve">
+    <value>MESAJE PRIVATE</value>
+  </data>
+  <data name="page_message_view_button_back" xml:space="preserve">
+    <value>ÎNAPOI</value>
+  </data>
+  <data name="page_message_view_button_reply" xml:space="preserve">
+    <value>RĂSPUNDE</value>
+  </data>
+  <data name="page_message_view_dialog_delivery_title" xml:space="preserve">
+    <value>Răspuns mesaj</value>
+  </data>
+  <data name="page_message_view_dialog_info" xml:space="preserve">
+    <value>Doriți să trimiteți răspunsul pe care l-ați compus?</value>
+  </data>
+  <data name="page_message_view_dialog_title" xml:space="preserve">
+    <value>Trimite noul răspuns</value>
+  </data>
+  <data name="page_message_view_textbox_reply" xml:space="preserve">
+    <value>Răspunsul tău..</value>
+  </data>
+  <data name="page_online_players_title" xml:space="preserve">
+    <value>JUCĂTORI ONLINE</value>
+  </data>
+  <data name="page_shop_all_categories" xml:space="preserve">
+    <value>Toate categoriile</value>
+  </data>
+  <data name="page_shop_dialog_title_fail" xml:space="preserve">
+    <value>Eșuat</value>
+  </data>
+  <data name="page_shop_dialog_title_success" xml:space="preserve">
+    <value>Succes</value>
+  </data>
+  <data name="page_shop_title" xml:space="preserve">
+    <value>MAGAZIN</value>
+  </data>
+  <data name="page_vote_title" xml:space="preserve">
+    <value>VOTEAZĂ SĂ CÂȘTIGI PUNCTE</value>
+  </data>
+  <data name="slider_button_learn_more" xml:space="preserve">
+    <value>MAI MULT</value>
+  </data>
+  <data name="vote_button" xml:space="preserve">
+    <value>VOTEAZĂ</value>
+  </data>
+  <data name="vote_dialog_text" xml:space="preserve">
+    <value>Votează pentru acest site ({0})?</value>
+  </data>
+  <data name="vote_dialog_title" xml:space="preserve">
+    <value>Votează site</value>
+  </data>
+  <data name="vote_text_cooldown_left" xml:space="preserve">
+    <value>Timp de așteptare:</value>
+  </data>
+  <data name="vote_text_points_reward" xml:space="preserve">
+    <value>Puncte recompensă:</value>
+  </data>
+  <data name="vote_text_ready" xml:space="preserve">
+    <value>Pregătit</value>
+  </data>
+  <data name="window_game_login_overlay_button_continue" xml:space="preserve">
+    <value>Continuă manual..</value>
+  </data>
+  <data name="window_game_login_text_game_loaded" xml:space="preserve">
+    <value>JOCUL S-A ÎNCĂRCAT, POȚI JUCA</value>
+  </data>
+  <data name="window_game_login_text_wait" xml:space="preserve">
+    <value>VĂ RUGĂM AȘTEPTAȚI CA JOCUL SĂ SE ÎNCARCE MAI ÎNTÂI, APOI VĂ PUTEȚI CONECTA!</value>
+  </data>
+</root>

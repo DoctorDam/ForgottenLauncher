@@ -1,0 +1,209 @@
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\bin\install_net_framework_4.8_runtime.htm
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\bin\Assets\mp4\world-of-warcraft-legion.1920x1080.mp4
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\bin\Forgotten Land Launcher.exe
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\bin\Forgotten Land Launcher.pdb
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\bin\bg\Forgotten Land Launcher.resources.dll
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\bin\es\Forgotten Land Launcher.resources.dll
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\bin\ko\Forgotten Land Launcher.resources.dll
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\bin\de\Forgotten Land Launcher.resources.dll
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\bin\ru\Forgotten Land Launcher.resources.dll
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\bin\ro\Forgotten Land Launcher.resources.dll
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Launcher.csproj.AssemblyReference.cache
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Buttons\GameButtonMore.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Buttons\LeftMenuButton.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Dropdowns\Language_Dropdown_Menu.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Account_Info\Inventory_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Account_Info\Teleport_Dropdown_Row.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Account_Info\Ticket_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Account_Inventory\Character_Dropdown_Row.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Account_Inventory\Inventory_Reward.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Changelogs\Day_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Changelogs\Changelog_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Characters_Market\Profession_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Faq\Faq_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Ladderboard\Ladderboard_Row.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\News\Article_Card.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Popups\Darkness_Fog.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Private_Messages\Topic_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Realms\Server_Status_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Shop\Shop_Card.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Shop\Shop_Category_Button.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Spinners\Dotted_Spinner.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Slider\Slider_Dot.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Styles\ToggleButtons.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Styles\Dropdowns.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Styles\PasswordBoxes.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Styles\CheckBoxes.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Styles\TextBoxes.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Styles\ProgressBars.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Styles\ScrollViewers.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Styles\Buttons.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Character_Market_Buy_Dialog.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Character_Market_Sell_Dialog.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Character_Market_Notifications_Dialog.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Buttons\GameButtonCancelUpdate.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Buttons\GameButtonUpdate.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Buttons\GameButtonMore.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Buttons\GameButtonPlay.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Buttons\LeftMenuButton.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Dropdowns\Language_Dropdown_Menu.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Popups\Game_Path_Request.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Togglers\Toggle_Switch.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Account_Info\Inventory_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Account_Info\Character_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Account_Info\Teleport_Dropdown_Row.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Account_Info\Ticket_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Account_Inventory\Character_Dropdown_Row.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Account_Inventory\Inventory_Reward.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Addons\Server_Addon_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Addons\Local_Addon_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Changelogs\Day_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Changelogs\Changelog_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Characters_Market\Character_Card.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Characters_Market\Dialog_Character_Won.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Characters_Market\Profession_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Discord\Member_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Discord\Discord_Widget.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Events\Events_Card.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Faq\Faq_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Ladderboard\Ladderboard_Row.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Login_Rewards\Reward_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\News\Article_Card.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\News\Article_Medium_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Popups\Darkness_Fog.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Popups\Popup_Message.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Popups\Game_More_Options.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Online_Players\Player_Row.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Private_Messages\Message_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Private_Messages\Reply_Box.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Private_Messages\Topic_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Realms\Server_Status_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Shop\Shop_Card.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Shop\Shop_Category_Button.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Slider\Home_Slider.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Spinners\Dotted_Spinner.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Slider\Slider_Dot.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Vote\Vote_Span.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Account_Info.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Online_Players.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Ladderboard.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Characters_Market.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Article_Viewer.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Vote.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Addons.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Faq.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Shop.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Changelog.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Account_Inventory.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Private_Message_View.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Private_Message_New.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Private_Messages.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Login_Rewards.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Events.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Discord.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\News.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Home.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Avatar_Settings_Dialog.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Shop_Article_Dialog.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Inventory_Reward_Dialog.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Login_Reward_Dialog.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\General_Buy_Dialog.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Redeem_Gift_Dialog.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Request_Confirmation_Dialog.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Confirmation_Dialog.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Wait_Dialog.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forms\Recovery_Form.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forms\Password_Change_Form.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forms\Register_Form.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forms\Login_Form.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forms\Register_Tos_Form.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Windows\Game_Login_Overlay.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Windows\Launcher.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Windows\Login.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\App.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forgotten Land Launcher_Content.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forgotten Land Launcher_MarkupCompile.cache
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forgotten Land Launcher_MarkupCompile.lref
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\App.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Character_Market_Buy_Dialog.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Character_Market_Sell_Dialog.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Character_Market_Notifications_Dialog.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Buttons\GameButtonCancelUpdate.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Buttons\GameButtonUpdate.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Buttons\GameButtonPlay.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Popups\Game_Path_Request.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Togglers\Toggle_Switch.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Account_Info\Character_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Addons\Server_Addon_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Addons\Local_Addon_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Characters_Market\Character_Card.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Characters_Market\Dialog_Character_Won.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Discord\Member_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Discord\Discord_Widget.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Events\Events_Card.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Login_Rewards\Reward_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\News\Article_Medium_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Popups\Popup_Message.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Elements\Popups\Game_More_Options.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Online_Players\Player_Row.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Private_Messages\Message_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Private_Messages\Reply_Box.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Slider\Home_Slider.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Modules\Vote\Vote_Span.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Account_Info.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Online_Players.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Ladderboard.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Characters_Market.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Article_Viewer.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Vote.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Addons.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Faq.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Shop.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Changelog.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Account_Inventory.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Private_Message_View.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Private_Message_New.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Private_Messages.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Login_Rewards.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Events.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Discord.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\News.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Pages\Home.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Avatar_Settings_Dialog.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Shop_Article_Dialog.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Inventory_Reward_Dialog.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Login_Reward_Dialog.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\General_Buy_Dialog.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Redeem_Gift_Dialog.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Request_Confirmation_Dialog.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Confirmation_Dialog.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Dialogs\Wait_Dialog.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forms\Recovery_Form.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forms\Password_Change_Form.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forms\Register_Form.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forms\Login_Form.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forms\Register_Tos_Form.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Windows\Game_Login_Overlay.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Windows\Launcher.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Windows\Login.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forgotten Land Launcher.g.resources
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forgotten_Land_Launcher.Languages.Lang.resources
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forgotten_Land_Launcher.Properties.Resources.resources
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forgotten_Land_Launcher.Languages.Lang.bg.resources
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forgotten_Land_Launcher.Languages.Lang.es.resources
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forgotten_Land_Launcher.Languages.Lang.ko.resources
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forgotten_Land_Launcher.Languages.Lang.de.resources
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forgotten_Land_Launcher.Languages.Lang.ru.resources
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forgotten_Land_Launcher.Languages.Lang.ro.resources
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Launcher.csproj.GenerateResource.cache
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Launcher.csproj.CoreCompileInputs.cache
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\bg\Forgotten Land Launcher.resources.dll
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\es\Forgotten Land Launcher.resources.dll
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\ko\Forgotten Land Launcher.resources.dll
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\de\Forgotten Land Launcher.resources.dll
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\ru\Forgotten Land Launcher.resources.dll
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\ro\Forgotten Land Launcher.resources.dll
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Launcher.csproj.Up2Date
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forgotten Land Launcher.exe
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\Forgotten Land Launcher.pdb

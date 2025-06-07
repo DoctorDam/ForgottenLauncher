@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher", "projects\Launcher\Launcher.csproj", "{93003903-6CA1-4A28-86B3-D3B5A34AA89C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selfupdater", "projects\Selfupdater\Selfupdater.csproj", "{2400BD22-1D4A-4B75-963B-868A956A6E7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93003903-6CA1-4A28-86B3-D3B5A34AA89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93003903-6CA1-4A28-86B3-D3B5A34AA89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93003903-6CA1-4A28-86B3-D3B5A34AA89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93003903-6CA1-4A28-86B3-D3B5A34AA89C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2400BD22-1D4A-4B75-963B-868A956A6E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2400BD22-1D4A-4B75-963B-868A956A6E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2400BD22-1D4A-4B75-963B-868A956A6E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2400BD22-1D4A-4B75-963B-868A956A6E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {261F37A5-43AA-42A1-A559-23ABA6E4F830}
+	EndGlobalSection
+EndGlobal

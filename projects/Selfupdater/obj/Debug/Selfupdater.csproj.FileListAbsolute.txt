@@ -1,0 +1,16 @@
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\bin\Launcher Selfupdater.exe
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\Selfupdater.csproj.AssemblyReference.cache
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\Styles\ProgressBars.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\Styles\Buttons.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\Windows\Updater_Window.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\App.g.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\Launcher Selfupdater_MarkupCompile.cache
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\Launcher Selfupdater_MarkupCompile.lref
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\App.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\Windows\Updater_Window.baml
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\Launcher Selfupdater.g.resources
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\Launcher_Selfupdater.Properties.Resources.resources
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\Selfupdater.csproj.GenerateResource.cache
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\Selfupdater.csproj.CoreCompileInputs.cache
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\Selfupda.8577CA40.Up2Date
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Selfupdater\obj\Debug\Launcher Selfupdater.exe

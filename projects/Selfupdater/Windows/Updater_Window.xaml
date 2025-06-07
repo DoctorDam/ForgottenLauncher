@@ -1,0 +1,67 @@
+﻿<Window x:Name="window" x:Class="Launcher_Selfupdater.Updater_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Launcher_Selfupdater"
+        xmlns:properties="clr-namespace:Launcher_Selfupdater.Properties"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None" 
+        AllowsTransparency="True"
+        ResizeMode="CanMinimize"
+        RenderOptions.BitmapScalingMode="HighQuality"
+        Background="{x:Null}" Foreground="#FFBFBFBF"
+        Title="{Binding ServerName, Source={x:Static properties:Settings.Default}, StringFormat={}{0} - Updater}" Height="300" Width="620"
+        FontFamily="Fira Sans Condensed Black" FontSize="14">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="60" ResizeBorderThickness="1" GlassFrameThickness="0" 
+                  CornerRadius="0" UseAeroCaptionButtons="False"/>
+    </WindowChrome.WindowChrome>
+    <Border x:Name="border1" CornerRadius="10" Width="600" Height="300" Background="#FF1b1b1b" BorderBrush="#FF252525" BorderThickness="1.5" VerticalAlignment="Top">
+        <Border.Effect>
+            <DropShadowEffect ShadowDepth="0" BlurRadius="15" Opacity="0.8" Direction="315" Color="Black"/>
+        </Border.Effect>
+        <Border CornerRadius="9">
+            <Border.Background>
+                <ImageBrush ImageSource="/Launcher Selfupdater;component/Assets/backgrounds/working_human_female.png" Stretch="UniformToFill" Opacity="0.25"/>
+            </Border.Background>
+            <Grid>
+                <Grid WindowChrome.IsHitTestVisibleInChrome="True" VerticalAlignment="Top">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" FlowDirection="RightToLeft">
+                        <Button Style="{DynamicResource windowExitButton}" x:Name="windowExitButton" Content="X" Width="30" Height="25" Background="#FF292929"
+                            BorderBrush="{x:Null}" Foreground="#FF6B6B6B" FontFamily="Microsoft Sans Serif" FontSize="14" Click="windowExitButton_Click"/>
+                        <Button Style="{DynamicResource windowMinimizeButton}" x:Name="windowMinimizeButton" Content="⎯" Width="30" Height="25" Background="#FF292929" 
+                            BorderBrush="{x:Null}" Foreground="#FF6B6B6B" FontFamily="Microsoft Sans Serif" FontSize="14" Click="windowMinimizeButton_Click"/>
+                    </StackPanel>
+                </Grid>
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                    <TextBlock Text="{Binding ServerName, Source={x:Static properties:Settings.Default}, StringFormat={}{0}}" Foreground="White" FontSize="36" FontWeight="Bold" Width="545" TextTrimming="CharacterEllipsis" TextAlignment="Center"/>
+                    <TextBlock Text="App Updater" HorizontalAlignment="Center"/>
+                </StackPanel>
+                <ProgressBar x:Name="downloadBar" ClipToBounds="True" Style="{DynamicResource ProgressBarStyle1}" Height="10" Background="#FF1E1A1D" BorderBrush="{x:Null}" BorderThickness="0,0,0,0" Foreground="White" VerticalAlignment="Bottom" Margin="10,0,10,10"/>
+                <StackPanel x:Name="spInitials" Orientation="Vertical" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10,0,0,25" Width="568">
+                    <TextBlock x:Name="initialsHolder" Text="Please wait while retrieving data.." Foreground="White"/>
+                </StackPanel>
+                <StackPanel x:Name="spIntegrity" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10,0,0,25" Visibility="Collapsed">
+                    <TextBlock Foreground="White">
+                        <Run Text="Verifying integrity of"/>
+                        <Run x:Name="checkFile" Text="filename"/>
+                        <Run Text=".."/>
+                    </TextBlock>
+                </StackPanel>
+                <StackPanel x:Name="spDownloads" Visibility="Collapsed" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10,0,0,25">
+                    <TextBlock Foreground="White">
+                        <Run Text="Downloading updates"/>
+                        <Run Text="-"/>
+                        <Run Text="0%" x:Name="dlTotalProgress"/>
+                        <!--<Run Text="0KB" x:Name="dlTotalDownloaded" Foreground="#FFC7C7C7"/>
+                        <Run Text="/"/>
+                        <Run Text="0KB" x:Name="dlTotalToDownload" Foreground="#FFC7C7C7"/>
+                        <Run Text="@0 MB/s.." x:Name="dlSpeed"/>-->
+                    </TextBlock>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Border>
+</Window>

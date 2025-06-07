@@ -1,0 +1,118 @@
+<UserControl x:Class="Forgotten_Land_Launcher.Pages.Account_Info"
+             xmlns:Spinners="clr-namespace:Forgotten_Land_Launcher.Elements.Spinners"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Forgotten_Land_Launcher.Pages"
+             xmlns:Account_Info="clr-namespace:Forgotten_Land_Launcher.Modules.Account_Info"
+             xmlns:languages="clr-namespace:Forgotten_Land_Launcher.Languages"
+             mc:Ignorable="d" RenderOptions.BitmapScalingMode="HighQuality"
+             Width="930" Height="625" Foreground="White">
+    <Border CornerRadius="5" Background="#7F151515" BorderThickness="0.5" BorderBrush="#FF232323">
+        <Grid>
+            <Border HorizontalAlignment="Left" VerticalAlignment="Top" CornerRadius="5" Background="#FF151515" BorderBrush="#FF252525" BorderThickness="0" Margin="15,15,0,0" Width="650" Height="590">
+                <Grid>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,25,0,0">
+                        <TextBlock Text="{x:Static languages:Lang.page_account_info_public_profile_id}" Foreground="#FF7F7F7F" Margin="35,0,0,0" FontWeight="Bold"/>
+                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                            <Image Source="/Forgotten Land Launcher;component/Assets/icons/icon_profile_2_a.png" Width="25" Margin="0,0,10,0" Opacity="0.45"/>
+                            <Grid HorizontalAlignment="Center">
+                                <TextBox x:Name="nicknameTextbox" Style="{DynamicResource inputTextBox2}" FontFamily="Fira Sans Condensed" FontSize="14" Text="enter a profile id" Padding="30,7,10,7" Background="#FF1F1A0B" Foreground="#FF8C8C8C" BorderBrush="#FF2F2713" Width="250" Height="35" VerticalContentAlignment="Center" SelectionBrush="#FF75652C" GotFocus="TextBox_GotFocus"/>
+                                <!--<Image Source="/Forgotten Land Launcher;component/Assets/Icons/icon_people_1_a.png" Width="14" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>-->
+                                <TextBlock Text="#" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15,0,0,0" Foreground="DarkOrange"/>
+                            </Grid>
+                            <Button x:Name="btnUpdatePID" Style="{DynamicResource buttonUpdatePID}" Content="{x:Static languages:Lang.page_account_info_button_update}" Margin="10,0,0,0" Padding="10,1,10,1" Background="#FFFF9800" Foreground="Black" BorderBrush="#FF2F2713" FontWeight="Bold" FontSize="11" Height="30" Cursor="Hand" Click="btnUpdatePID_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,25,15,0">
+                        <TextBlock Foreground="#FF7F7F7F">
+                            <Run Text="{x:Static languages:Lang.page_account_info_last_login_on}" Foreground="#FFC7C7C7"/>
+                            <Run x:Name="lastLoginHolder" Text="Today" Foreground="#FFDADADA"/>
+                        </TextBlock>
+                        <Border CornerRadius="5" Background="#D81D1D1D" BorderBrush="#FF252525" BorderThickness="1,1,1,1" Margin="0,10,0,0" Height="35" MaxWidth="200">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Margin="15,0,10,0" Foreground="#FF8C8C8C" TextTrimming="CharacterEllipsis" MaxHeight="140">
+                                    <Run Text="{x:Static languages:Lang.page_account_info_last_ip}"/>
+                                    <Run x:Name="lastIPHolder" Text="0.0.0.0" Foreground="#FFDADADA"/>
+                                </TextBlock>
+                                <Button x:Name="btnCopyIP" Style="{DynamicResource buttonCopy}" Background="{x:Null}" BorderBrush="{x:Null}" Cursor="Hand" Height="18" Margin="0,0,15,0" HorizontalAlignment="Right" Click="btnCopyIP_Click">
+                                    <Image Source="/Forgotten Land Launcher;component/Assets/icons/icon_copy_1_a.png"/>
+                                </Button>
+                            </StackPanel>
+                        </Border>
+                        <Border CornerRadius="5" Background="#D81D1D1D" BorderBrush="#FF252525" BorderThickness="1,1,1,1" Margin="0,10,0,0" MinHeight="35" MaxWidth="200" Padding="0,10,0,10">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <TextBlock x:Name="accountStatusHolder" Text="Account Status" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,10,0" Foreground="#FF8C8C8C" TextTrimming="CharacterEllipsis" MaxWidth="180" MaxHeight="80" TextWrapping="Wrap" TextAlignment="Center"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                    <StackPanel Margin="15,110,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <StackPanel>
+                            <TextBlock Text="{x:Static languages:Lang.page_account_info_unstuck_a_character}" Foreground="#FF7F7F7F" HorizontalAlignment="Left" Margin="35,0,0,0" FontWeight="Bold"/>
+                            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                <Image Source="/Forgotten Land Launcher;component/Assets/icons/icon_help_1_a.png" Width="25" Margin="0,0,10,0" Opacity="0.45"/>
+                                <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="cbUnstuckCharacters" Padding="7,7,7,7" Width="250" SelectedIndex="0" Foreground="#FF8C8C8C" IsEnabled="False" SelectionChanged="cbUnstuckCharacters_SelectionChanged"/>
+                                <Button x:Name="btnUnstuck" Style="{DynamicResource buttonUpdatePID}" Content="{x:Static languages:Lang.page_account_info_button_unstuck}" Margin="10,0,0,0" Padding="10,1,10,1" Background="#FFFF9800" Foreground="Black" BorderBrush="#FF2F2713" FontWeight="Bold" FontSize="11" Height="30" Cursor="Hand" Click="btnUnstuck_Click"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Margin="15,190,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{x:Static languages:Lang.page_account_info_teleport_a_character}" Foreground="#FF7F7F7F" HorizontalAlignment="Left" Margin="35,0,0,0" FontWeight="Bold"/>
+                                <TextBlock Text="{x:Static languages:Lang.page_account_info_destination}" Foreground="#FF7F7F7F" HorizontalAlignment="Left" Margin="183,0,0,0" FontWeight="Bold"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                <Image Source="/Forgotten Land Launcher;component/Assets/icons/icon_portal_1_a.png" Width="25" Margin="0,0,10,0" Opacity="0.45"/>
+                                <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="cbTeleportCharacters" Padding="7,7,7,7" Width="250" SelectedIndex="0" Foreground="#FF8C8C8C" IsEnabled="False" SelectionChanged="cbTeleportCharacters_SelectionChanged"/>
+                                <Image Source="/Forgotten Land Launcher;component/Assets/icons/icon_arrow_right_1_a.png" Width="25" Margin="10,0,10,0" Opacity="0.45"/>
+                                <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="cbTeleportList" Padding="7,7,7,7" Width="200" SelectedIndex="0" Foreground="#FF8C8C8C" IsEnabled="False" SelectionChanged="cbTeleportList_SelectionChanged" VerticalContentAlignment="Center"/>
+                                <Button x:Name="btnTeleport" Style="{DynamicResource buttonUpdatePID}" Content="{x:Static languages:Lang.page_account_info_button_teleport}" Margin="10,0,0,0" Padding="10,1,10,1" Background="#FFFF9800" Foreground="Black" BorderBrush="#FF2F2713" FontWeight="Bold" FontSize="11" Height="30" Cursor="Hand" Width="85" Click="btnTeleport_Click"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,270,0,0" Width="620">
+                        <TextBlock Text="{x:Static languages:Lang.page_account_info_my_tickets_list}" Foreground="#FF7F7F7F" FontWeight="Bold"/>
+                        <StackPanel x:Name="spTicketRealms" Orientation="Horizontal" Margin="0,10,0,0">
+                            <Button Content="Realm One" Background="#00000000" Foreground="#FFBBBBBB" BorderBrush="{x:Null}" FontWeight="Bold"/>
+                            <Border BorderThickness="1" BorderBrush="#FF212121" Margin="5,0,5,0" Height="12" VerticalAlignment="Center"/>
+                            <Button Content="Realm Two" Background="#00000000" Foreground="#FFBBBBBB" BorderBrush="{x:Null}"/>
+                        </StackPanel>
+                        <Border CornerRadius="5" BorderThickness="0" Margin="0,10,0,0" Background="#FF121212" BorderBrush="#FF212121">
+                            <ScrollViewer Style="{DynamicResource ScrollViewerOne}" Height="245">
+                                <StackPanel x:Name="spTicketsList"/>
+                            </ScrollViewer>
+                        </Border>
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,15,25,0">
+                <Border CornerRadius="5" Background="#FF151515" Padding="15,15,15,15" BorderBrush="#FF252525" BorderThickness="0" Width="220">
+                    <StackPanel>
+                        <TextBlock Text="{x:Static languages:Lang.page_account_info_my_characters}" FontWeight="Bold" FontSize="12" HorizontalAlignment="Left" Foreground="DarkOrange"/>
+                        <ScrollViewer Style="{DynamicResource ScrollViewerOne}" MaxHeight="250">
+                            <StackPanel x:Name="spCharactersList" Margin="0,5,0,0">
+                                <Viewbox Width="25" Height="25">
+                                    <Spinners:Dotted_Spinner />
+                                </Viewbox>
+                            </StackPanel>
+                        </ScrollViewer>
+                    </StackPanel>
+                </Border>
+                <Border CornerRadius="5" Background="#FF151515" Padding="15,15,15,15" BorderBrush="#FF252525" BorderThickness="0" Margin="0,15,0,0" Width="220">
+                    <StackPanel>
+                        <TextBlock Text="{x:Static languages:Lang.page_account_info_account_inventory}" FontWeight="Bold" FontSize="12" HorizontalAlignment="Left" Foreground="DarkOrange"/>
+                        <ScrollViewer Style="{DynamicResource ScrollViewerOne}" MaxHeight="250">
+                            <StackPanel x:Name="spInventoryList" Margin="0,5,0,0">
+                                <Viewbox Width="25" Height="25">
+                                    <Spinners:Dotted_Spinner />
+                                </Viewbox>
+                            </StackPanel>
+                        </ScrollViewer>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>

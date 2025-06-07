@@ -1,0 +1,21 @@
+<UserControl x:Class="Forgotten_Land_Launcher.Modules.Private_Messages.Reply_Box"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:languages="clr-namespace:Forgotten_Land_Launcher.Languages"
+             mc:Ignorable="d">
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/Forgotten Land Launcher;component/Assets/icons/icon_reply_1_a.png" Width="25" Margin="0,0,10,0" VerticalAlignment="Center" Opacity="0.75"/>
+                <TextBox x:Name="messageHolder" Style="{DynamicResource inputTextBox2}" AcceptsTab="True" 
+                    HorizontalAlignment="Left" Foreground="#FF4A4A4A" VerticalAlignment="Top" TextWrapping="Wrap"
+                    Background="#3F000000" Width="790" FontSize="14" BorderBrush="#3F2F2F2F" SelectionBrush="#FF75652C"
+                    FontFamily="Fira Sans Condensed" MaxLength="2500"
+                    Text="{x:Static languages:Lang.page_message_view_textbox_reply}" 
+                    AcceptsReturn="True" Padding="10,10,10,10" MinHeight="60"/>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

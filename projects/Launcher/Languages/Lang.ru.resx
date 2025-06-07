@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="article_text_on_date" xml:space="preserve">
+    <value>Дата 📅</value>
+  </data>
+  <data name="article_text_posted_by" xml:space="preserve">
+    <value>Опубликовано 👨</value>
+  </data>
+  <data name="dialog_addon_remove_info" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить аддон {0}?</value>
+  </data>
+  <data name="dialog_addon_remove_title" xml:space="preserve">
+    <value>Удалить Аддон</value>
+  </data>
+  <data name="dialog_avatar_change_text_picture_url" xml:space="preserve">
+    <value>Введите URL-адрес фотографии</value>
+  </data>
+  <data name="dialog_avatar_change_title" xml:space="preserve">
+    <value>Настройки аватара</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_text_dp" xml:space="preserve">
+    <value>Бонусы</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_text_vp" xml:space="preserve">
+    <value>Голоса</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_text_wait" xml:space="preserve">
+    <value>Пожалуйста, подождите, пока мы обработаем ваш запрос на покупку..</value>
+  </data>
+  <data name="dialog_buy_service_confirmation_total_cost" xml:space="preserve">
+    <value>Конечная Цена</value>
+  </data>
+  <data name="dialog_characters_market_add_require_duration" xml:space="preserve">
+    <value>Пожалуйста, выберите продолжительность</value>
+  </data>
+  <data name="dialog_characters_market_add_sale_commission" xml:space="preserve">
+    <value>Текущая комиссия:</value>
+  </data>
+  <data name="dialog_characters_market_add_sale_info" xml:space="preserve">
+    <value>Существует плата за продажу, которая будет удерживаться вами, когда персонаж будет продан</value>
+  </data>
+  <data name="dialog_characters_market_add_sale_title" xml:space="preserve">
+    <value>Рыночная Распродажа</value>
+  </data>
+  <data name="dialog_characters_market_text_max_price" xml:space="preserve">
+    <value>это должно быть максимально</value>
+  </data>
+  <data name="dialog_characters_market_text_min_price" xml:space="preserve">
+    <value>он должен быть минимальным</value>
+  </data>
+  <data name="dialog_characters_market_text_you_receive" xml:space="preserve">
+    <value>ты получишь</value>
+  </data>
+  <data name="dialog_inventory_item_acquired_on" xml:space="preserve">
+    <value>Приобретенный на</value>
+  </data>
+  <data name="dialog_inventory_item_claim_title" xml:space="preserve">
+    <value>Запрос инвентаря</value>
+  </data>
+  <data name="dialog_inventory_item_text_loading_characters" xml:space="preserve">
+    <value>Ваши персонажи загружаются..</value>
+  </data>
+  <data name="dialog_inventory_item_text_no_characters" xml:space="preserve">
+    <value>У вас нет персонажей</value>
+  </data>
+  <data name="dialog_inventory_item_text_require_character" xml:space="preserve">
+    <value>Пожалуйста, выберите персонажей</value>
+  </data>
+  <data name="dialog_inventory_item_text_require_input" xml:space="preserve">
+    <value>Пожалуйста, введите данные</value>
+  </data>
+  <data name="dialog_inventory_item_text_wait" xml:space="preserve">
+    <value>Пожалуйста, подождите, пока мы обработаем ваш запрошенный запрос..</value>
+  </data>
+  <data name="dialog_login_reward_text_wait" xml:space="preserve">
+    <value>Пожалуйста, подождите, пока мы обработаем ваш запрошенный запрос..</value>
+  </data>
+  <data name="dialog_login_reward_title" xml:space="preserve">
+    <value>Награда за вход</value>
+  </data>
+  <data name="dialog_redeem_gift_require_code" xml:space="preserve">
+    <value>Пожалуйста, введите код покупки</value>
+  </data>
+  <data name="dialog_redeem_gift_textbox_enter_code" xml:space="preserve">
+    <value>введите подарочный код</value>
+  </data>
+  <data name="dialog_redeem_gift_title" xml:space="preserve">
+    <value>Используйте свой подарочный код</value>
+  </data>
+  <data name="dialog_rquest_confirmation_text_wait" xml:space="preserve">
+    <value>Пожалуйста, подождите, пока мы обработаем ваш запрос..</value>
+  </data>
+  <data name="dialog_shop_article_text_dp" xml:space="preserve">
+    <value>Бонусы</value>
+  </data>
+  <data name="dialog_shop_article_text_total_cost" xml:space="preserve">
+    <value>Конечная Цена</value>
+  </data>
+  <data name="dialog_shop_article_text_vp" xml:space="preserve">
+    <value>Голоса</value>
+  </data>
+  <data name="discord_widget_text_loading" xml:space="preserve">
+    <value>Сервер Загружается..</value>
+  </data>
+  <data name="discord_widget_text_members_online" xml:space="preserve">
+    <value>Онлайн</value>
+  </data>
+  <data name="exit_dialog_text" xml:space="preserve">
+    <value>Вы уверены, что хотите выйти ?</value>
+  </data>
+  <data name="exit_dialog_title" xml:space="preserve">
+    <value>Закрыть лаунчер</value>
+  </data>
+  <data name="game_button_cancel_update" xml:space="preserve">
+    <value>ОСТАНОВИТЬ ОБНОВЛЕНИЕ</value>
+  </data>
+  <data name="game_button_play" xml:space="preserve">
+    <value>ИГРАТЬ</value>
+  </data>
+  <data name="game_button_update" xml:space="preserve">
+    <value>ОБНОВЛЕНИЕ</value>
+  </data>
+  <data name="game_popup_more_auto_clear_cache" xml:space="preserve">
+    <value>Автоматическая очистка кэша:</value>
+  </data>
+  <data name="game_popup_more_auto_login" xml:space="preserve">
+    <value>Автоматический вход</value>
+  </data>
+  <data name="game_popup_more_auto_login_title" xml:space="preserve">
+    <value>АВТО. ВХОД</value>
+  </data>
+  <data name="game_popup_more_check_for_updates" xml:space="preserve">
+    <value>Проверка</value>
+  </data>
+  <data name="game_popup_more_clear_cache_title" xml:space="preserve">
+    <value>ПОЧИСТИ КЭШ</value>
+  </data>
+  <data name="game_popup_more_hd_client_title" xml:space="preserve">
+    <value>HD Клиент:</value>
+  </data>
+  <data name="game_popup_more_hd_models" xml:space="preserve">
+    <value>HD Модели:</value>
+  </data>
+  <data name="game_popup_more_locate_game" xml:space="preserve">
+    <value>Выберите папку игры</value>
+  </data>
+  <data name="game_popup_more_options_title" xml:space="preserve">
+    <value>Параметры игры</value>
+  </data>
+  <data name="game_popup_more_select_language" xml:space="preserve">
+    <value>Язык:</value>
+  </data>
+  <data name="game_popup_more_select_language_title" xml:space="preserve">
+    <value>ВЫБЕРИТЕ ЯЗЫК</value>
+  </data>
+  <data name="game_popup_more_server_status_title" xml:space="preserve">
+    <value>СТАТУС СЕРВЕРА</value>
+  </data>
+  <data name="game_popup_more_toggle_disable" xml:space="preserve">
+    <value>Отключен</value>
+  </data>
+  <data name="game_popup_more_toggle_enable" xml:space="preserve">
+    <value>Включен</value>
+  </data>
+  <data name="game_popup_more_toggle_full_game" xml:space="preserve">
+    <value>Полная Игра</value>
+  </data>
+  <data name="game_popup_more_toggle_off" xml:space="preserve">
+    <value>Выкл.</value>
+  </data>
+  <data name="game_popup_more_toggle_on" xml:space="preserve">
+    <value>Вкл.</value>
+  </data>
+  <data name="game_popup_more_toggle_only_updates" xml:space="preserve">
+    <value>Автообновление</value>
+  </data>
+  <data name="game_popup_more_toggle_status_disabled" xml:space="preserve">
+    <value>Отллючен</value>
+  </data>
+  <data name="game_popup_more_toggle_status_enabled" xml:space="preserve">
+    <value>Включен</value>
+  </data>
+  <data name="game_popup_more_toggle_status_off" xml:space="preserve">
+    <value>Выкл.</value>
+  </data>
+  <data name="game_popup_more_toggle_status_on" xml:space="preserve">
+    <value>Вкл.</value>
+  </data>
+  <data name="game_popup_more_update_options" xml:space="preserve">
+    <value>Подтвердить:</value>
+  </data>
+  <data name="game_popup_more_update_options_title" xml:space="preserve">
+    <value>ПАРАМЕТРЫ ПРОВЕРКИ ИГРЫ</value>
+  </data>
+  <data name="game_popup_path_request_message" xml:space="preserve">
+    <value>Путь игры не задан, пожалуйста, просмотрите папку вашей игры!</value>
+  </data>
+  <data name="general_button_accept" xml:space="preserve">
+    <value>ПРИНЯТЬ</value>
+  </data>
+  <data name="general_button_browse_game" xml:space="preserve">
+    <value>ВЫБЕРИТЕ ПАПКУ ИГРЫ</value>
+  </data>
+  <data name="general_button_cancel" xml:space="preserve">
+    <value>ОТМЕНА</value>
+  </data>
+  <data name="general_button_claim" xml:space="preserve">
+    <value>ИСК</value>
+  </data>
+  <data name="general_button_exit" xml:space="preserve">
+    <value>ВЫХОД</value>
+  </data>
+  <data name="general_button_purchase" xml:space="preserve">
+    <value>ПОКУПКА</value>
+  </data>
+  <data name="general_button_readmore" xml:space="preserve">
+    <value>ЧИТАТЬ ДАЛЕЕ</value>
+  </data>
+  <data name="general_button_remove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="general_button_use" xml:space="preserve">
+    <value>Использовать</value>
+  </data>
+  <data name="general_dialog_text_processing" xml:space="preserve">
+    <value>Обработка</value>
+  </data>
+  <data name="general_text_addon_author" xml:space="preserve">
+    <value>Автор:</value>
+  </data>
+  <data name="general_text_addon_size" xml:space="preserve">
+    <value>Размер:</value>
+  </data>
+  <data name="general_text_addon_version" xml:space="preserve">
+    <value>Версия:</value>
+  </data>
+  <data name="general_text_discord_topic" xml:space="preserve">
+    <value>Тема:</value>
+  </data>
+  <data name="general_text_event_active_until" xml:space="preserve">
+    <value>Активен до</value>
+  </data>
+  <data name="general_text_level" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
+  <data name="general_text_ticket_closed" xml:space="preserve">
+    <value>Закрыто</value>
+  </data>
+  <data name="general_text_ticket_completed" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="general_text_ticket_pending" xml:space="preserve">
+    <value>В ожидании</value>
+  </data>
+  <data name="general_text_ticket_viewed" xml:space="preserve">
+    <value>Рассмотрено</value>
+  </data>
+  <data name="home_navbar_button_changelog" xml:space="preserve">
+    <value>Изменения</value>
+  </data>
+  <data name="home_navbar_button_discord" xml:space="preserve">
+    <value>Discord</value>
+  </data>
+  <data name="home_navbar_button_events" xml:space="preserve">
+    <value>Ивенты</value>
+  </data>
+  <data name="home_navbar_button_home" xml:space="preserve">
+    <value>Сайт</value>
+  </data>
+  <data name="home_navbar_button_news" xml:space="preserve">
+    <value>Новости</value>
+  </data>
+  <data name="home_profile_donate_points" xml:space="preserve">
+    <value>Бонусы</value>
+  </data>
+  <data name="home_profile_vote_points" xml:space="preserve">
+    <value>Голоса</value>
+  </data>
+  <data name="language_bulgarian" xml:space="preserve">
+    <value>Български</value>
+  </data>
+  <data name="language_russian" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="language_english" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="language_romanian" xml:space="preserve">
+    <value>Romanian</value>
+  </data>
+  <data name="left_menu_button_addons" xml:space="preserve">
+    <value>Addons</value>
+  </data>
+  <data name="left_menu_button_characters_market" xml:space="preserve">
+    <value>Магазин персонажей</value>
+  </data>
+  <data name="left_menu_button_faq" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="left_menu_button_forum" xml:space="preserve">
+    <value>Форум</value>
+  </data>
+  <data name="left_menu_button_home" xml:space="preserve">
+    <value>Сайт</value>
+  </data>
+  <data name="left_menu_button_ladderboard" xml:space="preserve">
+    <value>Ладдер</value>
+  </data>
+  <data name="left_menu_button_shop" xml:space="preserve">
+    <value>Магазин</value>
+  </data>
+  <data name="left_menu_button_vote" xml:space="preserve">
+    <value>Голоса</value>
+  </data>
+  <data name="login_day_button_claim" xml:space="preserve">
+    <value>ЗАЯВИТЕ СЕЙЧАС</value>
+  </data>
+  <data name="login_window_button_change_password" xml:space="preserve">
+    <value>ИЗМЕНЕНИЕ</value>
+  </data>
+  <data name="login_window_button_done_reading" xml:space="preserve">
+    <value>Чтение закончилось</value>
+  </data>
+  <data name="login_window_button_other_back_to_sign_in" xml:space="preserve">
+    <value>🡠 Назад ко входу</value>
+  </data>
+  <data name="login_window_button_other_have_reset_code" xml:space="preserve">
+    <value>У меня есть код. 🡢</value>
+  </data>
+  <data name="login_window_button_other_recover" xml:space="preserve">
+    <value>Восстановление</value>
+  </data>
+  <data name="login_window_button_other_register" xml:space="preserve">
+    <value>Регистрация</value>
+  </data>
+  <data name="login_window_button_other_sign_in" xml:space="preserve">
+    <value>Вход</value>
+  </data>
+  <data name="login_window_button_other_visit_homepage" xml:space="preserve">
+    <value>Посетить веб страницу 🡭</value>
+  </data>
+  <data name="login_window_button_register" xml:space="preserve">
+    <value>РЕГИСТРАЦИЯ</value>
+  </data>
+  <data name="login_window_button_send_recovery" xml:space="preserve">
+    <value>ОТПРАВИТЬ КОД ВОССТАНОВЛЕНИЯ</value>
+  </data>
+  <data name="login_window_button_sign_in" xml:space="preserve">
+    <value>ВХОД</value>
+  </data>
+  <data name="login_window_checkbox_remember" xml:space="preserve">
+    <value>Запомнить мой выборр</value>
+  </data>
+  <data name="login_window_checkbox_terms_of_service" xml:space="preserve">
+    <value>Примите условия пользования</value>
+  </data>
+  <data name="login_window_checkbox_terms_of_service_button" xml:space="preserve">
+    <value>здесь</value>
+  </data>
+  <data name="login_window_dialog_logging_in_text" xml:space="preserve">
+    <value>Пожалуйста, подождите, пока загрузится информация о вашей учетной записи и другие данные...</value>
+  </data>
+  <data name="login_window_dialog_logging_in_title" xml:space="preserve">
+    <value>Вход</value>
+  </data>
+  <data name="login_window_form_divider_placeholder_1" xml:space="preserve">
+    <value>Или вы можете сделать что-то еще</value>
+  </data>
+  <data name="login_window_form_divider_placeholder_2" xml:space="preserve">
+    <value>Или вы можете вернуться</value>
+  </data>
+  <data name="login_window_form_textbox_recovery_code" xml:space="preserve">
+    <value>..код восстановления</value>
+  </data>
+  <data name="login_window_form_textbox_register_email" xml:space="preserve">
+    <value>e-mail</value>
+  </data>
+  <data name="login_window_form_textbox_register_username" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="login_window_form_textbox_username" xml:space="preserve">
+    <value>Логин или e-mail</value>
+  </data>
+  <data name="login_window_powered_by" xml:space="preserve">
+    <value>Поддерживается на</value>
+  </data>
+  <data name="login_window_tos_title" xml:space="preserve">
+    <value>УСЛОВИЯ ПОЛЬЗОВАНИЯ</value>
+  </data>
+  <data name="page_account_info_account_inventory" xml:space="preserve">
+    <value>Инвентарь</value>
+  </data>
+  <data name="page_account_info_button_teleport" xml:space="preserve">
+    <value>Телепорт</value>
+  </data>
+  <data name="page_account_info_button_unstuck" xml:space="preserve">
+    <value>Отсло</value>
+  </data>
+  <data name="page_account_info_button_update" xml:space="preserve">
+    <value>Обновление</value>
+  </data>
+  <data name="page_account_info_destination" xml:space="preserve">
+    <value>Назначение</value>
+  </data>
+  <data name="page_account_info_dialog_profile_info" xml:space="preserve">
+    <value>Хотели бы вы сменить свой ник на 🡢</value>
+  </data>
+  <data name="page_account_info_dialog_profile_title" xml:space="preserve">
+    <value>Ник</value>
+  </data>
+  <data name="page_account_info_dialog_teleport_info" xml:space="preserve">
+    <value>Вы хотели бы телепортироваться 🡢 {0} to {1}</value>
+  </data>
+  <data name="page_account_info_dialog_teleport_title" xml:space="preserve">
+    <value>Телепортация персонажа</value>
+  </data>
+  <data name="page_account_info_dialog_unstuck_info" xml:space="preserve">
+    <value>Вы хотите изменить свой ник на 🡢</value>
+  </data>
+  <data name="page_account_info_dialog_unstuck_title" xml:space="preserve">
+    <value>Открепленный персонаж</value>
+  </data>
+  <data name="page_account_info_last_ip" xml:space="preserve">
+    <value>Последний IP</value>
+  </data>
+  <data name="page_account_info_last_login_on" xml:space="preserve">
+    <value>Последний вход на</value>
+  </data>
+  <data name="page_account_info_my_characters" xml:space="preserve">
+    <value>МОИ ПЕРСОНАЖИ</value>
+  </data>
+  <data name="page_account_info_my_tickets_list" xml:space="preserve">
+    <value>Мой список тикетов</value>
+  </data>
+  <data name="page_account_info_public_profile_id" xml:space="preserve">
+    <value>ID профиля</value>
+  </data>
+  <data name="page_account_info_teleport_a_character" xml:space="preserve">
+    <value>Телепортировать персонажа</value>
+  </data>
+  <data name="page_account_info_text_loading_characters" xml:space="preserve">
+    <value>Идет загрузка, пожалуйста подождите</value>
+  </data>
+  <data name="page_account_info_text_loading_destinations" xml:space="preserve">
+    <value>Идет загрузка, пожалуйста подождите</value>
+  </data>
+  <data name="page_account_info_text_no_characters" xml:space="preserve">
+    <value>У вас нет персонажей</value>
+  </data>
+  <data name="page_account_info_text_no_destinations" xml:space="preserve">
+    <value>Нет доступных направлений</value>
+  </data>
+  <data name="page_account_info_text_no_tickets" xml:space="preserve">
+    <value>У вас нет тикетов</value>
+  </data>
+  <data name="page_account_info_text_require_character" xml:space="preserve">
+    <value>Пожалуйста, выберите знак</value>
+  </data>
+  <data name="page_account_info_text_require_destination" xml:space="preserve">
+    <value>Выберите пункт назначения</value>
+  </data>
+  <data name="page_account_info_unstuck_a_character" xml:space="preserve">
+    <value>Исправьте персонажа</value>
+  </data>
+  <data name="page_account_inventory_title" xml:space="preserve">
+    <value>ИНВЕНТАРЬ</value>
+  </data>
+  <data name="page_addons_title" xml:space="preserve">
+    <value>Аддоны</value>
+  </data>
+  <data name="page_changelogs_title" xml:space="preserve">
+    <value>Изменения</value>
+  </data>
+  <data name="page_characters_market_button_cancel_sale" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="page_characters_market_button_more_info" xml:space="preserve">
+    <value>Еще..</value>
+  </data>
+  <data name="page_characters_market_button_my_sales" xml:space="preserve">
+    <value>МОИ ПРОДАЖИ</value>
+  </data>
+  <data name="page_characters_market_button_search" xml:space="preserve">
+    <value>ПОИСК</value>
+  </data>
+  <data name="page_characters_market_button_sell" xml:space="preserve">
+    <value>ПРОДАТЬ</value>
+  </data>
+  <data name="page_characters_market_card_text_expires_in" xml:space="preserve">
+    <value>Истекает на</value>
+  </data>
+  <data name="page_characters_market_card_text_gold" xml:space="preserve">
+    <value>Золото:</value>
+  </data>
+  <data name="page_characters_market_card_text_level" xml:space="preserve">
+    <value>Уровень:</value>
+  </data>
+  <data name="page_characters_market_card_text_professions" xml:space="preserve">
+    <value>Профессии:</value>
+  </data>
+  <data name="page_characters_market_card_text_pvp_score" xml:space="preserve">
+    <value>PvP статистика:</value>
+  </data>
+  <data name="page_characters_market_dialog_button_armory" xml:space="preserve">
+    <value>Перейти в Оружейную</value>
+  </data>
+  <data name="page_characters_market_dialog_text_dp" xml:space="preserve">
+    <value>ДТ</value>
+  </data>
+  <data name="page_characters_market_dialog_text_gold_held" xml:space="preserve">
+    <value>Удерживаемое количество золота:</value>
+  </data>
+  <data name="page_characters_market_dialog_text_professions" xml:space="preserve">
+    <value>Освоенные профессии</value>
+  </data>
+  <data name="page_characters_market_dialog_text_pvp_score" xml:space="preserve">
+    <value>PvP результат:</value>
+  </data>
+  <data name="page_characters_market_dialog_text_sale_price" xml:space="preserve">
+    <value>Цена продажи</value>
+  </data>
+  <data name="page_characters_market_requested_price" xml:space="preserve">
+    <value>Желаемая цена</value>
+  </data>
+  <data name="page_characters_market_textbox_player_search" xml:space="preserve">
+    <value>Имя персонажа</value>
+  </data>
+  <data name="page_characters_market_title" xml:space="preserve">
+    <value>РЫНОК ПЕРСОНАЖЕЙ</value>
+  </data>
+  <data name="page_create_message_button_back" xml:space="preserve">
+    <value>НАЗАД К СООБЩЕНИЯМ</value>
+  </data>
+  <data name="page_create_message_button_send" xml:space="preserve">
+    <value>ОТПРАВИТЬ СООБЩЕНИЕ</value>
+  </data>
+  <data name="page_create_message_dialog_delivery_title" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="page_create_message_dialog_info" xml:space="preserve">
+    <value>Хотите отправить сообщение, которое вы составили?</value>
+  </data>
+  <data name="page_create_message_dialog_title" xml:space="preserve">
+    <value>Отправить новое сообщение</value>
+  </data>
+  <data name="page_create_message_textbox_message_subject" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="page_create_message_textbox_nickname" xml:space="preserve">
+    <value>Ник получателя</value>
+  </data>
+  <data name="page_create_message_text_characters" xml:space="preserve">
+    <value>Персонажи:</value>
+  </data>
+  <data name="page_create_message_title" xml:space="preserve">
+    <value>СОЗДАТЬ НОВОЕ СООБЩЕНИЕ</value>
+  </data>
+  <data name="page_faq_title" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="page_ladderboards_column_class" xml:space="preserve">
+    <value>КЛАСС</value>
+  </data>
+  <data name="page_ladderboards_column_name" xml:space="preserve">
+    <value>ИМЯ</value>
+  </data>
+  <data name="page_ladderboards_column_race" xml:space="preserve">
+    <value>РАСА</value>
+  </data>
+  <data name="page_ladderboards_column_realm_name" xml:space="preserve">
+    <value>ИГРОВОЙ МИР</value>
+  </data>
+  <data name="page_ladderboards_column_today_kills" xml:space="preserve">
+    <value>УБИСЙТВ СЕГОДНЯ</value>
+  </data>
+  <data name="page_ladderboards_column_total_kills" xml:space="preserve">
+    <value>УБИЙСТВ ВСЕГО</value>
+  </data>
+  <data name="page_ladderboards_column_yesterday_kills" xml:space="preserve">
+    <value>УБИЙСТВ ВЧЕРА</value>
+  </data>
+  <data name="page_ladderboards_title" xml:space="preserve">
+    <value>ЛАДДЕР</value>
+  </data>
+  <data name="page_loading_message" xml:space="preserve">
+    <value>Страница загружается, пожалуйста, подождите..</value>
+  </data>
+  <data name="page_locked_message" xml:space="preserve">
+    <value>Страница временно недоступна, пожалуйста, вернитесь позже..</value>
+  </data>
+  <data name="page_login_rewards_title" xml:space="preserve">
+    <value>НАГРАДЫ ЗА ВХОД</value>
+  </data>
+  <data name="page_messages_button_create_new" xml:space="preserve">
+    <value>Новое сообщение</value>
+  </data>
+  <data name="page_messages_title" xml:space="preserve">
+    <value>ЛИЧНЫЕ СЪОБЩЕНИЯ</value>
+  </data>
+  <data name="page_message_view_button_back" xml:space="preserve">
+    <value>НАЗАД</value>
+  </data>
+  <data name="page_message_view_button_reply" xml:space="preserve">
+    <value>ОТВЕТИТЬ</value>
+  </data>
+  <data name="page_message_view_dialog_delivery_title" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="page_message_view_dialog_info" xml:space="preserve">
+    <value>Отправить?</value>
+  </data>
+  <data name="page_message_view_dialog_title" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="page_message_view_textbox_reply" xml:space="preserve">
+    <value>Ваш ответ..</value>
+  </data>
+  <data name="page_shop_all_categories" xml:space="preserve">
+    <value>Все категории</value>
+  </data>
+  <data name="page_shop_dialog_title_fail" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="page_shop_dialog_title_success" xml:space="preserve">
+    <value>Успешно</value>
+  </data>
+  <data name="page_shop_title" xml:space="preserve">
+    <value>МАГАЗИН</value>
+  </data>
+  <data name="page_vote_title" xml:space="preserve">
+    <value>Голосуйте за сервер и получайте награды</value>
+  </data>
+  <data name="vote_button" xml:space="preserve">
+    <value>ГОЛОСОВАТЬ</value>
+  </data>
+  <data name="vote_dialog_text" xml:space="preserve">
+    <value>Проголосовать за Moonglade ({0})?</value>
+  </data>
+  <data name="vote_dialog_title" xml:space="preserve">
+    <value>Сайт для голосования</value>
+  </data>
+  <data name="vote_text_cooldown_left" xml:space="preserve">
+    <value>Оставшееся время ожидания:</value>
+  </data>
+  <data name="vote_text_points_reward" xml:space="preserve">
+    <value>Награда за голос:</value>
+  </data>
+  <data name="vote_text_ready" xml:space="preserve">
+    <value>Готов</value>
+  </data>
+  <data name="window_game_login_overlay_button_continue" xml:space="preserve">
+    <value>Продолжить вручную..</value>
+  </data>
+  <data name="window_game_login_text_game_loaded" xml:space="preserve">
+    <value>Можно играть</value>
+  </data>
+  <data name="window_game_login_text_wait" xml:space="preserve">
+    <value>ПОЖАЛУЙСТА, СНАЧАЛА ДОЖДИТЕСЬ ЗАГРУЗКИ ИГРЫ, ЗАТЕМ ВЫ СМОЖЕТЕ ВОЙТИ!</value>
+  </data>
+  <data name="slider_button_learn_more" xml:space="preserve">
+    <value>УЗНАТЬ БОЛЬШЕ</value>
+  </data>
+  <data name="language_spanish" xml:space="preserve">
+    <value>испанский</value>
+  </data>
+  <data name="page_characters_market_starting_bid_price" xml:space="preserve">
+    <value>Начальная цена торгов</value>
+  </data>
+  <data name="page_characters_market_card_text_highest_bid" xml:space="preserve">
+    <value>Самая высокая ставка</value>
+  </data>
+  <data name="page_characters_market_card_text_fixed_price" xml:space="preserve">
+    <value>Измененная цена</value>
+  </data>
+  <data name="page_characters_market_dialog_text_current_bid" xml:space="preserve">
+    <value>Текущие ставки</value>
+  </data>
+  <data name="general_button_set_bid" xml:space="preserve">
+    <value>ОБНОВИТЬ ПРЕДЛОЖЕНИЕ</value>
+  </data>
+  <data name="page_characters_market_dialog_text_buy_bid_amount" xml:space="preserve">
+    <value>Ваше предложение</value>
+  </data>
+  <data name="page_characters_market_dialog_title_congratulations" xml:space="preserve">
+    <value>Поздравления</value>
+  </data>
+  <data name="page_characters_market_dialog_subtitle_won_auction" xml:space="preserve">
+    <value>Вы выиграли аукцион</value>
+  </data>
+  <data name="general_button_ok" xml:space="preserve">
+    <value>ХОРОШО</value>
+  </data>
+  <data name="language_korean" xml:space="preserve">
+    <value>Корейский</value>
+  </data>
+  <data name="language_german" xml:space="preserve">
+    <value>Немецкий</value>
+  </data>
+</root>

@@ -1,0 +1,29 @@
+<UserControl x:Class="Forgotten_Land_Launcher.Modules.Characters_Market.Dialog_Character_Won"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Forgotten_Land_Launcher.Modules.Characters_Market"
+             mc:Ignorable="d" Loaded="UserControl_Loaded">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="0,10,0,0">
+        <TextBlock x:Name="CharNameHolder" Text="Name" Foreground="White" HorizontalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+        <Grid HorizontalAlignment="Center" Margin="0,10,0,0">
+            <Border CornerRadius="10" Width="60" Height="60" BorderThickness="1,1,1,1" BorderBrush="#FF9E9E9E">
+                <Border.Background>
+                    <ImageBrush x:Name="RaceAvatarHolder" Stretch="UniformToFill"/>
+                </Border.Background>
+            </Border>
+            <Border CornerRadius="5" Width="22" Height="22" BorderThickness="1,1,1,1" BorderBrush="#FF272727" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-1,-5,-5">
+                <Border.Background>
+                    <ImageBrush x:Name="ClassAvatarHolder"/>
+                </Border.Background>
+            </Border>
+        </Grid>
+        <TextBlock Foreground="#FFCACACA" HorizontalAlignment="Center" FontSize="12" Margin="0,10,0,0">
+            <Run Foreground="#FFA4A4A4" Text="Level"/>
+            <Run x:Name="CharLevelHolder" Foreground="White" Text="0,"/>
+            <Run x:Name="CharRaceHolder" Foreground="#FFA4A4A4" Text="Race,"/>
+            <Run x:Name="CharClassHolder" Text="Class" Foreground="#FF008E16"/>
+        </TextBlock>
+    </StackPanel>
+</UserControl>

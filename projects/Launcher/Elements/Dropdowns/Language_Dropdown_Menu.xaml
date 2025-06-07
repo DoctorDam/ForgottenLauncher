@@ -1,0 +1,11 @@
+<ComboBox x:Class="Forgotten_Land_Launcher.Elements.Dropdowns.Language_Dropdown_Menu"
+          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+          xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+          xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+          mc:Ignorable="d"
+          Style="{DynamicResource ComboBoxStyle1}"
+          SelectedIndex="0"
+          Foreground="#FFCACACA"
+          Loaded="ComboBox_Loaded" SelectionChanged="ComboBox_SelectionChanged">
+</ComboBox>

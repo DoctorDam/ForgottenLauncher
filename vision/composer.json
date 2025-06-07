@@ -1,0 +1,6 @@
+{
+    "require": {
+        "laizerox/php-wowemu-auth": "^1.0",
+        "phpmailer/phpmailer": "^6.8"
+    }
+}

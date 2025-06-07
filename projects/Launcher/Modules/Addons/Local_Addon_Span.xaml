@@ -1,0 +1,40 @@
+<UserControl x:Class="Forgotten_Land_Launcher.Modules.Addons.Local_Addon_Span"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:languages="clr-namespace:Forgotten_Land_Launcher.Languages"
+             Foreground="DarkGray"
+             mc:Ignorable="d" Width="860" Height="120" Loaded="UserControl_Loaded">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Border CornerRadius="7" Width="100" Height="100" BorderThickness="1,1,1,1" BorderBrush="#FF797979">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Forgotten Land Launcher;component/Assets/flame.jpg" Stretch="Uniform"/>
+                </Border.Background>
+            </Border>
+            <StackPanel Orientation="Vertical" Margin="20,0,0,0" VerticalAlignment="Center">
+                <TextBlock x:Name="nameHolder" Foreground="DarkGray" FontSize="16">
+                    <Run Text="Addon Name" FontWeight="Bold"/>
+                    <Run x:Name="sourceHolder" Text="(Local)"/>
+                </TextBlock>
+                <TextBlock Margin="0,5,0,0" Foreground="#FF988D69">
+                    <Run Text="{x:Static languages:Lang.general_text_addon_author}"/>
+                    <Run x:Name="authorHolder" Text="Unknown"/>
+                </TextBlock>
+                <TextBlock Margin="0,5,0,0" Foreground="#FF988D69">
+                    <Run Text="{x:Static languages:Lang.general_text_addon_version}"/>
+                    <Run x:Name="versionHolder" Text="0.0.0.0"/>
+                </TextBlock>
+                <TextBlock Margin="0,5,0,0" Foreground="#FF988D69">
+                    <Run Text="{x:Static languages:Lang.general_text_addon_size}"/>
+                    <Run x:Name="sizeHolder" Text="0 kb"/>
+                </TextBlock>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,15,0">
+            <!--<Button x:Name="okButton" Style="{DynamicResource buttonStyle4}" Content="INSTALL" Height="25" Width="80" Background="#FF498628" Margin="0,0,0,10"/>-->
+            <Button x:Name="removeButton" Style="{DynamicResource buttonStyle5}" Content="{x:Static languages:Lang.general_button_remove}" Height="25" Width="80" Background="#FF862828" Click="removeButton_Click"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

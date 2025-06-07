@@ -1,0 +1,20 @@
+﻿Forgotten Land Launcher
+
+
+winexe
+C#
+.cs
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\obj\Debug\
+Forgotten_Land_Launcher
+none
+false
+DEBUG;TRACE
+C:\Users\kaisf\Documents\GitHub\Oracle-Launcher-v2\projects\Launcher\App.xaml
+90616630173
+21698587359
+115-952462758
+201389213007
+Dialogs\Character_Market_Buy_Dialog.xaml;Dialogs\Character_Market_Sell_Dialog.xaml;Dialogs\Character_Market_Notifications_Dialog.xaml;Elements\Buttons\GameButtonCancelUpdate.xaml;Elements\Buttons\GameButtonUpdate.xaml;Elements\Buttons\GameButtonMore.xaml;Elements\Buttons\GameButtonPlay.xaml;Elements\Buttons\LeftMenuButton.xaml;Elements\Dropdowns\Language_Dropdown_Menu.xaml;Elements\Popups\Game_Path_Request.xaml;Elements\Togglers\Toggle_Switch.xaml;Modules\Account_Info\Inventory_Span.xaml;Modules\Account_Info\Character_Span.xaml;Modules\Account_Info\Teleport_Dropdown_Row.xaml;Modules\Account_Info\Ticket_Span.xaml;Modules\Account_Inventory\Character_Dropdown_Row.xaml;Modules\Account_Inventory\Inventory_Reward.xaml;Modules\Addons\Server_Addon_Span.xaml;Modules\Addons\Local_Addon_Span.xaml;Modules\Changelogs\Day_Span.xaml;Modules\Changelogs\Changelog_Span.xaml;Modules\Characters_Market\Character_Card.xaml;Modules\Characters_Market\Dialog_Character_Won.xaml;Modules\Characters_Market\Profession_Span.xaml;Modules\Discord\Member_Span.xaml;Modules\Discord\Discord_Widget.xaml;Modules\Events\Events_Card.xaml;Modules\Faq\Faq_Span.xaml;Modules\Ladderboard\Ladderboard_Row.xaml;Modules\Login_Rewards\Reward_Span.xaml;Modules\News\Article_Card.xaml;Modules\News\Article_Medium_Span.xaml;Elements\Popups\Darkness_Fog.xaml;Elements\Popups\Popup_Message.xaml;Elements\Popups\Game_More_Options.xaml;Modules\Online_Players\Player_Row.xaml;Modules\Private_Messages\Message_Span.xaml;Modules\Private_Messages\Reply_Box.xaml;Modules\Private_Messages\Topic_Span.xaml;Modules\Realms\Server_Status_Span.xaml;Modules\Shop\Shop_Card.xaml;Modules\Shop\Shop_Category_Button.xaml;Modules\Slider\Home_Slider.xaml;Elements\Spinners\Dotted_Spinner.xaml;Modules\Slider\Slider_Dot.xaml;Modules\Vote\Vote_Span.xaml;Pages\Account_Info.xaml;Pages\Online_Players.xaml;Pages\Ladderboard.xaml;Pages\Characters_Market.xaml;Pages\Article_Viewer.xaml;Pages\Vote.xaml;Pages\Addons.xaml;Pages\Faq.xaml;Pages\Shop.xaml;Pages\Changelog.xaml;Pages\Account_Inventory.xaml;Pages\Private_Message_View.xaml;Pages\Private_Message_New.xaml;Pages\Private_Messages.xaml;Pages\Login_Rewards.xaml;Pages\Events.xaml;Pages\Discord.xaml;Pages\News.xaml;Pages\Home.xaml;Styles\ToggleButtons.xaml;Styles\Dropdowns.xaml;Styles\PasswordBoxes.xaml;Styles\CheckBoxes.xaml;Styles\TextBoxes.xaml;Styles\ProgressBars.xaml;Styles\ScrollViewers.xaml;Styles\Buttons.xaml;Dialogs\Avatar_Settings_Dialog.xaml;Dialogs\Shop_Article_Dialog.xaml;Dialogs\Inventory_Reward_Dialog.xaml;Dialogs\Login_Reward_Dialog.xaml;Dialogs\General_Buy_Dialog.xaml;Dialogs\Redeem_Gift_Dialog.xaml;Dialogs\Request_Confirmation_Dialog.xaml;Dialogs\Confirmation_Dialog.xaml;Dialogs\Wait_Dialog.xaml;Forms\Recovery_Form.xaml;Forms\Password_Change_Form.xaml;Forms\Register_Form.xaml;Forms\Login_Form.xaml;Forms\Register_Tos_Form.xaml;Windows\Game_Login_Overlay.xaml;Windows\Launcher.xaml;Windows\Login.xaml;
+
+False
+

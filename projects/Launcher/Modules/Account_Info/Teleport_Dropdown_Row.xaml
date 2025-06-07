@@ -1,0 +1,22 @@
+<ComboBoxItem x:Class="Forgotten_Land_Launcher.Modules.Account_Info.Teleport_Dropdown_Row"
+              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+              mc:Ignorable="d" RenderOptions.BitmapScalingMode="HighQuality"
+              d:DesignHeight="30" d:DesignWidth="200" Foreground="#FFB5B5B5" 
+              VerticalContentAlignment="Center" Loaded="ComboBoxItem_Loaded">
+    <StackPanel Orientation="Horizontal">
+        <StackPanel x:Name="spDPCost" Orientation="Horizontal" Margin="0,0,3,0">
+            <Image x:Name="dpIcon" Source="/Forgotten Land Launcher;component/Assets/icons/icon_gold_coin_1_a.png" Width="15" Margin="0,0,3,0"/>
+            <TextBlock x:Name="dpCost" Text="0"/>
+        </StackPanel>
+        <StackPanel x:Name="spVPCost" Orientation="Horizontal" Margin="0,0,3,0">
+            <Image x:Name="vpIcon" Source="/Forgotten Land Launcher;component/Assets/icons/icon_silver_coin_1_a.png" Width="15" Margin="0,0,3,0"/>
+            <TextBlock x:Name="vpCost" Text="0"/>
+        </StackPanel>
+        <TextBlock Margin="3,0,0,0">
+            <Run x:Name="titleHolder" Text="Destination" FontWeight="Bold"/>
+        </TextBlock>
+    </StackPanel>
+</ComboBoxItem>

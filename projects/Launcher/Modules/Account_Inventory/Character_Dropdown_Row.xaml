@@ -1,0 +1,28 @@
+<UserControl x:Class="Forgotten_Land_Launcher.Modules.Account_Inventory.Character_Dropdown_Row"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" Loaded="UserControl_Loaded">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Border CornerRadius="3" Width="25" Height="25" BorderThickness="1,1,1,1" BorderBrush="#FF525252">
+                <Border.Background>
+                    <ImageBrush x:Name="raceHolder"/>
+                </Border.Background>
+            </Border>
+            <Border CornerRadius="3" Width="25" Height="25" Margin="3,0,0,0" BorderThickness="1,1,1,1" BorderBrush="#FF525252">
+                <Border.Background>
+                    <ImageBrush x:Name="classHolder"/>
+                </Border.Background>
+            </Border>
+            <TextBlock Margin="7,0,7,0" Foreground="#FFB5B5B5" VerticalAlignment="Center">
+                <Run x:Name="charNameHolder" Text="Charname" Foreground="White"/>
+                <Run Text="Level"/>
+                <Run x:Name="levelHolder" Text="0"/>
+                <Run Text="-"/>
+                <Run x:Name="realmNameHolder" Text="Realmname"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</UserControl>

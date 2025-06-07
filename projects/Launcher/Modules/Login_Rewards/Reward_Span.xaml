@@ -1,0 +1,26 @@
+<Button x:Class="Forgotten_Land_Launcher.Modules.Login_Rewards.Reward_Span"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:languages="clr-namespace:Forgotten_Land_Launcher.Languages"
+        mc:Ignorable="d" Width="90" Height="90" Margin="10,10,10,10" Loaded="UserControl_Loaded" 
+        Style="{DynamicResource claimButton}" BorderBrush="#FF303030" Cursor="Hand" Click="Button_Click"
+        x:Name="mainButton">
+    <Button.Background>
+        <ImageBrush x:Name="pictureHolder" ImageSource="/Forgotten Land Launcher;component/Assets/login_undefined_reward_day.png" Stretch="UniformToFill"/>
+    </Button.Background>
+    <Grid x:Name="mainGrid" Width="85" Height="86">
+        <Image x:Name="claimOverlayHolder" Source="/Forgotten Land Launcher;component/Assets/login_unclaimed_overlay.png" Visibility="Hidden"/>
+        <Border CornerRadius="3" Background="#FF1F1F1F" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <TextBlock x:Name="dayHolder" Text="1st" HorizontalAlignment="Right" VerticalAlignment="Top" Foreground="#FFC8C8C8" FontSize="18" FontFamily="Archivo Black" TextAlignment="Center" Width="40">
+                <TextBlock.Effect>
+                    <DropShadowEffect ShadowDepth="0" BlurRadius="15"/>
+                </TextBlock.Effect>
+            </TextBlock>
+        </Border>
+        <Border x:Name="claimNowHolder" CornerRadius="5" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,5" Background="#FF252525" Padding="5,3,5,3" Visibility="Hidden">
+            <TextBlock Text="{x:Static languages:Lang.login_day_button_claim}" Foreground="White" FontSize="10"/>
+        </Border>
+    </Grid>
+</Button>

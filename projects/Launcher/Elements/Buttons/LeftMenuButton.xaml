@@ -1,0 +1,16 @@
+<Button x:Class="Forgotten_Land_Launcher.Elements.Buttons.LeftMenuButton"
+        x:Name="myButton"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        mc:Ignorable="d" Style="{DynamicResource buttonLeftSideMenu}"
+        HorizontalContentAlignment="Left" 
+        MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" 
+        IsEnabledChanged="myButton_IsEnabledChanged">
+    <StackPanel Orientation="Horizontal" Margin="10,7,10,5">
+        <Image x:Name="imgDisplay" Width="25" Height="25" Source="{Binding IconA, ElementName=myButton}"/>
+        <TextBlock x:Name="textHolder" VerticalAlignment="Center" Margin="10,0,0,0" FontSize="16"
+            Text="{Binding DisplayText, ElementName=myButton, FallbackValue='menu item', TargetNullValue='menu item'}"/>
+    </StackPanel>
+</Button>

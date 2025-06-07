@@ -1,0 +1,75 @@
+<UserControl xmlns:Togglers="clr-namespace:Forgotten_Land_Launcher.Elements.Togglers"  x:Class="Forgotten_Land_Launcher.Dialogs.Character_Market_Sell_Dialog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:languages="clr-namespace:Forgotten_Land_Launcher.Languages"
+             xmlns:Spinners="clr-namespace:Forgotten_Land_Launcher.Elements.Spinners"
+             xmlns:gif="http://wpfanimatedgif.codeplex.com"
+             mc:Ignorable="d" RenderOptions.BitmapScalingMode="HighQuality"
+             Loaded="UserControl_Loaded">
+    <Grid>
+        <Border CornerRadius="7" Background="#F20E0E0E">
+            <Border CornerRadius="7" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FF191919" MaxWidth="300" MinWidth="300">
+                <StackPanel Margin="20,20,20,20">
+                    <StackPanel x:Name="spItemDialog">
+                        <TextBlock Text="New Market Sale" Foreground="#FFCACACA" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text="{x:Static languages:Lang.dialog_characters_market_add_sale_info}" Margin="0,10,0,0" Foreground="#FFB5B5B5" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
+                        <TextBlock Margin="0,10,0,0" Foreground="#FFB5B5B5" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center">
+                            <Run Text="{x:Static languages:Lang.dialog_characters_market_add_sale_commission}"/>
+                            <Run Text="10%" FontWeight="Bold" Foreground="#FFFFAF00"/>
+                        </TextBlock>
+                        <StackPanel Margin="0,20,0,0">
+                            <StackPanel x:Name="spLoading">
+                                <TextBlock Text="{x:Static languages:Lang.dialog_inventory_item_text_loading_characters}" Margin="0,10,0,0" Foreground="#FF7F7F7F" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
+                                <Viewbox Width="30">
+                                    <Spinners:Dotted_Spinner Margin="0,30,0,0" />
+                                </Viewbox>
+                            </StackPanel>
+                            <!--CHARACTERS DROPDOWN-->
+                            <StackPanel x:Name="spCharacters">
+                                <TextBlock Text="{x:Static languages:Lang.dialog_inventory_item_text_require_character}" Foreground="#FF7F7F7F" HorizontalAlignment="Center"/>
+                                <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="CharactersDropdown" Margin="0,10,0,0" Padding="7,7,7,7" Width="250" SelectionChanged="CharactersDropdown_SelectionChanged"/>
+                            </StackPanel>
+                            <!--DURATION DROPDOWN-->
+                            <StackPanel x:Name="spDuration" Margin="0,10,0,0">
+                                <TextBlock Text="{x:Static languages:Lang.dialog_characters_market_add_require_duration}" Foreground="#FF7F7F7F" HorizontalAlignment="Center"/>
+                                <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="DurationDropdown" Margin="0,10,0,0" Padding="7,7,7,7" Width="60"/>
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel x:Name="spPrice" Margin="0,20,0,0">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                                <TextBlock Text="Allow bidding" Foreground="#FF7F7F7F" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                                <Togglers:Toggle_Switch x:Name="biddingSwitch" IsChecked="False" VerticalAlignment="Center" Margin="0,7,0,0" Checked="biddingSwitch_Checked" Unchecked="biddingSwitch_Unchecked" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+                                <TextBlock x:Name="priceTitleHolder" Text="{x:Static languages:Lang.page_characters_market_requested_price}" Foreground="#FF7F7F7F"/>
+                                <TextBlock x:Name="priceErrorHolder" Foreground="#FF941B1B" Margin="3,0,0,0" MaxWidth="180" TextTrimming="CharacterEllipsis" Visibility="Collapsed"/>
+                            </StackPanel>
+                            <Grid Margin="0,10,0,0" HorizontalAlignment="Center">
+                                <TextBox x:Name="priceHolder" Style="{DynamicResource inputTextBox}" Background="#FF1D1D1D" FontSize="14" BorderBrush="#FF272727" Padding="5,5,25,5" Foreground="#FFB5B5B5" SelectionBrush="#FF444444" SelectionTextBrush="#FF565656" TextAlignment="Right" Width="150" Text="0" MaxLines="1" TextChanged="priceHolder_TextChanged" GotFocus="priceHolder_GotFocus" PreviewKeyUp="priceHolder_PreviewKeyUp" PreviewTextInput="priceHolder_PreviewTextInput"/>
+                                <Image Source="/Forgotten Land Launcher;component/Assets/icons/icon_gold_coin_1_a.png" Width="12" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                            </Grid>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15,0,0">
+                            <Button x:Name="sellButton" Style="{DynamicResource buttonStyle4}" Content="{x:Static languages:Lang.page_characters_market_button_sell}" Height="25" Width="80" Background="#FF498628" Click="sellButton_Click" IsEnabled="False"/>
+                            <Button x:Name="cancelButton" Style="{DynamicResource buttonStyle5}" Content="{x:Static languages:Lang.general_button_cancel}" Height="25" Width="80" Margin="15,0,0,0" Background="#FF862828" Click="cancelButton_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel x:Name="spWaitDialog" Margin="20,20,20,0" Visibility="Collapsed">
+                        <TextBlock x:Name="waitTitle" Text="{x:Static languages:Lang.general_dialog_text_processing}" Foreground="#FFCACACA" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock x:Name="waitDescription" Text="{x:Static languages:Lang.dialog_inventory_item_text_wait}" Margin="0,10,0,0" Foreground="#FFB5B5B5" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
+                        <Viewbox x:Name="vbSpinner" Width="30">
+                            <Spinners:Dotted_Spinner Margin="0,30,0,0" />
+                        </Viewbox>
+                        <Viewbox x:Name="vbCheckmark" Width="45" Visibility="Collapsed" Margin="0,15,0,0">
+                            <Image x:Name="checkMarkGif" gif:ImageBehavior.AutoStart="False" 
+                                   gif:ImageBehavior.RepeatBehavior="1x" 
+                                   gif:ImageBehavior.AnimatedSource="/Forgotten Land Launcher;component/Assets/gifs/checkmark_2.gif"  />
+                        </Viewbox>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,19 @@
+<UserControl x:Class="Forgotten_Land_Launcher.Pages.Home"
+             xmlns:Slider_Modules="clr-namespace:Forgotten_Land_Launcher.Modules.Slider"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Width="960" Height="625" Foreground="#FF999999">
+    <ScrollViewer Style="{DynamicResource ScrollViewerOne}">
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <!--LEFT SLIDER-->
+                <Slider_Modules:Home_Slider x:Name="homeSlider" VerticalAlignment="Top"/>
+            </StackPanel>
+            <!--CENTER BLOCKS-->
+            <WrapPanel x:Name="wpArticlesBottom" Margin="0,15,0,0"/>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

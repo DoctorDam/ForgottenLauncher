@@ -1,0 +1,16 @@
+<Button x:Class="Forgotten_Land_Launcher.Modules.Shop.Shop_Category_Button"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        mc:Ignorable="d" Width="185" Height="35" Cursor="Hand"
+        Style="{DynamicResource buttonShopCategory}"
+        Background="#001A1C1D" BorderBrush="{x:Null}" 
+        BorderThickness="0,0,0,0" Margin="10,0,0,0"
+        HorizontalContentAlignment="Left" MouseEnter="Button_MouseEnter" 
+        MouseLeave="Button_MouseLeave" IsEnabledChanged="Button_IsEnabledChanged" Loaded="Button_Loaded">
+    <StackPanel Orientation="Horizontal">
+        <Ellipse x:Name="dotHolder" Width="10" Height="10" Fill="#FF202223"/>
+        <TextBlock x:Name="nameHolder" Text="Category" Foreground="#FF999999" Margin="10,0,0,0" FontWeight="Bold"/>
+    </StackPanel>
+</Button>

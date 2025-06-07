@@ -1,0 +1,25 @@
+<UserControl x:Class="Forgotten_Land_Launcher.Modules.Characters_Market.Profession_Span"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             Width="250" Height="25" Margin="0,0,0,10"
+             Loaded="UserControl_Loaded">
+    <Grid>
+        <ProgressBar x:Name="ProfBar" Background="#26000000" BorderBrush="#0CDCDCDC"/>
+        <StackPanel Orientation="Horizontal">
+            <Border CornerRadius="3" Width="20" Height="20" Margin="5,0,0,0">
+                <Border.Background>
+                    <ImageBrush x:Name="ProfImage" ImageSource="/Forgotten Land Launcher;component/Assets/professions/inv_misc_questionmark.jpg"/>
+                </Border.Background>
+            </Border>
+            <TextBlock x:Name="ProfName" Text="Unknown" Foreground="#FFDADADA" VerticalAlignment="Center" Margin="10,0,0,0"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,5,0">
+            <TextBlock x:Name="ProfMinSkill" Text="0" Foreground="#FFDADADA" VerticalAlignment="Center" Margin="10,0,0,0"/>
+            <TextBlock Text="/" Foreground="#FFDADADA" VerticalAlignment="Center" Margin="3,0,0,0"/>
+            <TextBlock x:Name="ProfMaxSkill" Text="0" Foreground="#FFDADADA" VerticalAlignment="Center" Margin="3,0,0,0"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
