@@ -241,9 +241,12 @@ namespace Forgotten_Land_Launcher
 
                     Game_Handler.StartDiscordRPCUpdater();
 
-                    Game_Login_Overlay game_Login = new Game_Login_Overlay();
+                    if (Launcher_Settings.AutoLogin)
+                    {
+                        Game_Login_Overlay game_Login = new Game_Login_Overlay();
 
-                    game_Login.Show();
+                        game_Login.Show();
+                    }
 
                     btnPlay.Content = "PLAY";
                     btnPlay.IsEnabled = true;
